@@ -29,16 +29,6 @@
         <extension module="org.jboss.teiid"/>
     </extensions>
 
-
-    <vault>
-        <vault-option name="KEYSTORE_URL" value="${jboss.home.dir}/vault.keystore"/>
-        <vault-option name="KEYSTORE_PASSWORD" value="MASK-0n4EdOvMovZyXazc1OvOqH"/>
-        <vault-option name="KEYSTORE_ALIAS" value="vault"/>
-        <vault-option name="SALT" value="8675309K"/>
-        <vault-option name="ITERATION_COUNT" value="50"/>
-        <vault-option name="ENC_FILE_DIR" value="${jboss.home.dir}/vault/"/>
-    </vault>
-
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">
@@ -191,33 +181,6 @@
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:datasources:1.2">
             <datasources>
-                <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
-                    <driver>h2</driver>
-                    <security>
-                        <user-name>sa</user-name>
-                        <password>sa</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/datasources/ModeShapeDS" pool-name="ModeShapeDS" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:jcr:jndi:jcr?repositoryName=dv</connection-url>
-                    <connection-property name="teiidsupport">
-                        true
-                    </connection-property>
-                    <driver>modeshape</driver>
-                    <security>
-                        <user-name>modeshapeUser</user-name>
-                        <password>${VAULT::modeshape::modeshape.password::1}</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:jboss/datasources/DashboardDS" pool-name="DashboardDS" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:h2:file:${jboss.server.data.dir}/teiid-dashboard/teiid-dashboard-ds;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1</connection-url>
-                    <driver>h2</driver>
-                    <security>
-                        <user-name>sa</user-name>
-                        <password>sa</password>
-                    </security>
-                </datasource>
                 <datasource jndi-name="java:/NaturezaJuridica" pool-name="NaturezaJuridica" enabled="true">
                     <connection-url>jdbc:postgresql://postgresql:5432/redhat</connection-url>
                     <driver>postgresql</driver>
