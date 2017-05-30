@@ -219,7 +219,7 @@
                     </security>
                 </datasource>
                 <datasource jndi-name="java:/NaturezaJuridica" pool-name="NaturezaJuridica" enabled="true">
-                    <connection-url>jdbc:postgresql://postgresql:5432/cadastro_cliente</connection-url>
+                    <connection-url>jdbc:postgresql://postgresql:5432/redhat</connection-url>
                     <driver>postgresql</driver>
                     <security>
                         <user-name>redhat</user-name>
