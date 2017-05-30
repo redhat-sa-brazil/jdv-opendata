@@ -190,12 +190,6 @@
                     </security>
                 </datasource>
                 <drivers>
-                    <driver name="h2" module="com.h2database.h2">
-                        <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
-                    </driver>
-                    <driver name="modeshape" module="org.modeshape.jdbc">
-                        <driver-class>org.modeshape.jdbc.LocalJcrDriver</driver-class>
-                    </driver>
                     <driver name="teiid" module="org.jboss.teiid.client">
                         <driver-class>org.teiid.jdbc.TeiidDriver</driver-class>
                         <xa-datasource-class>org.teiid.jdbc.TeiidDataSource</xa-datasource-class>
@@ -377,53 +371,6 @@
                 </resource-adapter>
                 <resource-adapter id="solr">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.solr"/>
-                </resource-adapter>
-                <resource-adapter id="NaturezaJuridicaSource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/NaturezaJuridicaSource" enabled="true" pool-name="NaturezaJuridicaSource">
-                            <config-property name="ParentDirectory">
-                                /home/daniel/git/projetos/jdv/OpenData/201701_FavorecidosGastosDiretos
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="CNPJSource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNPJSource" enabled="true" pool-name="CNPJSource">
-                            <config-property name="ParentDirectory">
-                                /home/daniel/git/projetos/jdv/OpenData/201701_FavorecidosGastosDiretos
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="CNAESource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNAESource" enabled="true" pool-name="CNAESource">
-                            <config-property name="ParentDirectory">
-                                /home/daniel/git/projetos/jdv/OpenData/201701_FavorecidosGastosDiretos
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="CountrySource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.ws.WSManagedConnectionFactory" jndi-name="java:/CountrySource" enabled="true" pool-name="CountrySource">
-                            <config-property name="SecurityType">
-                                None
-                            </config-property>
-                            <config-property name="EndPoint">
-                                http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
                 </resource-adapter>
             </resource-adapters>
         </subsystem>
@@ -623,17 +570,11 @@
     </socket-binding-group>
 
     <deployments>
-        <deployment name="ModeShape.vdb" runtime-name="ModeShape.vdb">
-            <fs-exploded path="dataVirtualization/vdb/ModeShape.vdb/" relative-to="jboss.home.dir"/>
-        </deployment>
         <deployment name="teiid-odata.war" runtime-name="teiid-odata.war">
             <fs-exploded path="dataVirtualization/vdb/teiid-odata.war/" relative-to="jboss.home.dir"/>
         </deployment>
         <deployment name="teiid-olingo-odata4.war" runtime-name="teiid-olingo-odata4.war">
             <fs-exploded path="dataVirtualization/vdb/teiid-olingo-odata4.war/" relative-to="jboss.home.dir"/>
-        </deployment>
-        <deployment name="teiid-dashboard-builder.war" runtime-name="teiid-dashboard-builder.war">
-            <fs-exploded path="dataVirtualization/teiid-dashboard/teiid-dashboard-builder.war/" relative-to="jboss.home.dir"/>
         </deployment>
     </deployments>
 </server>
