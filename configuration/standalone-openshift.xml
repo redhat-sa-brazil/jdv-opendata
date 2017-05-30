@@ -218,91 +218,11 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:/OracleContabil" pool-name="OracleContabil" enabled="true">
-                    <connection-url>jdbc:oracle:thin:@localhost:1521:xe</connection-url>
-                    <driver>ojdbc6.jar</driver>
-                    <security>
-                        <user-name>redhat</user-name>
-                        <password>redhat</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/copel" pool-name="copel" enabled="true">
-                    <connection-url>jdbc:teiid:copel@mm://localhost:31000</connection-url>
-                    <driver>teiid</driver>
-                    <security>
-                        <user-name>teiidUser</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/PostgreSQL_Local" pool-name="PostgreSQL_Local" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:5432/cadastro_cliente</connection-url>
-                    <driver>postgresql-8.4-703.jdbc4.jar</driver>
-                    <security>
-                        <user-name>redhat</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_Porto_sources_PostgreSQL_Local" pool-name="PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_Porto_sources_PostgreSQL_Local" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:5432/cadastro_cliente</connection-url>
-                    <driver>postgresql-8.4-703.jdbc4.jar</driver>
-                    <security>
-                        <user-name>redhat</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/Porto" pool-name="Porto" enabled="true">
-                    <connection-url>jdbc:teiid:Porto@mm://localhost:31000</connection-url>
-                    <driver>teiid</driver>
-                    <security>
-                        <user-name>teiidUser</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/demo1" pool-name="demo1" enabled="true">
-                    <connection-url>jdbc:teiid:demo1@mm://localhost:31000</connection-url>
-                    <driver>teiid</driver>
-                    <security>
-                        <user-name>teiidUser</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
                 <datasource jndi-name="java:/NaturezaJuridica" pool-name="NaturezaJuridica" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:5432/cadastro_cliente</connection-url>
-                    <driver>postgresql-8.4-703.jdbc4.jar</driver>
+                    <connection-url>jdbc:postgresql://postgresql:5432/cadastro_cliente</connection-url>
+                    <driver>postgresql</driver>
                     <security>
                         <user-name>redhat</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/FavorecidosGastosDiretos" pool-name="FavorecidosGastosDiretos" enabled="true">
-                    <connection-url>jdbc:teiid:FavorecidosGastosDiretos@mm://localhost:31000</connection-url>
-                    <driver>teiid</driver>
-                    <security>
-                        <user-name>teiidUser</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_OpenData_sources_NaturezaJurica" pool-name="PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_OpenData_sources_NaturezaJurica" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:15432/redhat</connection-url>
-                    <driver>postgresql-8.4-703.jdbc4.jar</driver>
-                    <security>
-                        <user-name>redhat</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/NaturezaJurica" pool-name="NaturezaJurica" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:15432/redhat</connection-url>
-                    <driver>postgresql-8.4-703.jdbc4.jar</driver>
-                    <security>
-                        <user-name>redhat</user-name>
-                        <password>redhat@123</password>
-                    </security>
-                </datasource>
-                <datasource jndi-name="java:/OpenData" pool-name="OpenData" enabled="true">
-                    <connection-url>jdbc:teiid:OpenData@mm://localhost:31000</connection-url>
-                    <driver>teiid</driver>
-                    <security>
-                        <user-name>teiidUser</user-name>
                         <password>redhat@123</password>
                     </security>
                 </datasource>
@@ -494,67 +414,6 @@
                 </resource-adapter>
                 <resource-adapter id="solr">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.solr"/>
-                </resource-adapter>
-                <resource-adapter id="NaturezaJuridicaSource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/NaturezaJuridicaSource" enabled="true" pool-name="NaturezaJuridicaSource">
-                            <config-property name="ParentDirectory">
-                                /home/daniel/git/projetos/jdv/OpenData/201701_FavorecidosGastosDiretos
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="CNPJSource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNPJSource" enabled="true" pool-name="CNPJSource">
-                            <config-property name="ParentDirectory">
-                                /home/daniel/git/projetos/jdv/OpenData/201701_FavorecidosGastosDiretos
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="CNAESource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNAESource" enabled="true" pool-name="CNAESource">
-                            <config-property name="ParentDirectory">
-                                /home/daniel/git/projetos/jdv/OpenData/201701_FavorecidosGastosDiretos
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_Celepar_sources_CountrySource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.ws.WSManagedConnectionFactory" jndi-name="java:/PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_Celepar_sources_CountrySource" enabled="true" pool-name="PREVIEW_092d6b90-d554-4c60-a9ef-11c626d8e1bb_Celepar_sources_CountrySource">
-                            <config-property name="SecurityType">
-                                None
-                            </config-property>
-                            <config-property name="EndPoint">
-                                http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
-                </resource-adapter>
-                <resource-adapter id="CountrySource">
-                    <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
-                    <transaction-support>NoTransaction</transaction-support>
-                    <connection-definitions>
-                        <connection-definition class-name="org.teiid.resource.adapter.ws.WSManagedConnectionFactory" jndi-name="java:/CountrySource" enabled="true" pool-name="CountrySource">
-                            <config-property name="SecurityType">
-                                None
-                            </config-property>
-                            <config-property name="EndPoint">
-                                http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
-                            </config-property>
-                        </connection-definition>
-                    </connection-definitions>
                 </resource-adapter>
             </resource-adapters>
         </subsystem>
@@ -765,18 +624,6 @@
         </deployment>
         <deployment name="teiid-dashboard-builder.war" runtime-name="teiid-dashboard-builder.war">
             <fs-exploded path="dataVirtualization/teiid-dashboard/teiid-dashboard-builder.war/" relative-to="jboss.home.dir"/>
-        </deployment>
-        <deployment name="ojdbc6.jar" runtime-name="ojdbc6.jar">
-            <content sha1="a483a046eee2f404d864a6ff5b09dc0e1be3fe6c"/>
-        </deployment>
-        <deployment name="postgresql-8.4-703.jdbc4.jar" runtime-name="postgresql-8.4-703.jdbc4.jar">
-            <content sha1="6575779fd3331a182e3d8a8a8875b41fc4954e4f"/>
-        </deployment>
-        <deployment name="FavorecidosGastosDiretos.vdb" runtime-name="FavorecidosGastosDiretos.vdb">
-            <content sha1="587bd4f6a79ebdb9c4eecdca77bc4680e811929c"/>
-        </deployment>
-        <deployment name="OpenData.vdb" runtime-name="OpenData.vdb">
-            <content sha1="b2a9f2acffec95f3fa4e304210e1e05d05fd278a"/>
         </deployment>
     </deployments>
 </server>
