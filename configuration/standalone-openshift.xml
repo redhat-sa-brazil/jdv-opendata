@@ -29,16 +29,6 @@
         <extension module="org.jboss.teiid"/>
     </extensions>
 
-
-    <vault>
-        <vault-option name="KEYSTORE_URL" value="${jboss.home.dir}/vault.keystore"/>
-        <vault-option name="KEYSTORE_PASSWORD" value="MASK-0n4EdOvMovZyXazc1OvOqH"/>
-        <vault-option name="KEYSTORE_ALIAS" value="vault"/>
-        <vault-option name="SALT" value="8675309K"/>
-        <vault-option name="ITERATION_COUNT" value="50"/>
-        <vault-option name="ENC_FILE_DIR" value="${jboss.home.dir}/vault/"/>
-    </vault>
-
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">
@@ -207,7 +197,7 @@
                     <driver>modeshape</driver>
                     <security>
                         <user-name>modeshapeUser</user-name>
-                        <password>${VAULT::modeshape::modeshape.password::1}</password>
+                        <password>redhat@123</password>
                     </security>
                 </datasource>
                 <datasource jndi-name="java:jboss/datasources/DashboardDS" pool-name="DashboardDS" enabled="true" use-java-context="true">
