@@ -220,7 +220,7 @@
                 </datasource>
                 <datasource jndi-name="java:/NaturezaJuridica" pool-name="NaturezaJuridica" enabled="true">
                     <connection-url>jdbc:postgresql://postgresql:5432/redhat</connection-url>
-                    <driver>postgresql-8.4-703.jdbc4.jar</driver>
+                    <driver>postgresql</driver>
                     <security>
                         <user-name>redhat</user-name>
                         <password>redhat@123</password>
