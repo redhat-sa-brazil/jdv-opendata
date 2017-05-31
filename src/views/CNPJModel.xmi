@@ -485,7 +485,7 @@
     </transformationMappings>
   </transformation:TransformationContainer>
   <relational:BaseTable xmi:uuid="mmuuid:83b52da6-4abc-43d8-94e3-4121df35937e" name="CNPJ" supportsUpdate="false">
-    <columns xmi:uuid="mmuuid:7b455eef-34a1-467e-b5b7-d00cbe5b35e0" name="cnpj" nameInSource="cnpj" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/a36b3bad-7a3c-4a5f-8300-829488b9d832">
+    <columns xmi:uuid="mmuuid:7b455eef-34a1-467e-b5b7-d00cbe5b35e0" name="cnpj" nameInSource="cnpj" length="4000" defaultValue="" updateable="false">
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
     <columns xmi:uuid="mmuuid:18e8f130-4824-446e-8f25-0fd6259812a7" name="razaoSocial" nameInSource="razaoSocial" length="4000" defaultValue="" updateable="false">
@@ -500,6 +500,5 @@
     <columns xmi:uuid="mmuuid:5729a2f1-3416-40ee-ad66-12c0eea8109c" name="codigoNaturezaJuridica" nameInSource="codigoNaturezaJuridica" length="10" defaultValue="" updateable="false">
       <type href="http://www.w3.org/2001/XMLSchema#int"/>
     </columns>
-    <primaryKey xmi:uuid="mmuuid:a36b3bad-7a3c-4a5f-8300-829488b9d832" name="pk" columns="mmuuid/7b455eef-34a1-467e-b5b7-d00cbe5b35e0"/>
   </relational:BaseTable>
 </xmi:XMI>
