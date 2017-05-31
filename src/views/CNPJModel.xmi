@@ -466,6 +466,7 @@
   <diagram:DiagramContainer xmi:uuid="mmuuid:6165aef1-b1a7-411c-b771-c192cddeae1d">
     <diagram xmi:uuid="mmuuid:8dedd2f5-5e56-41a8-ad8a-9285b920411c" type="packageDiagramType" target="mmuuid/a4e43770-7d64-49ec-8dba-c4993e172740">
       <diagramEntity xmi:uuid="mmuuid:203b7829-9a1f-4211-9c59-5a3a7ca302da" modelObject="mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c" xPosition="10" yPosition="10"/>
+      <diagramEntity xmi:uuid="mmuuid:8a147b2d-a5f9-4e0a-a909-03583c6ab911" name="CNPJCache" modelObject="mmuuid/8e60483c-10c9-4a7f-84a2-490235c45bfd" xPosition="263" yPosition="16"/>
     </diagram>
   </diagram:DiagramContainer>
   <transformation:TransformationContainer xmi:uuid="mmuuid:e4374784-9d42-4a49-b7e8-6296253da573">
@@ -483,6 +484,18 @@
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:319820f4-add6-44af-9cbf-2a191adc7240" outputs="mmuuid/f11cd304-6449-46b0-ae85-1ebff6e3d527"/>
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:a467bc91-7162-464c-9864-b5aee153fba6" outputs="mmuuid/708f150b-571b-4f76-bb3d-d135690004f3"/>
       <inputs href="../sources/CNPJSource.xmi#mmuuid/28367980-ea87-4861-9cef-9740f388c9f5"/>
+    </transformationMappings>
+    <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:a1d1548e-8523-4b3d-9ebb-6c78c4d931eb" inputs="mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c" outputs="mmuuid/8e60483c-10c9-4a7f-84a2-490235c45bfd" target="mmuuid/8e60483c-10c9-4a7f-84a2-490235c45bfd">
+      <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:294d58ec-8b97-4d29-9833-f23c2362516e">
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:4aeaffb1-63dd-4a67-a585-0a2dbab463a3" selectSql="SELECT * FROM CNPJModel.CNPJ"/>
+        <aliases xmi:uuid="mmuuid:beae7495-12f5-417c-a3a5-8ddde7fd609a" alias="CNPJ" aliasedObject="mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c"/>
+      </helper>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:ede19ec3-747d-40c4-b316-db8f0e19c8af" inputs="mmuuid/640e45d7-529d-4d4d-9dff-32a24c4518c1" outputs="mmuuid/f2c09eaa-124d-4998-9e87-f07c902612ac"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:04b6c1e8-6d05-4dbe-a312-4cd56c1575ea" inputs="mmuuid/140841a0-b1c8-42b3-8fac-91da794420d6" outputs="mmuuid/0258c7b2-9941-47ac-ac62-1ca7e3dea2e4"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:fc398fab-c781-40b4-87bf-412e45e74e66" inputs="mmuuid/a14ff584-4413-497b-805e-4bb606e5caa5" outputs="mmuuid/e3cf3d0f-4749-41fb-94e9-863ef416d0b9"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:0675a759-65f4-4e66-8287-cb14a6e47445" inputs="mmuuid/728e994e-41b8-44ae-9d45-be599f38511b" outputs="mmuuid/87451730-2947-462f-a133-bc88c6760b09"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:e2b82ec9-65f5-46d1-bcca-ff86ab5e086f" inputs="mmuuid/f11cd304-6449-46b0-ae85-1ebff6e3d527" outputs="mmuuid/89fbca38-a727-4e76-88ae-efde1b941c81"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:1920bfb5-92c3-40c9-8e2d-61e2621de745" inputs="mmuuid/708f150b-571b-4f76-bb3d-d135690004f3" outputs="mmuuid/541c97fa-fc3d-41c7-b886-ec607d3a1503"/>
     </transformationMappings>
   </transformation:TransformationContainer>
   <relational:BaseTable xmi:uuid="mmuuid:0910282e-b18e-4145-a466-d5dfcdc61b4c" name="CNPJ" supportsUpdate="false">
@@ -505,5 +518,26 @@
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
     <primaryKey xmi:uuid="mmuuid:a4ef1296-22fb-49b7-b186-4820e5a15a3d" name="pk" columns="mmuuid/640e45d7-529d-4d4d-9dff-32a24c4518c1"/>
+  </relational:BaseTable>
+  <relational:BaseTable xmi:uuid="mmuuid:8e60483c-10c9-4a7f-84a2-490235c45bfd" name="CNPJCache" materialized="true">
+    <columns xmi:uuid="mmuuid:f2c09eaa-124d-4998-9e87-f07c902612ac" name="cnpj" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/644a8d75-d263-4088-8abe-c256ab21dfb4">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:0258c7b2-9941-47ac-ac62-1ca7e3dea2e4" name="razaoSocial" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:e3cf3d0f-4749-41fb-94e9-863ef416d0b9" name="nomeFantasia" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:87451730-2947-462f-a133-bc88c6760b09" name="codigoCNAE" length="10" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:89fbca38-a727-4e76-88ae-efde1b941c81" name="codigoNaturezaJuridica" length="10" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:541c97fa-fc3d-41c7-b886-ec607d3a1503" name="codigoPais" length="10">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <primaryKey xmi:uuid="mmuuid:644a8d75-d263-4088-8abe-c256ab21dfb4" name="pk" columns="mmuuid/f2c09eaa-124d-4998-9e87-f07c902612ac"/>
   </relational:BaseTable>
 </xmi:XMI>

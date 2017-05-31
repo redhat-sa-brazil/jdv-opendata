@@ -466,6 +466,7 @@
   <diagram:DiagramContainer xmi:uuid="mmuuid:b5d7a732-c536-40b7-9414-c9b4aedd3139">
     <diagram xmi:uuid="mmuuid:3754af1d-f08e-4a6d-9ac0-b13235c07aa5" type="packageDiagramType" target="mmuuid/45e9355f-4462-4a1b-87a7-99d47acd7cd2">
       <diagramEntity xmi:uuid="mmuuid:e1cd624c-f636-4509-a947-12198e782580" modelObject="mmuuid/74edf402-d8f6-487e-b626-ac2735fb31ae" xPosition="10" yPosition="10"/>
+      <diagramEntity xmi:uuid="mmuuid:a5b22f31-3c53-432d-9903-1ec0d26ebd96" name="CNAECache" modelObject="mmuuid/c862fad2-c548-481f-a9e9-a7519b05ff24" xPosition="326" yPosition="28"/>
     </diagram>
   </diagram:DiagramContainer>
   <transformation:TransformationContainer xmi:uuid="mmuuid:97cacd56-37c2-448e-b7d1-c4751488652d">
@@ -482,6 +483,16 @@
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:e3a8009b-e8b4-402a-8674-8547499a93b0" outputs="mmuuid/0b5db6de-a551-453c-ba36-24ae7fa912a7"/>
       <inputs href="../sources/CNAESource.xmi#mmuuid/7c8b2445-0bcc-496a-b923-5da4cef5244b"/>
     </transformationMappings>
+    <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:37d02442-4903-4b45-ac41-c16890585ce2" inputs="mmuuid/74edf402-d8f6-487e-b626-ac2735fb31ae" outputs="mmuuid/c862fad2-c548-481f-a9e9-a7519b05ff24" target="mmuuid/c862fad2-c548-481f-a9e9-a7519b05ff24">
+      <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:5fcb6366-4bb3-4c5c-941c-5ca21917a51b">
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:783a9be9-369a-4ecf-8be9-7d66160b9e05" selectSql="SELECT * FROM CNAEModel.CNAE"/>
+        <aliases xmi:uuid="mmuuid:1ae6f1aa-ac85-4e1e-baa4-f9f8d3e4c728" alias="CNAE" aliasedObject="mmuuid/74edf402-d8f6-487e-b626-ac2735fb31ae"/>
+      </helper>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:60320cb6-d0b8-4f0e-bffa-8bb38c1fa80a" inputs="mmuuid/aadebb93-8f42-4dd6-9ba1-50c471a856e4" outputs="mmuuid/ceb24400-6b45-4fde-8b8f-7986e9be8105"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:12bffae7-e55a-4090-b42b-74b30bffc879" inputs="mmuuid/6f450d16-d472-417d-93a3-e549c3fb4a7e" outputs="mmuuid/f64f2d43-7247-4357-a76d-da5355600a23"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:a337a852-b0a6-4862-985d-0abb21dbd7f1" inputs="mmuuid/9417b6ee-bcbb-44f5-8d57-498827a8abaf" outputs="mmuuid/3fb58e16-3260-4fa7-8673-c7cb7e5d0ece"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:ba69aaac-879e-4db3-8bc3-31bbcf0ed1fe" inputs="mmuuid/0b5db6de-a551-453c-ba36-24ae7fa912a7" outputs="mmuuid/57125ad6-7277-4b73-a247-c28faf441738"/>
+    </transformationMappings>
   </transformation:TransformationContainer>
   <relational:BaseTable xmi:uuid="mmuuid:74edf402-d8f6-487e-b626-ac2735fb31ae" name="CNAE" supportsUpdate="false">
     <columns xmi:uuid="mmuuid:aadebb93-8f42-4dd6-9ba1-50c471a856e4" name="codigoSecao" nameInSource="&quot;Codigo Secao&quot;" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/c1044b39-754f-4c83-85d3-d384bfc66342">
@@ -497,5 +508,20 @@
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
     <primaryKey xmi:uuid="mmuuid:c1044b39-754f-4c83-85d3-d384bfc66342" name="pk" columns="mmuuid/aadebb93-8f42-4dd6-9ba1-50c471a856e4 mmuuid/9417b6ee-bcbb-44f5-8d57-498827a8abaf"/>
+  </relational:BaseTable>
+  <relational:BaseTable xmi:uuid="mmuuid:c862fad2-c548-481f-a9e9-a7519b05ff24" name="CNAECache" materialized="true">
+    <columns xmi:uuid="mmuuid:ceb24400-6b45-4fde-8b8f-7986e9be8105" name="codigoSecao" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/389ac8eb-38cc-42b7-8045-02ef84612815">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:f64f2d43-7247-4357-a76d-da5355600a23" name="descricaoSecao" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:3fb58e16-3260-4fa7-8673-c7cb7e5d0ece" name="codigoSubclasse" length="10" defaultValue="" updateable="false" uniqueKeys="mmuuid/389ac8eb-38cc-42b7-8045-02ef84612815">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:57125ad6-7277-4b73-a247-c28faf441738" name="descricaoSubclasse" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <primaryKey xmi:uuid="mmuuid:389ac8eb-38cc-42b7-8045-02ef84612815" name="pk" columns="mmuuid/ceb24400-6b45-4fde-8b8f-7986e9be8105 mmuuid/3fb58e16-3260-4fa7-8673-c7cb7e5d0ece"/>
   </relational:BaseTable>
 </xmi:XMI>

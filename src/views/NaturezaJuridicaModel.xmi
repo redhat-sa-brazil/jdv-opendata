@@ -29,6 +29,14 @@
       </nested>
       <inputs href="../sources/NaturezaJuridica.xmi#mmuuid/2a2a1665-d626-4202-8015-07770b17b2c7"/>
     </transformationMappings>
+    <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:cd3c3577-cb54-4935-9e09-897950ebd366" inputs="mmuuid/768e2882-3d58-456d-bff0-5ad92b32f3d9" outputs="mmuuid/5a4c737e-d3f2-4242-8362-28e22a5fe51a" target="mmuuid/5a4c737e-d3f2-4242-8362-28e22a5fe51a">
+      <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:55e5285c-06e3-4313-a56b-fa7dac9c7d2a">
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:584f7bb1-1ed9-43d7-a7a3-ced861f1730a" selectSql="SELECT * FROM NaturezaJuridicaModel.NaturezaJuridica"/>
+        <aliases xmi:uuid="mmuuid:da34eb5c-27ae-419e-908b-3118feb33fa0" alias="NaturezaJuridica" aliasedObject="mmuuid/768e2882-3d58-456d-bff0-5ad92b32f3d9"/>
+      </helper>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:67948fb4-a298-43bc-b7ce-736e5fbcdfca" inputs="mmuuid/06e6b739-4d8c-4555-9b1c-3fc5f85d57db" outputs="mmuuid/d72166dc-f6ad-4ef8-91ef-69fbc1878f47"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:b0a902c9-dae0-4b6f-b432-7eeaed82b13b" inputs="mmuuid/8c8651bc-596f-4504-872a-be36288d3db0" outputs="mmuuid/927306a5-e875-4e60-8c21-282b5bed2dcd"/>
+    </transformationMappings>
   </transformation:TransformationContainer>
   <mmcore:AnnotationContainer xmi:uuid="mmuuid:26e787bc-b9fe-42a6-93c4-e11176ea1454">
     <annotations xmi:uuid="mmuuid:28a8298e-7017-4f21-af86-494416a3b79d" annotatedObject="mmuuid/d83c0795-281e-4468-9765-8b4c9442f265">
@@ -492,6 +500,16 @@
   <diagram:DiagramContainer xmi:uuid="mmuuid:61d657ce-eb20-44d2-9a33-96e8044796a8">
     <diagram xmi:uuid="mmuuid:4b6346f4-550b-414c-9f5f-4dd62d0821d5" type="packageDiagramType" target="mmuuid/d83c0795-281e-4468-9765-8b4c9442f265">
       <diagramEntity xmi:uuid="mmuuid:de354e10-7d67-488b-b539-c185d3ef9830" name="NaturezaJuridica" modelObject="mmuuid/768e2882-3d58-456d-bff0-5ad92b32f3d9" xPosition="10" yPosition="10"/>
+      <diagramEntity xmi:uuid="mmuuid:2dce20aa-8f60-4ec4-ad1b-e18e0518aab9" name="NaturezaJuridicaCache" modelObject="mmuuid/5a4c737e-d3f2-4242-8362-28e22a5fe51a" xPosition="233" yPosition="15"/>
     </diagram>
   </diagram:DiagramContainer>
+  <relational:BaseTable xmi:uuid="mmuuid:5a4c737e-d3f2-4242-8362-28e22a5fe51a" name="NaturezaJuridicaCache" materialized="true">
+    <columns xmi:uuid="mmuuid:d72166dc-f6ad-4ef8-91ef-69fbc1878f47" name="codigo" length="10" fixedLength="true" nullable="NO_NULLS" updateable="false" uniqueKeys="mmuuid/c7c270d1-97da-4c61-b26f-6ea9f406e61b">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:927306a5-e875-4e60-8c21-282b5bed2dcd" name="descricao" length="200" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <primaryKey xmi:uuid="mmuuid:c7c270d1-97da-4c61-b26f-6ea9f406e61b" name="pk" columns="mmuuid/d72166dc-f6ad-4ef8-91ef-69fbc1878f47"/>
+  </relational:BaseTable>
 </xmi:XMI>
