@@ -5,8 +5,9 @@
     <modelImports xmi:uuid="mmuuid:00711ab5-5c6e-40a1-b835-4ebe4faaa8f0" name="CNPJModel" modelLocation="CNPJModel.xmi" uuid="mmuuid:a4e43770-7d64-49ec-8dba-c4993e172740" modelType="VIRTUAL" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational"/>
     <modelImports xmi:uuid="mmuuid:01a4b302-bb5c-4f72-9766-fb5439acbce0" name="NaturezaJuridicaModel" modelLocation="NaturezaJuridicaModel.xmi" uuid="mmuuid:d83c0795-281e-4468-9765-8b4c9442f265" modelType="VIRTUAL" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational"/>
     <modelImports xmi:uuid="mmuuid:05fe72e8-dfb2-4240-871e-9e6b0742c990" name="CountryModel" modelLocation="CountryModel.xmi" uuid="mmuuid:cbda49f5-36e0-496f-9ca7-3bf08a17053e" modelType="VIRTUAL" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational"/>
+    <modelImports xmi:uuid="mmuuid:9e3299f9-f27d-44ea-885e-d7d6aa14d058" name="CNAEModel" modelLocation="CNAEModel.xmi" uuid="mmuuid:45e9355f-4462-4a1b-87a7-99d47acd7cd2" modelType="VIRTUAL" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational"/>
   </mmcore:ModelAnnotation>
-  <relational:BaseTable xmi:uuid="mmuuid:6735f669-4f8b-45cb-9c3a-0a837872a913" name="FavorecidosGastosDiretos" supportsUpdate="false">
+  <relational:BaseTable xmi:uuid="mmuuid:6735f669-4f8b-45cb-9c3a-0a837872a913" name="Empresas" supportsUpdate="false">
     <columns xmi:uuid="mmuuid:4f7f1dea-9ca7-4b57-aa76-ba4aa130788d" name="cnpj" nameInSource="CNPJ" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/c5bd5230-5096-44ca-b589-99599d1e3467">
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
@@ -22,6 +23,9 @@
     <columns xmi:uuid="mmuuid:38517c1d-b9de-4dca-b435-117049ffdb8e" name="descricaoNaturezaJuridica" length="200" updateable="false">
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
+    <columns xmi:uuid="mmuuid:1a7513f5-1439-4350-8aee-37338892a787" name="codigoCNAE">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
     <columns xmi:uuid="mmuuid:8d7c5105-1704-476a-bbdc-5f7ca44cfef2" name="pais" length="10">
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
@@ -30,7 +34,7 @@
   <transformation:TransformationContainer xmi:uuid="mmuuid:40c3e0db-9775-4f32-910b-737fe7ecf357">
     <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:37802a6e-930b-480d-a94f-6917a92b618e" outputs="mmuuid/6735f669-4f8b-45cb-9c3a-0a837872a913" target="mmuuid/6735f669-4f8b-45cb-9c3a-0a837872a913">
       <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:492244fd-6520-4590-862d-3b84caaf27dc">
-        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:045e596c-232d-4a3f-99fc-6fde98a3d285" selectSql="SELECT&#xa;&#x9;&#x9;CNPJModel.CNPJ.cnpj, CNPJModel.CNPJ.razaoSocial, CNPJModel.CNPJ.nomeFantasia, CNPJModel.CNPJ.codigoNaturezaJuridica, NaturezaJuridicaModel.NaturezaJuridica.descricao AS descricaoNaturezaJuridica, CountryModel.CountryName.CountryNameResult AS pais&#xa;&#x9;FROM&#xa;&#x9;&#x9;CNPJModel.CNPJ, NaturezaJuridicaModel.NaturezaJuridica, CountryModel.CountryName&#xa;&#x9;WHERE&#xa;&#x9;&#x9;(CNPJModel.CNPJ.codigoNaturezaJuridica = NaturezaJuridicaModel.NaturezaJuridica.codigo) AND (CNPJModel.CNPJ.codigoPais = CountryModel.CountryName.sCountryISOCode)"/>
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:045e596c-232d-4a3f-99fc-6fde98a3d285" selectSql="SELECT CNPJModel.CNPJ.cnpj, CNPJModel.CNPJ.razaoSocial, CNPJModel.CNPJ.nomeFantasia, CNPJModel.CNPJ.codigoNaturezaJuridica, NaturezaJuridicaModel.NaturezaJuridica.descricao AS descricaoNaturezaJuridica, CNPJModel.CNPJ.codigoCNAE AS codigoCNAE, CountryModel.CountryName.CountryNameResult AS pais FROM CNPJModel.CNPJ, NaturezaJuridicaModel.NaturezaJuridica, CountryModel.CountryName WHERE (CNPJModel.CNPJ.codigoNaturezaJuridica = NaturezaJuridicaModel.NaturezaJuridica.codigo) AND (CNPJModel.CNPJ.codigoPais = CountryModel.CountryName.sCountryISOCode)"/>
         <aliases xmi:uuid="mmuuid:bbe8c7c7-b14e-4427-b3c5-53404c124695" alias="CNPJ">
           <aliasedObject href="CNPJModel.xmi#mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c"/>
         </aliases>
@@ -59,9 +63,42 @@
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:e1c9867d-b5ec-4a38-9e6a-29dda8dc22ca" outputs="mmuuid/8d7c5105-1704-476a-bbdc-5f7ca44cfef2">
         <inputs href="CountryModel.xmi#mmuuid/f1a14be5-ac4a-4cbd-af67-a9dc71cdf73e"/>
       </nested>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:23d8f107-3cb1-4096-a0e3-f511e7e1cdd3" outputs="mmuuid/1a7513f5-1439-4350-8aee-37338892a787">
+        <inputs href="CNPJModel.xmi#mmuuid/728e994e-41b8-44ae-9d45-be599f38511b"/>
+      </nested>
       <inputs href="CNPJModel.xmi#mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c"/>
       <inputs href="NaturezaJuridicaModel.xmi#mmuuid/768e2882-3d58-456d-bff0-5ad92b32f3d9"/>
       <inputs href="CountryModel.xmi#mmuuid/958adb74-f747-4bae-b6c2-010c09b0613a"/>
+    </transformationMappings>
+    <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:5f124936-3cc2-4b3e-9c94-9886d2a13d53" outputs="mmuuid/51faf790-63c8-48e7-88e3-63104c9ec3f9" target="mmuuid/51faf790-63c8-48e7-88e3-63104c9ec3f9">
+      <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:c5340f44-0fb5-4cf0-a2b0-202e17b0f15c">
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:c3621fde-f810-465d-b73b-f4c7a9f33992" selectSql="SELECT&#xa;&#x9;&#x9;ModeloCanonico.Empresas.cnpj, ModeloCanonico.Empresas.razaoSocial, ModeloCanonico.Empresas.nomeFantasia, ModeloCanonico.Empresas.codigoNaturezaJuridica, ModeloCanonico.Empresas.descricaoNaturezaJuridica, ModeloCanonico.Empresas.codigoCNAE, ModeloCanonico.Empresas.pais, CNAEModel.CNAE.codigoSecao, CNAEModel.CNAE.descricaoSecao, CNAEModel.CNAE.codigoSubclasse, CNAEModel.CNAE.descricaoSubclasse&#xa;&#x9;FROM&#xa;&#x9;&#x9;ModeloCanonico.Empresas, CNAEModel.CNAE&#xa;&#x9;WHERE&#xa;&#x9;&#x9;ModeloCanonico.Empresas.codigoCNAE = CNAEModel.CNAE.codigoSubclasse"/>
+        <aliases xmi:uuid="mmuuid:d78c011e-0ba4-4d71-9881-6984448c754f" alias="Empresas" aliasedObject="mmuuid/6735f669-4f8b-45cb-9c3a-0a837872a913"/>
+        <aliases xmi:uuid="mmuuid:335425d4-53bb-45c2-87cb-da6adc4f7e02" alias="CNAE">
+          <aliasedObject href="CNAEModel.xmi#mmuuid/74edf402-d8f6-487e-b626-ac2735fb31ae"/>
+        </aliases>
+      </helper>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:35d165ce-b797-4b6b-aa5e-ae2a2eeb9832" inputs="mmuuid/4f7f1dea-9ca7-4b57-aa76-ba4aa130788d" outputs="mmuuid/0fa99ad8-9dad-416a-8844-61e97a794f48"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:fb445af1-f641-4a4d-a5ab-20e19b542b33" inputs="mmuuid/c5fc3162-763e-4016-b775-2bb1d7d10341" outputs="mmuuid/a7ccc2f7-9650-4fc7-b9b0-ee50da85bb0f"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:0e3a34cb-69e2-4fc7-a03c-37d5715e7337" inputs="mmuuid/809434df-43db-496f-b1a1-47f5c91375e1" outputs="mmuuid/cccbe1cf-085f-48df-a2ec-1fe942f45209"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:0e593b3d-4fef-4592-a6a9-e263e6cdb8a0" inputs="mmuuid/1c53c57d-7109-4445-ad04-5f2e79077236" outputs="mmuuid/2bd2b61c-bcbd-4d78-8104-40ca72db0ce5"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:e8ff13f7-c628-4aca-84cf-f49c0db8bef3" inputs="mmuuid/38517c1d-b9de-4dca-b435-117049ffdb8e" outputs="mmuuid/354db57f-bce9-408b-b605-a5d850622d54"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:069e4fe7-9573-4b49-82fc-af1a6ecd82de" inputs="mmuuid/1a7513f5-1439-4350-8aee-37338892a787" outputs="mmuuid/371928ac-4c5c-4795-9ab5-6c6d54c47d7e"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:6c70435d-2176-4aaa-9f19-84a1017eb9af" inputs="mmuuid/8d7c5105-1704-476a-bbdc-5f7ca44cfef2" outputs="mmuuid/d4450313-ab81-4c66-8f11-222d27438140"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:35d4de2b-66d6-4ada-a6f0-9f308936b401" outputs="mmuuid/507dec14-f257-4e89-b153-f51b5927399b">
+        <inputs href="CNAEModel.xmi#mmuuid/aadebb93-8f42-4dd6-9ba1-50c471a856e4"/>
+      </nested>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:d4b6d8f7-3eb8-41f3-b61b-266bc1c58a85" outputs="mmuuid/a4883798-04a6-4086-bb70-7227dedc9998">
+        <inputs href="CNAEModel.xmi#mmuuid/6f450d16-d472-417d-93a3-e549c3fb4a7e"/>
+      </nested>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:9204f591-b3db-4b85-9677-60cd07712cac" outputs="mmuuid/b5fe6c6c-12b7-415f-bce1-e249205d2086">
+        <inputs href="CNAEModel.xmi#mmuuid/9417b6ee-bcbb-44f5-8d57-498827a8abaf"/>
+      </nested>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:e7819b91-56e3-4302-9fbd-064e59d9fefd" outputs="mmuuid/0e65dc5b-7a2e-4953-8e18-36874dad3e57">
+        <inputs href="CNAEModel.xmi#mmuuid/0b5db6de-a551-453c-ba36-24ae7fa912a7"/>
+      </nested>
+      <inputs href="#mmuuid/6735f669-4f8b-45cb-9c3a-0a837872a913"/>
+      <inputs href="CNAEModel.xmi#mmuuid/74edf402-d8f6-487e-b626-ac2735fb31ae"/>
     </transformationMappings>
   </transformation:TransformationContainer>
   <mmcore:AnnotationContainer xmi:uuid="mmuuid:e48cdc5a-a551-4bcb-b815-2590d4eb0c47">
@@ -525,7 +562,44 @@
   </mmcore:AnnotationContainer>
   <diagram:DiagramContainer xmi:uuid="mmuuid:b51d2f23-bc2a-4bb7-8a2e-bc7f437bbc4b">
     <diagram xmi:uuid="mmuuid:bf6463d9-5f49-438b-8aa8-681e9611bbd1" type="packageDiagramType" target="mmuuid/294ed3f0-5353-4b6b-8030-276052db700e">
-      <diagramEntity xmi:uuid="mmuuid:9614605b-177a-407f-835f-410a1e9eac41" modelObject="mmuuid/6735f669-4f8b-45cb-9c3a-0a837872a913" xPosition="10" yPosition="10"/>
+      <diagramEntity xmi:uuid="mmuuid:9614605b-177a-407f-835f-410a1e9eac41" name="Empresas" modelObject="mmuuid/6735f669-4f8b-45cb-9c3a-0a837872a913" xPosition="10" yPosition="10"/>
+      <diagramEntity xmi:uuid="mmuuid:693bb207-2573-43d5-a50d-344336a61b0d" modelObject="mmuuid/51faf790-63c8-48e7-88e3-63104c9ec3f9" xPosition="324" yPosition="27"/>
     </diagram>
   </diagram:DiagramContainer>
+  <relational:BaseTable xmi:uuid="mmuuid:51faf790-63c8-48e7-88e3-63104c9ec3f9" name="FavorecidosGastosDiretos">
+    <columns xmi:uuid="mmuuid:0fa99ad8-9dad-416a-8844-61e97a794f48" name="cnpj" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/72d4a4ca-c5dc-4b8d-b36c-fc1d94a1b283">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:a7ccc2f7-9650-4fc7-b9b0-ee50da85bb0f" name="razaoSocial" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:cccbe1cf-085f-48df-a2ec-1fe942f45209" name="nomeFantasia" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:2bd2b61c-bcbd-4d78-8104-40ca72db0ce5" name="codigoNaturezaJuridica" length="10" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:354db57f-bce9-408b-b605-a5d850622d54" name="descricaoNaturezaJuridica" length="200" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:371928ac-4c5c-4795-9ab5-6c6d54c47d7e" name="codigoCNAE">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:d4450313-ab81-4c66-8f11-222d27438140" name="pais" length="10">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:507dec14-f257-4e89-b153-f51b5927399b" name="codigoSecao" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:a4883798-04a6-4086-bb70-7227dedc9998" name="descricaoSecao" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:b5fe6c6c-12b7-415f-bce1-e249205d2086" name="codigoSubclasse" length="10" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#int"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:0e65dc5b-7a2e-4953-8e18-36874dad3e57" name="descricaoSubclasse" length="4000" defaultValue="" updateable="false">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <primaryKey xmi:uuid="mmuuid:72d4a4ca-c5dc-4b8d-b36c-fc1d94a1b283" name="pk" columns="mmuuid/0fa99ad8-9dad-416a-8844-61e97a794f48"/>
+  </relational:BaseTable>
 </xmi:XMI>
