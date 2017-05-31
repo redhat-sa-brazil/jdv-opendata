@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:diagram="http://www.metamatrix.com/metamodels/Diagram" xmlns:mmcore="http://www.metamatrix.com/metamodels/Core" xmlns:relational="http://www.metamatrix.com/metamodels/Relational" xmlns:transformation="http://www.metamatrix.com/metamodels/Transformation">
   <mmcore:ModelAnnotation xmi:uuid="mmuuid:20cc5f83-bb1d-43d0-8cd5-702f0fce55de" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational" modelType="VIRTUAL" ProducerName="Teiid Designer" ProducerVersion="9.0.7.Final-v20160512-1643-B1247">
     <modelImports xmi:uuid="mmuuid:f4529999-1d6e-47dd-8b1c-b32838fab686" name="XMLSchema" modelLocation="http://www.w3.org/2001/XMLSchema" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
-    <modelImports xmi:uuid="mmuuid:08f740c9-3eff-41ca-8bfd-6d8d409b396d" name="NaturezaJurica" modelLocation="../sources/NaturezaJurica.xmi" uuid="mmuuid:8cb78bd0-3a46-4625-8576-0c9d4fc925c7" modelType="PHYSICAL" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational"/>
+    <modelImports xmi:uuid="mmuuid:08f740c9-3eff-41ca-8bfd-6d8d409b396d" name="NaturezaJuridica" modelLocation="../sources/NaturezaJuridica.xmi" uuid="mmuuid:8cb78bd0-3a46-4625-8576-0c9d4fc925c7" modelType="PHYSICAL" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational"/>
   </mmcore:ModelAnnotation>
   <relational:BaseTable xmi:uuid="mmuuid:86d4c77a-d766-4806-8a04-0dd827576122" name="NaturezaJuridica" nameInSource="&quot;public&quot;.&quot;natureza_juridica&quot;" supportsUpdate="false">
     <columns xmi:uuid="mmuuid:d9de6afa-0c87-4e7e-88e5-0db05d48aec0" name="codigo" nameInSource="&quot;codigo&quot;" nativeType="int4" length="10" fixedLength="true" nullable="NO_NULLS" updateable="false" uniqueKeys="mmuuid/e4d4437b-47fc-4a53-9fc4-0c82632e25d3">
@@ -16,18 +16,18 @@
   <transformation:TransformationContainer xmi:uuid="mmuuid:25d41cdd-30c9-409a-97b1-9db9a1f1ed38">
     <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:5b1a5677-a1a3-4a4a-bd1a-18dabae60120" outputs="mmuuid/86d4c77a-d766-4806-8a04-0dd827576122" target="mmuuid/86d4c77a-d766-4806-8a04-0dd827576122">
       <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:a1c62f6f-cac0-4d43-8738-1aa93c8bf7c8">
-        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:bb0f7d80-31e2-487e-84d6-b6e123786a63" selectSql="SELECT * FROM NaturezaJurica.natureza_juridica"/>
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:bb0f7d80-31e2-487e-84d6-b6e123786a63" selectSql="SELECT * FROM NaturezaJuridica.natureza_juridica"/>
         <aliases xmi:uuid="mmuuid:73ddc2c4-3b4f-4b89-8947-ee46d33bdad1" alias="natureza_juridica">
-          <aliasedObject href="../sources/NaturezaJurica.xmi#mmuuid/ae72e73c-d7ce-4f2a-82e7-0d23c91d2fe7"/>
+          <aliasedObject href="../sources/NaturezaJuridica.xmi#mmuuid/ae72e73c-d7ce-4f2a-82e7-0d23c91d2fe7"/>
         </aliases>
       </helper>
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:89cead35-d33f-46c3-ae1b-4c0c28e463fa" outputs="mmuuid/d9de6afa-0c87-4e7e-88e5-0db05d48aec0">
-        <inputs href="../sources/NaturezaJurica.xmi#mmuuid/53c540fc-2b1d-4c0a-b274-d64361cf2bec"/>
+        <inputs href="../sources/NaturezaJuridica.xmi#mmuuid/53c540fc-2b1d-4c0a-b274-d64361cf2bec"/>
       </nested>
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:7671dddc-f4d0-41ec-992e-5c1581a6b210" outputs="mmuuid/f3a99941-7ca0-4dac-923b-c4217718090b">
-        <inputs href="../sources/NaturezaJurica.xmi#mmuuid/f4e62337-f5ee-40d9-8b2b-bd7c7f8300a4"/>
+        <inputs href="../sources/NaturezaJuridica.xmi#mmuuid/f4e62337-f5ee-40d9-8b2b-bd7c7f8300a4"/>
       </nested>
-      <inputs href="../sources/NaturezaJurica.xmi#mmuuid/ae72e73c-d7ce-4f2a-82e7-0d23c91d2fe7"/>
+      <inputs href="../sources/NaturezaJuridica.xmi#mmuuid/ae72e73c-d7ce-4f2a-82e7-0d23c91d2fe7"/>
     </transformationMappings>
   </transformation:TransformationContainer>
   <mmcore:AnnotationContainer xmi:uuid="mmuuid:a4309248-8bde-4776-b4d5-a75e7456a661">
