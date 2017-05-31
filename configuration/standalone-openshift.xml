@@ -521,6 +521,45 @@
                 <resource-adapter id="accumulo">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.accumulo"/>
                 </resource-adapter>
+
+                <resource-adapter id="CNPJSource">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
+                    <transaction-support>NoTransaction</transaction-support>
+                    <connection-definitions>
+                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNPJSource" enabled="true" pool-name="CNPJSource">
+                            <config-property name="ParentDirectory">
+                                /home/jboss/source/home/jboss/source/files/FavorecidosGastosDiretos
+                            </config-property>
+                        </connection-definition>
+                    </connection-definitions>
+                </resource-adapter>
+                <resource-adapter id="CNAESource">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
+                    <transaction-support>NoTransaction</transaction-support>
+                    <connection-definitions>
+                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNAESource" enabled="true" pool-name="CNAESource">
+                            <config-property name="ParentDirectory">
+                                /home/jboss/source/home/jboss/source/files/FavorecidosGastosDiretos
+                            </config-property>
+                        </connection-definition>
+                    </connection-definitions>
+                </resource-adapter>
+                <resource-adapter id="CountrySource">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
+                    <transaction-support>NoTransaction</transaction-support>
+                    <connection-definitions>
+                        <connection-definition class-name="org.teiid.resource.adapter.ws.WSManagedConnectionFactory" jndi-name="java:/CountrySource" enabled="true" pool-name="CountrySource">
+                            <config-property name="SecurityType">
+                                None
+                            </config-property>
+                            <config-property name="EndPoint">
+                                http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+                            </config-property>
+                        </connection-definition>
+                    </connection-definitions>
+                </resource-adapter>
+
+
             </resource-adapters>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:sar:1.0"/>
