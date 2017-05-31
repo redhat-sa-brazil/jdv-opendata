@@ -471,7 +471,7 @@
   <transformation:TransformationContainer xmi:uuid="mmuuid:e4374784-9d42-4a49-b7e8-6296253da573">
     <transformationMappings xsi:type="transformation:SqlTransformationMappingRoot" xmi:uuid="mmuuid:e709b41d-c207-43d8-a257-4328f8291f62" outputs="mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c" target="mmuuid/0910282e-b18e-4145-a466-d5dfcdc61b4c">
       <helper xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:98fd6428-8abb-468e-a2c4-ff1fa1f52b57">
-        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:c972857c-ffb4-44c8-a095-177da621d12a" selectSql="SELECT A.CNPJ, A.&quot;Razao Social&quot; AS razaoSocial, A.&quot;Nome Fantasia&quot; AS nomeFantasia, A.&quot;Codigo CNAE&quot; AS codigoCNAE, A.&quot;Codigo Natureza Juridica&quot; AS codigoNaturezaJuridica FROM (EXEC CNPJSource.getTextFiles('CNPJ.csv')) AS f, TEXTTABLE(f.file COLUMNS CNPJ string, &quot;Razao Social&quot; string, &quot;Nome Fantasia&quot; string, &quot;Codigo CNAE&quot; integer, &quot;Codigo Natureza Juridica&quot; integer DELIMITER '&#x9;' HEADER) AS A"/>
+        <nested xsi:type="transformation:SqlTransformation" xmi:uuid="mmuuid:c972857c-ffb4-44c8-a095-177da621d12a" selectSql="SELECT&#xa;&#x9;&#x9;A.CNPJ, A.&quot;Razao Social&quot; AS razaoSocial, A.&quot;Nome Fantasia&quot; AS nomeFantasia, A.&quot;Codigo CNAE&quot; AS codigoCNAE, A.&quot;Codigo Natureza Juridica&quot; AS codigoNaturezaJuridica, 'BR' AS codigoPais&#xa;&#x9;FROM&#xa;&#x9;&#x9;(EXEC CNPJSource.getTextFiles('CNPJ.csv')) AS f, TEXTTABLE(f.file COLUMNS CNPJ string, &quot;Razao Social&quot; string, &quot;Nome Fantasia&quot; string, &quot;Codigo CNAE&quot; integer, &quot;Codigo Natureza Juridica&quot; integer DELIMITER '&#x9;' HEADER) AS A"/>
         <aliases xmi:uuid="mmuuid:a8f23c9c-c42c-493e-badf-d45568691785" alias="getTextFiles">
           <aliasedObject href="../sources/CNPJSource.xmi#mmuuid/28367980-ea87-4861-9cef-9740f388c9f5"/>
         </aliases>
@@ -481,11 +481,12 @@
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:df25e783-9d92-4e3d-9e5a-3c795c3eaeae" outputs="mmuuid/a14ff584-4413-497b-805e-4bb606e5caa5"/>
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:2ebc7db8-1020-4eab-b324-f8f579b540b3" outputs="mmuuid/728e994e-41b8-44ae-9d45-be599f38511b"/>
       <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:319820f4-add6-44af-9cbf-2a191adc7240" outputs="mmuuid/f11cd304-6449-46b0-ae85-1ebff6e3d527"/>
+      <nested xsi:type="transformation:TransformationMapping" xmi:uuid="mmuuid:a467bc91-7162-464c-9864-b5aee153fba6" outputs="mmuuid/708f150b-571b-4f76-bb3d-d135690004f3"/>
       <inputs href="../sources/CNPJSource.xmi#mmuuid/28367980-ea87-4861-9cef-9740f388c9f5"/>
     </transformationMappings>
   </transformation:TransformationContainer>
   <relational:BaseTable xmi:uuid="mmuuid:0910282e-b18e-4145-a466-d5dfcdc61b4c" name="CNPJ" supportsUpdate="false">
-    <columns xmi:uuid="mmuuid:640e45d7-529d-4d4d-9dff-32a24c4518c1" name="cnpj" nameInSource="CNPJ" length="4000" defaultValue="" updateable="false">
+    <columns xmi:uuid="mmuuid:640e45d7-529d-4d4d-9dff-32a24c4518c1" name="cnpj" nameInSource="CNPJ" length="4000" defaultValue="" updateable="false" uniqueKeys="mmuuid/a4ef1296-22fb-49b7-b186-4820e5a15a3d">
       <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
     <columns xmi:uuid="mmuuid:140841a0-b1c8-42b3-8fac-91da794420d6" name="razaoSocial" nameInSource="&quot;Razao Social&quot;" length="4000" defaultValue="" updateable="false">
@@ -500,5 +501,9 @@
     <columns xmi:uuid="mmuuid:f11cd304-6449-46b0-ae85-1ebff6e3d527" name="codigoNaturezaJuridica" nameInSource="&quot;Codigo Natureza Juridica&quot;" length="10" defaultValue="" updateable="false">
       <type href="http://www.w3.org/2001/XMLSchema#int"/>
     </columns>
+    <columns xmi:uuid="mmuuid:708f150b-571b-4f76-bb3d-d135690004f3" name="codigoPais" length="10">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <primaryKey xmi:uuid="mmuuid:a4ef1296-22fb-49b7-b186-4820e5a15a3d" name="pk" columns="mmuuid/640e45d7-529d-4d4d-9dff-32a24c4518c1"/>
   </relational:BaseTable>
 </xmi:XMI>
