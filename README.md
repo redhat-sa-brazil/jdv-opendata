@@ -7,16 +7,24 @@ The data was gathered in [Portal da Transparência](http://www.portaldatranspare
 
 The datasource consists in:
 * One Postgresql database table
-	* Natureza Jurídica - Legal type of a company in Brazil
-		* [schema.sql](./database/postgresql/schema.sql)
+	* [schema.sql](./database/postgresql/schema.sql) - Natureza Jurídica - Legal type of a company in Brazil
 * Two CSV files
-	* Classificação Nacional de Atividades Econômicas - Economic activities of Brazilian companies
-		* [CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv)
-	* Cadastro Nacional da Pessoa Jurídica - List of Brazilian companies
-		* [CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv)
+	* [CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv) - Classificação Nacional de Atividades Econômicas - Economic activities of Brazilian companies
+	* [CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv) - Cadastro Nacional da Pessoa Jurídica - List of Brazilian companies
 * One SOAP Webservice
-	* Country Info Service
-		* [WSDL](http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl)
+	* [Country Info Service](http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl)
+
+There are two types of installations. See bellow the instructions for each one:
+* [Standalone Deployment (EAP)](#standalone-deployment-eap)
+* [xPaaS Deployment (Openshift 3.5)](#xpaas-deployment-openshift-35)
+
+# Standalone Deployment (EAP)
+
+## Overview
+Used folders:
+* src
+* files
+* database
 
 ## Source Code
 The project source code is in [src](./src) directory and consists in a JBoss Developer Studio 8.1.0 GA Teiid Model Project. It has:
@@ -26,10 +34,6 @@ The project source code is in [src](./src) directory and consists in a JBoss Dev
 	* Models for the sources, with joins and materialized view tables
 * VDB
 	* It generates the VDB file [OpenData.vdb](./src/OpenData.vdb).
-
-
-
-# Standalone Deployment (EAP)
 
 
 ## Database setup
@@ -122,28 +126,26 @@ You can test your VDB using the following SQL statements:
 
 ## OData test
 You can test your VDB via OData using the following URLs:
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+* [URL Sample #01](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
+* [URL Sample #02](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+* [URL Sample #03](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
+* [URL Sample #04](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+* [URL Sample #05](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
+* [URL Sample #06](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+* [URL Sample #07](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+* [URL Sample #08](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
 
 
 
 # xPaaS Deployment (Openshift 3.5)
 
-
-configuration/standalone-openshift.xml
-deployments/OpenData.vdb
-deployments/OpenData.vdb.dodeploy
-files/FavorecidosGastosDiretos/CNAE.csv
-files/FavorecidosGastosDiretos/CNPJ.csv
-
-
+## Overview
+Used folders:
+* configuration
+* files
+* database
+* deployments
 
 ## Project setup
 Create a new Openshift project. Example: jdv-opendata
@@ -236,13 +238,13 @@ If you are using Openshift via a Virtual Machine, you need to create an entry in
 
 ## OData test
 You can test your VDB via OData using the following URLs:
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-* [http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
+* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
+* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
+* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
 
