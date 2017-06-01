@@ -125,15 +125,15 @@ You can test your VDB using the following SQL statements:
 * select * from CountryName where sCountryISOCode = 'BR';
 
 ## OData test
-You can test your VDB via OData using the following URLs:
-* [URL Sample #01](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
-* [URL Sample #02](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-* [URL Sample #03](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
-* [URL Sample #04](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-* [URL Sample #05](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
-* [URL Sample #06](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-* [URL Sample #07](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-* [URL Sample #08](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+You can test your VDB via OData using the following URLs (login with teiidUser/redhat@123):
+* [URL Sample #01](http://localhost:8080/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
+* [URL Sample #02](http://localhost:8080/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+* [URL Sample #03](http://localhost:8080/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
+* [URL Sample #04](http://localhost:8080/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+* [URL Sample #05](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
+* [URL Sample #06](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+* [URL Sample #07](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+* [URL Sample #08](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
 
 
@@ -148,8 +148,22 @@ Used folders:
 * deployments
 
 ## Project setup
-Create a new Openshift project. Example: jdv-opendata
+Login in oc cli:
+```
+oc login openshift.example.com:8443 -u demo -p r3dh4t1!
+```
+
+Create a new Openshift project via web browser. Example: jdv-opendata
 ![Project setup](/files/png/01.png?raw=true "Project setup")
+
+
+After, you need to setup the security constraints:
+```
+oc create serviceaccount datavirt-service-account
+oc policy add-role-to-user view system:serviceaccount:jdv-opendata:datavirt-service-account
+oc secrets new datavirt-app-config datasources.env
+oc secrets link datavirt-service-account datavirt-app-config
+```
 
 ## Postgresql 9.5 Image setup
 * Add to Project
@@ -171,7 +185,7 @@ Create a new Openshift project. Example: jdv-opendata
 
 * Create Route
 	* ![Postgresql 9.5 Image setup](/files/png/06.png?raw=true "Postgresql 9.5 Image setup")
-	* Click in Ok
+	* Click in Create
 
 ## Database setup
 To create and populate the database table, just run the script [schema.sql](./database/postgresql/schema.sql) using the connection created above.
@@ -237,14 +251,14 @@ If you are using Openshift via a Virtual Machine, you need to create an entry in
 ```
 
 ## OData test
-You can test your VDB via OData using the following URLs:
-* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
-* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
-* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
-* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+You can test your VDB via OData using the following URLs (login with teiidUser/redhat@123):
+* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
+* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
+* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
+* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
 
