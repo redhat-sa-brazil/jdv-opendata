@@ -130,6 +130,11 @@ You can test your VDB via OData using the following URLs:
 * [http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
 
+
+
+
+
+
 http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache?$format=JSON
 http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache(1023)?$format=JSON
 
