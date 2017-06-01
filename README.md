@@ -27,10 +27,14 @@ The project source code is in [src](./src) directory and consists in a JBoss Dev
 * VDB
 	* It generates the VDB file [OpenData.vdb](./src/OpenData.vdb).
 
-## Database setup
 
-## EAP Deployment
-In order to deploy the [OpenData.vdb](./src/OpenData.vdb) file, it is necessary to have the following resources created in EAP:
+# Standalone Deployment (EAP)
+
+## Database setup
+To create and populate the database table, just run the script [schema.sql](./database/postgresql/schema.sql)
+
+## EAP setup
+It is necessary to have the following resources created in EAP:
 * Datasource
 	* jndi-name="java:/NaturezaJuridica"
 		* Example (change the URL/username/password as needed):
@@ -93,6 +97,52 @@ In order to deploy the [OpenData.vdb](./src/OpenData.vdb) file, it is necessary 
 		            </connection-definitions>
 		        </resource-adapter>
 		    ```
+
+## EAP Deployment
+Copy the file [OpenData.vdb](./src/OpenData.vdb) to deployment folder of your EAP instance.
+
+## JDBC setup
+The VDB will be available at this URL: [jdbc:teiid:OpenData@mm://localhost:31000](jdbc:teiid:OpenData@mm://localhost:31000).
+
+## JDBC test
+You can test your VDB using the following SQL statements:
+* select * from NaturezaJuridica;
+* select * from NaturezaJuridicaCache;
+* select * from CNPJ;
+* select * from CNPJCache;
+* select * from CNAE;
+* select * from CNAECache;
+* select * from Empresas;
+* select * from EmpresasCache;
+* select * from FavorecidosGastosDiretos;
+* select * from FavorecidosGastosDiretosCache;
+* select * from CountryName where sCountryISOCode = 'BR';
+
+## OData test
+You can test your VDB via OData using the following URLs:
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON]([http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON]([http://localhost:8080/odata/FavorecidosGastosDiretos.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+* [http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON](http://localhost:8080/odata/FavorecidosGastosDiretos.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+
+
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache?$format=JSON
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache(1023)?$format=JSON
+
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAECache?$format=JSON
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAECache(codigoSecao='A',codigoSubclasse=111301)?$format=JSON
+
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJCache?$format=JSON
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJCache('100160000102')?$format=JSON
+
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretosCache?$format=JSON
+http://datavirt-app-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretosCache('119123000146')?$format=JSON
+
+
 
 
 
