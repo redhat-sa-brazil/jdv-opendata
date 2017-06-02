@@ -15,128 +15,8 @@ The datasource consists in:
 	* [Country Info Service](http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl)
 
 There are two types of installations. See bellow the instructions for each one:
-* [Standalone Deployment (EAP)](#standalone-deployment-eap)
 * [xPaaS Deployment (Openshift 3.5)](#xpaas-deployment-openshift-35)
-
-# Standalone Deployment (EAP)
-
-## Overview
-Used folders:
-* src
-* files
-* database
-
-## Source Code
-The project source code is in [src](./src) directory and consists in a JBoss Developer Studio 8.1.0 GA Teiid Model Project. It has:
-* Sources
-	* For CSV files, Postgresql database and WebService
-* Views
-	* Models for the sources, with joins and materialized view tables
-* VDB
-	* It generates the VDB file [OpenData.vdb](./src/OpenData.vdb).
-
-
-## Database setup
-To create and populate the database table, just run the script [schema.sql](./database/postgresql/schema.sql)
-
-## EAP setup
-It is necessary to have the following resources created in EAP:
-* Datasource
-	* jndi-name="java:/NaturezaJuridica"
-		* Example (change the URL/username/password as needed):
-		    ```
-		        <datasource jndi-name="java:/NaturezaJuridica" pool-name="NaturezaJuridica" enabled="true">
-		            <connection-url>jdbc:postgresql://postgresql:5432/redhat</connection-url>
-		            <driver>postgresql</driver>
-		            <security>
-		                <user-name>redhat</user-name>
-		                <password>redhat@123</password>
-		            </security>
-		        </datasource>
-		    ```
-* Resource Adapter
-	* resource-adapter id="CNPJSource"
-		* Example (change the Path/file name as needed):
-		    ```
-		        <resource-adapter id="CNPJSource">
-		            <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-		            <transaction-support>NoTransaction</transaction-support>
-		            <connection-definitions>
-		                <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNPJSource" enabled="true" pool-name="CNPJSource">
-		                    <config-property name="ParentDirectory">
-		                        /home/jboss/source/files/FavorecidosGastosDiretos
-		                    </config-property>
-		                </connection-definition>
-		            </connection-definitions>
-		        </resource-adapter>
-		    ```
-	* resource-adapter id="CNAESource"
-		* Example (change the Path/file name as needed):
-		    ```
-		        <resource-adapter id="CNAESource">
-		            <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
-		            <transaction-support>NoTransaction</transaction-support>
-		            <connection-definitions>
-		                <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNAESource" enabled="true" pool-name="CNAESource">
-		                    <config-property name="ParentDirectory">
-		                        /home/jboss/source/files/FavorecidosGastosDiretos
-		                    </config-property>
-		                </connection-definition>
-		            </connection-definitions>
-		        </resource-adapter>
-		    ```
-	* resource-adapter id="CountrySource"
-		* Example (change the URL name as needed):
-		    ```
-		        <resource-adapter id="CountrySource">
-		            <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
-		            <transaction-support>NoTransaction</transaction-support>
-		            <connection-definitions>
-		                <connection-definition class-name="org.teiid.resource.adapter.ws.WSManagedConnectionFactory" jndi-name="java:/CountrySource" enabled="true" pool-name="CountrySource">
-		                    <config-property name="SecurityType">
-		                        None
-		                    </config-property>
-		                    <config-property name="EndPoint">
-		                        http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
-		                    </config-property>
-		                </connection-definition>
-		            </connection-definitions>
-		        </resource-adapter>
-		    ```
-
-## EAP Deployment
-Copy the file [OpenData.vdb](./src/OpenData.vdb) to deployment folder of your EAP instance.
-
-## JDBC setup
-The VDB will be available at this URL: [jdbc:teiid:OpenData@mm://localhost:31000](jdbc:teiid:OpenData@mm://localhost:31000).
-
-## JDBC test
-You can test your VDB using the following SQL statements:
-* select * from NaturezaJuridica;
-* select * from NaturezaJuridicaCache;
-* select * from CNPJ;
-* select * from CNPJCache;
-* select * from CNAE;
-* select * from CNAECache;
-* select * from Empresas;
-* select * from EmpresasCache;
-* select * from FavorecidosGastosDiretos;
-* select * from FavorecidosGastosDiretosCache;
-* select * from CountryName where sCountryISOCode = 'BR';
-
-## OData test
-You can test your VDB via OData using the following URLs (login with teiidUser/redhat@123):
-* [URL Sample #01](http://localhost:8080/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
-* [URL Sample #02](http://localhost:8080/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-* [URL Sample #03](http://localhost:8080/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
-* [URL Sample #04](http://localhost:8080/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-* [URL Sample #05](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
-* [URL Sample #06](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-* [URL Sample #07](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-* [URL Sample #08](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
-
-
-
+* [Standalone Deployment (EAP)](#standalone-deployment-eap)
 
 # xPaaS Deployment (Openshift 3.5)
 
@@ -278,4 +158,122 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 * [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
 * [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
+
+
+# Standalone Deployment (EAP)
+
+## Overview
+Used folders:
+* src
+* files
+* database
+
+## Source Code
+The project source code is in [src](./src) directory and consists in a JBoss Developer Studio 8.1.0 GA Teiid Model Project. It has:
+* Sources
+	* For CSV files, Postgresql database and WebService
+* Views
+	* Models for the sources, with joins and materialized view tables
+* VDB
+	* It generates the VDB file [OpenData.vdb](./src/OpenData.vdb).
+
+
+## Database setup
+To create and populate the database table, just run the script [schema.sql](./database/postgresql/schema.sql)
+
+## EAP setup
+It is necessary to have the following resources created in EAP:
+* Datasource
+	* jndi-name="java:/NaturezaJuridica"
+		* Example (change the URL/username/password as needed):
+		    ```
+		        <datasource jndi-name="java:/NaturezaJuridica" pool-name="NaturezaJuridica" enabled="true">
+		            <connection-url>jdbc:postgresql://postgresql:5432/redhat</connection-url>
+		            <driver>postgresql</driver>
+		            <security>
+		                <user-name>redhat</user-name>
+		                <password>redhat@123</password>
+		            </security>
+		        </datasource>
+		    ```
+* Resource Adapter
+	* resource-adapter id="CNPJSource"
+		* Example (change the Path/file name as needed):
+		    ```
+		        <resource-adapter id="CNPJSource">
+		            <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
+		            <transaction-support>NoTransaction</transaction-support>
+		            <connection-definitions>
+		                <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNPJSource" enabled="true" pool-name="CNPJSource">
+		                    <config-property name="ParentDirectory">
+		                        /home/jboss/source/files/FavorecidosGastosDiretos
+		                    </config-property>
+		                </connection-definition>
+		            </connection-definitions>
+		        </resource-adapter>
+		    ```
+	* resource-adapter id="CNAESource"
+		* Example (change the Path/file name as needed):
+		    ```
+		        <resource-adapter id="CNAESource">
+		            <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
+		            <transaction-support>NoTransaction</transaction-support>
+		            <connection-definitions>
+		                <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNAESource" enabled="true" pool-name="CNAESource">
+		                    <config-property name="ParentDirectory">
+		                        /home/jboss/source/files/FavorecidosGastosDiretos
+		                    </config-property>
+		                </connection-definition>
+		            </connection-definitions>
+		        </resource-adapter>
+		    ```
+	* resource-adapter id="CountrySource"
+		* Example (change the URL name as needed):
+		    ```
+		        <resource-adapter id="CountrySource">
+		            <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
+		            <transaction-support>NoTransaction</transaction-support>
+		            <connection-definitions>
+		                <connection-definition class-name="org.teiid.resource.adapter.ws.WSManagedConnectionFactory" jndi-name="java:/CountrySource" enabled="true" pool-name="CountrySource">
+		                    <config-property name="SecurityType">
+		                        None
+		                    </config-property>
+		                    <config-property name="EndPoint">
+		                        http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+		                    </config-property>
+		                </connection-definition>
+		            </connection-definitions>
+		        </resource-adapter>
+		    ```
+
+## EAP Deployment
+Copy the file [OpenData.vdb](./src/OpenData.vdb) to deployment folder of your EAP instance.
+
+## JDBC setup
+The VDB will be available at this URL: [jdbc:teiid:OpenData@mm://localhost:31000](jdbc:teiid:OpenData@mm://localhost:31000).
+
+## JDBC test
+You can test your VDB using the following SQL statements:
+* select * from NaturezaJuridica;
+* select * from NaturezaJuridicaCache;
+* select * from CNPJ;
+* select * from CNPJCache;
+* select * from CNAE;
+* select * from CNAECache;
+* select * from Empresas;
+* select * from EmpresasCache;
+* select * from FavorecidosGastosDiretos;
+* select * from FavorecidosGastosDiretosCache;
+* select * from CountryName where sCountryISOCode = 'BR';
+
+## OData test
+You can test your VDB via OData using the following URLs (login with teiidUser/redhat@123):
+* [URL Sample #01](http://localhost:8080/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
+* [URL Sample #02](http://localhost:8080/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+* [URL Sample #03](http://localhost:8080/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
+* [URL Sample #04](http://localhost:8080/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+* [URL Sample #05](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
+* [URL Sample #06](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+* [URL Sample #07](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+* [URL Sample #08](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
