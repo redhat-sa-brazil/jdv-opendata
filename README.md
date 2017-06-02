@@ -25,10 +25,10 @@ There are two types of installations. See bellow the instructions for each one:
 Used folders/files:
 * [configuration/standalone-openshift](./configuration/standalone-openshift)
 	* Final EAP configuration file. Defines:
-		* Datasource: jndi-name="java:/NaturezaJuridica"
-		* Resource Adapter: resource-adapter id="CNPJSource"
-		* Resource Adapter: resource-adapter id="CNAESource"
-		* Resource Adapter: resource-adapter id="CountrySource"]
+		* Datasource: java:/NaturezaJuridica
+		* Resource Adapter: CNPJSource
+		* Resource Adapter: CNAESource
+		* Resource Adapter: CountrySource
 	* There are alternative ways to configure the datasources and resource adapters:
 		* CLI script
 			* Not tested
@@ -159,6 +159,10 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 * [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
 * [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
+
+## Useful links
+* [https://github.com/cvanball/jdv-ose-demo](https://github.com/cvanball/jdv-ose-demo)
+* [https://github.com/jboss-openshift/openshift-quickstarts/tree/master/datavirt/dynamicvdb-datafederation](https://github.com/jboss-openshift/openshift-quickstarts/tree/master/datavirt/dynamicvdb-datafederation)
 
 
 # Standalone Deployment (EAP)
