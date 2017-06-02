@@ -18,6 +18,7 @@ There are two types of installations. See bellow the instructions for each one:
 * [xPaaS Deployment (Openshift 3.5)](#xpaas-deployment-openshift-35)
 * [Standalone Deployment (EAP)](#standalone-deployment-eap)
 
+
 # xPaaS Deployment (Openshift 3.5)
 
 ## Overview
