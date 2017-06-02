@@ -31,7 +31,7 @@ There are two types of installations. See bellow the instructions for each one:
 
 ## Overview
 Used folders/files:
-* [configuration/standalone-openshift](./configuration/standalone-openshift)
+* [configuration/standalone-openshift.xml](./configuration/standalone-openshift.xml)
 	* Final EAP configuration file. Defines:
 		* Datasource: java:/NaturezaJuridica
 		* Resource Adapter: CNPJSource
@@ -158,15 +158,32 @@ If you are using Openshift via a Virtual Machine, you need to create an entry in
 ```
 
 ## OData test
+
 You can test your VDB via OData using the following URLs (login with teiidUser/redhat@123):
-* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON)
-* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
-* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
-* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+
+* Host datavirt-app-jdv-opendata.cloudapps.example.com
+	* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON) | 
+	* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+	* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
+	* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+	* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
+	* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+	* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+	* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+
+
+* Host datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br
+	* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON) | 
+	* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
+	* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
+	* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+	* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
+	* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
+	* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
+	* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+
+
+
 
 
 ## Useful links
