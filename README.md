@@ -11,14 +11,14 @@ The datasource consists in:
 	<p align="center"><img src="/files/png/104.png?raw=true"></p>
 * Two CSV files
 	* [CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv) - Classificação Nacional de Atividades Econômicas - Economic activities of Brazilian companies
-![Overview](/files/png/100.png?raw=true "Overview")
+	<p align="center"><img src="/files/png/100.png?raw=true"></p>
 	* [CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv) - Cadastro Nacional da Pessoa Jurídica - List of Brazilian companies
 * One SOAP Webservice
-![Overview](/files/png/101.png?raw=true "Overview")
+	<p align="center"><img src="/files/png/101.png?raw=true"></p>
 	* [Country Info Service](http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl)
-![Overview](/files/png/102.png?raw=true "Overview")
+	<p align="center"><img src="/files/png/102.png?raw=true"></p>
 * Canonical model
-![Overview](/files/png/103.png?raw=true "Overview")
+	<p align="center"><img src="/files/png/103.png?raw=true"></p>
 
 There are two types of installations. See bellow the instructions for each one:
 * [xPaaS Deployment (Openshift 3.5)](#xpaas-deployment-openshift-35)
@@ -58,7 +58,7 @@ oc login openshift.example.com:8443 -u demo -p r3dh4t1!
 ```
 
 Create a new Openshift project via web browser. Example: jdv-opendata
-![Project setup](/files/png/01.png?raw=true "Project setup")
+<p align="center"><img src="/files/png/01.png?raw=true"></p>
 
 
 After, you need to setup the security constraints:
@@ -71,10 +71,10 @@ oc secrets link datavirt-service-account datavirt-app-config
 
 ## Postgresql 9.5 Image setup
 * Add to Project
-	* ![Postgresql 9.5 Image setup](/files/png/02.png?raw=true "Postgresql 9.5 Image setup")
+	<p align="center"><img src="/files/png/02.png?raw=true"></p>
 * Browse Catalog
 	* Search for: postgresql-persistent 
-	* ![Postgresql 9.5 Image setup](/files/png/03.png?raw=true "Postgresql 9.5 Image setup")
+	<p align="center"><img src="/files/png/03.png?raw=true"></p>
 	* Click in Select
 * Image setup
 	* Database Service Name: postgresql
@@ -82,13 +82,13 @@ oc secrets link datavirt-service-account datavirt-app-config
 	* PostgreSQL Connection Password: redhat@123
 	* PostgreSQL Database Name: redhat
 	* Click in Create
-	* ![Postgresql 9.5 Image setup](/files/png/04.png?raw=true "Postgresql 9.5 Image setup")
+	<p align="center"><img src="/files/png/04.png?raw=true"></p>
 
 * Continue to overview
-	* ![Postgresql 9.5 Image setup](/files/png/05.png?raw=true "Postgresql 9.5 Image setup")
+	<p align="center"><img src="/files/png/05.png?raw=true"></p>
 
 * Create Route
-	* ![Postgresql 9.5 Image setup](/files/png/06.png?raw=true "Postgresql 9.5 Image setup")
+	<p align="center"><img src="/files/png/06.png?raw=true"></p>
 	* Click in Create
 
 ## Database setup
@@ -99,15 +99,15 @@ If you are using Openshift via a Virtual Machine, you need to create a port-forw
 oc get pods
 oc port-forward <POSTGRESQL-POD-NAME> 15432:5432 &
 ```
-![Database setup](/files/png/07.png?raw=true "Database setup")
+<p align="center"><img src="/files/png/07.png?raw=true"></p>
 
 
 ## JBoss Data Virtualization 6.3 Image setup
 * Add to Project
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/08.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
+	<p align="center"><img src="/files/png/08.png?raw=true"></p>
 * Browse Catalog
 	* Search for: datavirt63-basic-s2i 
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/09.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
+	<p align="center"><img src="/files/png/09.png?raw=true"></p>
 	* Click in Select
 * Image setup
 	* Application Name: datavirt-app
@@ -118,12 +118,12 @@ oc port-forward <POSTGRESQL-POD-NAME> 15432:5432 &
 	* ModeShape Username: modeShape
 	* ModeShape User Password: redhat@123
 	* Click in Create
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/10.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/11.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/12.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/13.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
+	<p align="center"><img src="/files/png/10.png?raw=true"></p>
+	<p align="center"><img src="/files/png/11.png?raw=true"></p>
+	<p align="center"><img src="/files/png/12.png?raw=true"></p>
+	<p align="center"><img src="/files/png/13.png?raw=true"></p>
 * Continue to overview
-	* ![JBoss Data Virtualization 6.3 Image setup](/files/png/14.png?raw=true "JBoss Data Virtualization 6.3 Image setup")
+	<p align="center"><img src="/files/png/14.png?raw=true"></p>
 
 ## Database connection
 If you are using Openshift via a Virtual Machine, you need to create a port-forward in order to access your service:
@@ -131,7 +131,7 @@ If you are using Openshift via a Virtual Machine, you need to create a port-forw
 oc get pods
 oc port-forward <JDV-OPENDATA-POD-NAME> 41000:31000 &
 ```
-![Database connection](/files/png/15.png?raw=true "Database connection")
+<p align="center"><img src="/files/png/15.png?raw=true"></p>
 
 
 ## JDBC test
