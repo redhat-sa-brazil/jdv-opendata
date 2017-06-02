@@ -8,7 +8,7 @@ The data was gathered in [Portal da Transparência](http://www.portaldatranspare
 The datasource consists in:
 * One Postgresql database table
 	* [schema.sql](./database/postgresql/schema.sql) - Natureza Jurídica - Legal type of a company in Brazil
-![Overview](/files/png/104.png?raw=true "Overview")
+	<p align="center">![Overview](/files/png/104.png?raw=true "Overview")</p>
 * Two CSV files
 	* [CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv) - Classificação Nacional de Atividades Econômicas - Economic activities of Brazilian companies
 ![Overview](/files/png/100.png?raw=true "Overview")
