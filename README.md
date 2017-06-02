@@ -8,11 +8,17 @@ The data was gathered in [Portal da Transparência](http://www.portaldatranspare
 The datasource consists in:
 * One Postgresql database table
 	* [schema.sql](./database/postgresql/schema.sql) - Natureza Jurídica - Legal type of a company in Brazil
+	* ![Overview](/files/png/104.png?raw=true "Overview")
 * Two CSV files
 	* [CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv) - Classificação Nacional de Atividades Econômicas - Economic activities of Brazilian companies
+	* ![Overview](/files/png/100.png?raw=true "Overview")
 	* [CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv) - Cadastro Nacional da Pessoa Jurídica - List of Brazilian companies
 * One SOAP Webservice
+	* ![Overview](/files/png/101.png?raw=true "Overview")
 	* [Country Info Service](http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl)
+	* ![Overview](/files/png/102.png?raw=true "Overview")
+* Canonical model
+	* ![Overview](/files/png/103.png?raw=true "Overview")
 
 There are two types of installations. See bellow the instructions for each one:
 * [xPaaS Deployment (Openshift 3.5)](#xpaas-deployment-openshift-35)
