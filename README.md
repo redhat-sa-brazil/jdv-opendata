@@ -12,9 +12,11 @@ The datasource consists in:
 * Two CSV files
 	* [CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv) - Classificação Nacional de Atividades Econômicas - Economic activities of Brazilian companies
 	<p align="center"><img src="/files/png/100.png?raw=true"></p>
+
 	* [CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv) - Cadastro Nacional da Pessoa Jurídica - List of Brazilian companies
 * One SOAP Webservice
 	<p align="center"><img src="/files/png/101.png?raw=true"></p>
+
 	* [Country Info Service](http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl)
 	<p align="center"><img src="/files/png/102.png?raw=true"></p>
 * Canonical model
