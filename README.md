@@ -1,7 +1,7 @@
 # JDV Open Data
 
 ## Overview
-This simple project uses JBoss Data Virtualization to expose data in Open Data format.
+This simple project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format.
 
 The data was gathered in [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=FavorecidosGastosDiretos#meses01), a Brazilian government website that provides open data.
 
