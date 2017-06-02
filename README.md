@@ -1,7 +1,7 @@
 # JDV Open Data
 
 ## Overview
-This simple project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format.
+This project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format.
 
 The data was gathered in [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=FavorecidosGastosDiretos#meses01), a Brazilian government website that provides open data.
 
@@ -22,41 +22,23 @@ The datasource consists in:
 * Canonical model
 	<p align="center"><img src="/files/png/103.png?raw=true"></p>
 
-There are two types of installations. See bellow the instructions for each one:
+There are two types of installations:
 * [xPaaS Deployment (Openshift 3.5)](#xpaas-deployment-openshift-35)
 * [Standalone Deployment (EAP)](#standalone-deployment-eap)
 
 
 # xPaaS Deployment (Openshift 3.5)
 
-## Overview
-Used folders/files:
-* [configuration/standalone-openshift.xml](./configuration/standalone-openshift.xml)
-	* Final EAP configuration file. Defines:
-		* Datasource: java:/NaturezaJuridica
-		* Resource Adapter: CNPJSource
-		* Resource Adapter: CNAESource
-		* Resource Adapter: CountrySource
-	* There are alternative ways to configure the datasources and resource adapters:
-		* CLI script
-			* Not tested
-		* Environment variables defined in: [database/datasources.env](./database/datasources.env) 
-			* Did not work in my tests
-* [files/FavorecidosGastosDiretos/CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv)
-* [files/FavorecidosGastosDiretos/CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv)
-* [database/datasources.env](./database/datasources.env)
-	* Used for security constraints and to define environment variables.
-	* As is, it is not useful, but does not work without it. Maybe if the security constraint was dropped. Test needed to validate.
-* [database/postgresql/schema.sql](./database/postgresql/schema.sql)
-* [deployments/OpenData.vdb](./deployments/OpenData.vdb)
-	* Will be copied to EAP deployment folder. If you change the source and generate a new VDB, copy the new file to this folder.
-* [deployments/OpenData.vdb.dodeploy](./deployments/OpenData.vdb.dodeploy)
-	* Will be copied to EAP deployment folder and will trigger the deployment of the VDB file.
+## Requirements
+* Openshift Container Platform 3.5
+* OC command line interface
+* JDBC client 
+
 
 ## Project setup
 Login in oc cli:
 ```
-oc login openshift.example.com:8443 -u demo -p r3dh4t1!
+oc login <OPENSHIFT URL> -u <USER> -p <PASSWORD>
 ```
 
 Create a new Openshift project via web browser. Example: jdv-opendata
@@ -79,7 +61,7 @@ oc secrets link datavirt-service-account datavirt-app-config
 	* Search for: postgresql-persistent 
 	<p align="center"><img src="/files/png/03.png?raw=true"></p>
 	* Click in Select
-* Image setup
+* Image setup. Set the following fields:
 	* Database Service Name: postgresql
 	* PostgreSQL Connection Username: redhat
 	* PostgreSQL Connection Password: redhat@123
@@ -90,17 +72,17 @@ oc secrets link datavirt-service-account datavirt-app-config
 * Continue to overview
 	<p align="center"><img src="/files/png/05.png?raw=true"></p>
 
-* Create Route
+* Create Route. Don't change any field.
 	<p align="center"><img src="/files/png/06.png?raw=true"></p>
 	* Click in Create
 
 ## Database setup
 To create and populate the database table, just run the script [schema.sql](./database/postgresql/schema.sql) using the connection created above.
 
-If you are using Openshift via a Virtual Machine, you need to create a port-forward in order to access your service:
+You can use a port-forward in order to access your service:
 ```
 oc get pods
-oc port-forward <POSTGRESQL-POD-NAME> 15432:5432 &
+oc port-forward <POSTGRESQL-POD-NAME> 15432:5432
 ```
 <p align="center"><img src="/files/png/07.png?raw=true"></p>
 
@@ -112,7 +94,7 @@ oc port-forward <POSTGRESQL-POD-NAME> 15432:5432 &
 	* Search for: datavirt63-basic-s2i 
 	<p align="center"><img src="/files/png/09.png?raw=true"></p>
 	* Click in Select
-* Image setup
+* Image setup. Set the following fields:
 	* Application Name: datavirt-app
 	* Git Repository URL: https://github.com/kerdlix/jdv-opendata
 	* Context Directory: /
@@ -129,11 +111,12 @@ oc port-forward <POSTGRESQL-POD-NAME> 15432:5432 &
 	<p align="center"><img src="/files/png/14.png?raw=true"></p>
 
 ## Database connection
-If you are using Openshift via a Virtual Machine, you need to create a port-forward in order to access your service:
+You can use a port-forward in order to access your service:
 ```
 oc get pods
-oc port-forward <JDV-OPENDATA-POD-NAME> 41000:31000 &
+oc port-forward <JDV-OPENDATA-POD-NAME> 41000:31000
 ```
+Use teiidUser/redhat@123 to connect do JBoss Data Virtualization.
 <p align="center"><img src="/files/png/15.png?raw=true"></p>
 
 
@@ -183,6 +166,28 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 	* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
 
 
+## Folder/files overview
+* [configuration/standalone-openshift.xml](./configuration/standalone-openshift.xml)
+	* Final EAP configuration file. Defines:
+		* Datasource: java:/NaturezaJuridica
+		* Resource Adapter: CNPJSource
+		* Resource Adapter: CNAESource
+		* Resource Adapter: CountrySource
+	* There are alternative ways to configure the datasources and resource adapters:
+		* CLI script
+			* Not tested
+		* Environment variables defined in: [database/datasources.env](./database/datasources.env) 
+			* Did not work in my tests
+* [files/FavorecidosGastosDiretos/CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv)
+* [files/FavorecidosGastosDiretos/CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv)
+* [database/datasources.env](./database/datasources.env)
+	* Used for security constraints and to define environment variables.
+	* As is, it is not useful, but does not work without it. Maybe if the security constraint was dropped. Test needed to validate.
+* [database/postgresql/schema.sql](./database/postgresql/schema.sql)
+* [deployments/OpenData.vdb](./deployments/OpenData.vdb)
+	* Will be copied to EAP deployment folder. If you change the source and generate a new VDB, copy the new file to this folder.
+* [deployments/OpenData.vdb.dodeploy](./deployments/OpenData.vdb.dodeploy)
+	* Will be copied to EAP deployment folder and will trigger the deployment of the VDB file.
 
 
 
@@ -191,15 +196,24 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 * [https://github.com/jboss-openshift/openshift-quickstarts/tree/master/datavirt/dynamicvdb-datafederation](https://github.com/jboss-openshift/openshift-quickstarts/tree/master/datavirt/dynamicvdb-datafederation)
 * [https://blog.openshift.com/create-s2i-builder-image/](https://blog.openshift.com/create-s2i-builder-image/)
 * [https://github.com/openshift/source-to-image/blob/master/docs/cli.md](https://github.com/openshift/source-to-image/blob/master/docs/cli.md)
+* [https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_data_virtualization_for_openshift/](https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_data_virtualization_for_openshift/)
+* [https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_enterprise_application_platform_for_openshift/](https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_enterprise_application_platform_for_openshift/)
+* [https://developers.redhat.com/blog/2016/12/06/red-hat-jboss-data-virtualization-on-openshift-part-1-getting-started/](https://developers.redhat.com/blog/2016/12/06/red-hat-jboss-data-virtualization-on-openshift-part-1-getting-started/)
+
+
+## Possible improvements
+* Use environment variables to create datasources and resources adapters (instead of using standalon-openshift.xml file)
+* Externalize the internal cache to JBoss Data Grid
+* Use 3Scale to control the Open Data API
+
 
 
 # Standalone Deployment (EAP)
 
-## Overview
-Used folders:
-* src
-* files
-* database
+## Requirements
+* JBoss Developer Studio 8.1.0 with Teiid plugin
+* JDK 1.8+
+* JBoss EAP 6.4+
 
 ## Source Code
 The project source code is in [src](./src) directory and consists in a JBoss Developer Studio 8.1.0 GA Teiid Model Project. It has:
@@ -309,4 +323,10 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 * [URL Sample #06](http://localhost:8080/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
 * [URL Sample #07](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
 * [URL Sample #08](http://localhost:8080/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+
+## Folder/files overview
+Used folders:
+* src
+* files
+* database
 
