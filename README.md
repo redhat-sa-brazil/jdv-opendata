@@ -49,7 +49,7 @@ Used folders/files:
 	* As is, it is not useful, but does not work without it. Maybe if the security constraint was dropped. Test needed to validate.
 * [database/postgresql/schema.sql](./database/postgresql/schema.sql)
 * [deployments/OpenData.vdb](./deployments/OpenData.vdb)
-	* Will be copied to EAP deployment folder.
+	* Will be copied to EAP deployment folder. If you change the source and generate a new VDB, copy the new file to this folder.
 * [deployments/OpenData.vdb.dodeploy](./deployments/OpenData.vdb.dodeploy)
 	* Will be copied to EAP deployment folder and will trigger the deployment of the VDB file.
 
@@ -65,9 +65,10 @@ Create a new Openshift project via web browser. Example: jdv-opendata
 
 After, you need to setup the security constraints:
 ```
+oc project jdv-opendata
 oc create serviceaccount datavirt-service-account
 oc policy add-role-to-user view system:serviceaccount:jdv-opendata:datavirt-service-account
-oc secrets new datavirt-app-config datasources.env
+oc secrets new datavirt-app-config ./database/datasources.env
 oc secrets link datavirt-service-account datavirt-app-config
 ```
 
@@ -171,6 +172,8 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 ## Useful links
 * [https://github.com/cvanball/jdv-ose-demo](https://github.com/cvanball/jdv-ose-demo)
 * [https://github.com/jboss-openshift/openshift-quickstarts/tree/master/datavirt/dynamicvdb-datafederation](https://github.com/jboss-openshift/openshift-quickstarts/tree/master/datavirt/dynamicvdb-datafederation)
+* [https://blog.openshift.com/create-s2i-builder-image/](https://blog.openshift.com/create-s2i-builder-image/)
+* [https://github.com/openshift/source-to-image/blob/master/docs/cli.md](https://github.com/openshift/source-to-image/blob/master/docs/cli.md)
 
 
 # Standalone Deployment (EAP)
