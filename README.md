@@ -141,11 +141,28 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 # xPaaS Deployment (Openshift 3.5)
 
 ## Overview
-Used folders:
-* configuration
-* files
-* database
-* deployments
+Used folders/files:
+* [configuration/standalone-openshift](./configuration/standalone-openshift)
+	* Final EAP configuration file. Defines:
+		* Datasource: jndi-name="java:/NaturezaJuridica"
+		* Resource Adapter: resource-adapter id="CNPJSource"
+		* Resource Adapter: resource-adapter id="CNAESource"
+		* Resource Adapter: resource-adapter id="CountrySource"]
+	* There are alternative ways to configure the datasources and resource adapters:
+		* CLI script
+			* Not tested
+		* Environment variables defined in: [database/datasources.env](./database/datasources.env) 
+			* Did not work in my tests
+* [files/FavorecidosGastosDiretos/CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv)
+* [files/FavorecidosGastosDiretos/CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv)
+* [database/datasources.env](./database/datasources.env)
+	* Used for security constraints and to define environment variables.
+	* As is, it is not useful, but does not work without it. Maybe if the security constraint was dropped. Test needed to validate.
+* [database/postgresql/schema.sql](./database/postgresql/schema.sql)
+* [deployments/OpenData.vdb](./deployments/OpenData.vdb)
+	* Will be copied to EAP deployment folder.
+* [deployments/OpenData.vdb.dodeploy](./deployments/OpenData.vdb.dodeploy)
+	* Will be copied to EAP deployment folder and will trigger the deployment of the VDB file.
 
 ## Project setup
 Login in oc cli:
