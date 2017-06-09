@@ -1,7 +1,9 @@
 # JDV Open Data
 
 ## Overview
-This project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format.
+This project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format. Tim Berners-Lee, the inventor of the Web and Linked Data initiator, suggested a 5-star deployment scheme for Open Data: 
+<p align="center"><img src="http://5stardata.info/images/5-star-steps.png"></p>
+
 
 The data was gathered in [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=FavorecidosGastosDiretos#meses01), a Brazilian government website that provides open data.
 
@@ -34,6 +36,7 @@ There are two types of installations:
 * Openshift Container Platform 3.5
 * OC command line interface
 * JDBC client 
+* Git clone of this project
 
 
 ## Project setup
@@ -200,6 +203,7 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 * [https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_data_virtualization_for_openshift/](https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_data_virtualization_for_openshift/)
 * [https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_enterprise_application_platform_for_openshift/](https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_enterprise_application_platform_for_openshift/)
 * [https://developers.redhat.com/blog/2016/12/06/red-hat-jboss-data-virtualization-on-openshift-part-1-getting-started/](https://developers.redhat.com/blog/2016/12/06/red-hat-jboss-data-virtualization-on-openshift-part-1-getting-started/)
+* [http://www.cgu.gov.br/assuntos/transparencia-publica/escala-brasil-transparente/dados-abertos](http://www.cgu.gov.br/assuntos/transparencia-publica/escala-brasil-transparente/dados-abertos)
 
 
 ## Possible improvements
