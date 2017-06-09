@@ -1,9 +1,10 @@
 # JDV Open Data
 
 ## Overview
-This project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format. Tim Berners-Lee, the inventor of the Web and Linked Data initiator, suggested a 5-star deployment scheme for Open Data: 
+Tim Berners-Lee, the inventor of the Web and Linked Data initiator, suggested a [5-star deployment scheme for Open Data](http://5stardata.info/en/): 
 <p align="center"><img src="http://5stardata.info/images/5-star-steps.png"></p>
 
+This project uses JBoss Data Virtualization to expose data in [Open Data](http://www.odata.org) format to achieve the 5 star rating. 
 
 The data was gathered in [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=FavorecidosGastosDiretos#meses01), a Brazilian government website that provides open data.
 
