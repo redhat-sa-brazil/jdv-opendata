@@ -157,14 +157,14 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 
 
 * Host datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br
-	* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON) 
-	* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-	* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
-	* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-	* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
-	* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-	* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-	* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
+	* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache?$format=JSON) 
+	* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache(1023)?$format=JSON)
+	* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNAEModel.CNAECache?$format=JSON)
+	* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNAEModel.CNAECache(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
+	* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNPJModel.CNPJCache?$format=JSON)
+	* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/CNPJModel.CNPJCache('100160000102')?$format=JSON)
+	* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretosCache?$format=JSON)
+	* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretosCache('119123000146')?$format=JSON)
 
 
 ## Folder/files overview
