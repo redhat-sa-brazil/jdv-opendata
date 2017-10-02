@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<server xmlns="urn:jboss:domain:1.7">
+<server xmlns="urn:jboss:domain:1.8">
     <extensions>
         <extension module="org.jboss.as.clustering.infinispan"/>
         <extension module="org.jboss.as.clustering.jgroups"/>
@@ -69,7 +69,7 @@
             <native-interface security-realm="ManagementRealm">
                 <socket-binding native="management-native"/>
             </native-interface>
-            <http-interface security-realm="ManagementRealm">
+            <http-interface console-enabled="false">
                 <socket-binding http="management-http"/>
             </http-interface>
         </management-interfaces>
@@ -90,13 +90,6 @@
                     <named-formatter name="COLOR-PATTERN"/>
                 </formatter>
             </console-handler>
-            <async-handler name="ASYNC">
-                <queue-length value="512"/>
-                <overflow-action value="block"/>
-                <subhandlers>
-                    <handler name="CONSOLE"/>
-                </subhandlers>
-            </async-handler>
             <logger category="com.arjuna">
                 <level name="WARN"/>
             </logger>
@@ -118,7 +111,7 @@
             <root-logger>
                 <level name="INFO"/>
                 <handlers>
-                    <handler name="ASYNC"/>
+                    <handler name="CONSOLE"/>
                 </handlers>
             </root-logger>
             <formatter name="OPENSHIFT">
@@ -144,6 +137,18 @@
                     </security>
                 </datasource>
 
+
+                <datasource jta="true" jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true"> <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url> <driver>h2</driver> <security> <user-name>sa</user-name> <password>sa</password> </security> </datasource><!-- ##DATASOURCES## -->
+                <datasource jndi-name="java:/datasources/ModeShapeDS" pool-name="ModeShapeDS" enabled="true" use-java-context="true">
+                    <connection-url>jdbc:jcr:jndi:jcr?repositoryName=dv</connection-url>
+                    <connection-property name="teiidsupport">
+                        true
+                    </connection-property>
+                    <driver>modeshape</driver>
+                    <security>
+                        <security-domain>encrypted-modeshape</security-domain>
+                    </security>
+                </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
@@ -170,7 +175,7 @@
             </datasources>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:deployment-scanner:1.1">
-            <deployment-scanner path="deployments" relative-to="jboss.server.base.dir" scan-interval="5000" auto-deploy-exploded="false"/> 
+            <deployment-scanner path="deployments" relative-to="jboss.server.base.dir" scan-interval="5000" auto-deploy-exploded="false"/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:ee:1.2">
             <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
@@ -241,7 +246,7 @@
                 </replicated-cache>
                 <!--
                   ~  Clustered cache used internally by EJB subsytem for managing the client-mapping(s) of
-                  ~                 the socketbinding referenced by the EJB remoting connector 
+                  ~                 the socketbinding referenced by the EJB remoting connector
                   -->
                 <replicated-cache name="remote-connector-client-mappings" mode="SYNC" batching="true"/>
                 <distributed-cache name="dist" mode="ASYNC" batching="true" l1-lifespan="0">
@@ -329,13 +334,7 @@
                 <protocol type="pbcast.NAKACK"/>
                 <protocol type="UNICAST2"/>
                 <protocol type="pbcast.STABLE"/>
-                
-                <protocol type="AUTH">
-                    <property name="auth_class">org.jgroups.auth.MD5Token</property>
-                    <property name="token_hash">SHA</property>
-                    <property name="auth_value">teiidUser</property>
-                </protocol>
-
+                <!--WARNING: No password defined for JGroups cluster. AUTH protocol has been disabled. Please define JGROUPS_CLUSTER_PASSWORD. -->
                 <protocol type="pbcast.GMS"/>
                 <protocol type="UFC"/>
                 <protocol type="MFC"/>
@@ -353,13 +352,7 @@
                 <protocol type="pbcast.NAKACK"/>
                 <protocol type="UNICAST2"/>
                 <protocol type="pbcast.STABLE"/>
-                
-                <protocol type="AUTH">
-                    <property name="auth_class">org.jgroups.auth.MD5Token</property>
-                    <property name="token_hash">SHA</property>
-                    <property name="auth_value">teiidUser</property>
-                </protocol>
-
+                <!--WARNING: No password defined for JGroups cluster. AUTH protocol has been disabled. Please define JGROUPS_CLUSTER_PASSWORD. -->
                 <protocol type="pbcast.GMS"/>
                 <protocol type="UFC"/>
                 <protocol type="MFC"/>
@@ -500,7 +493,7 @@
         <subsystem xmlns="urn:jboss:domain:resource-adapters:1.1">
             <resource-adapters>
                 <!-- ##RESOURCE_ADAPTERS## -->
-                <resource-adapter id="file">
+                 <resource-adapter id="file">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
                 </resource-adapter>
                 <resource-adapter id="google">
@@ -512,15 +505,28 @@
                 <resource-adapter id="salesforce">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.salesforce"/>
                 </resource-adapter>
+                <resource-adapter id="salesforce-34">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.salesforce-34"/>
+                </resource-adapter>
                 <resource-adapter id="webservice">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.webservice"/>
                 </resource-adapter>
                 <resource-adapter id="mongodb">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.mongodb"/>
                 </resource-adapter>
+                <resource-adapter id="cassandra">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.cassandra"/>
+                </resource-adapter>
+                <resource-adapter id="simpledb">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.simpledb"/>
+                </resource-adapter>
                 <resource-adapter id="accumulo">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.accumulo"/>
                 </resource-adapter>
+                <resource-adapter id="solr">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.solr"/>
+                </resource-adapter>
+
 
                 <resource-adapter id="CNPJSource">
                     <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
@@ -558,7 +564,6 @@
                         </connection-definition>
                     </connection-definitions>
                 </resource-adapter>
-
 
             </resource-adapters>
         </subsystem>
@@ -602,13 +607,13 @@
                 <security-domain name="encrypted-modeshape">
                     <authentication>
                         <login-module code="org.picketbox.datasource.security.SecureIdentityLoginModule" flag="required">
-                            <module-option name="username" value="rCXkUq1u"/>
-                            <module-option name="password" value="-b233085842987ed108c379bf2aa8f76"/>
+                            <module-option name="username" value="##MODESHAPE_USERNAME##"/>
+                            <module-option name="password" value="##MODESHAPE_PASSWORD##"/>
                         </login-module>
                     </authentication>
                 </security-domain>
                 <!-- ##KEYCLOAK_SECURITY_DOMAIN## -->
-                <!-- no additional security domains configured --><!-- no additional security domains configured --><!-- ##ADDITIONAL_SECURITY_DOMAINS## -->
+                <!-- no additional security domains configured --><!-- ##ADDITIONAL_SECURITY_DOMAINS## -->
             </security-domains>
         </subsystem>
          <subsystem xmlns="urn:jboss:domain:threads:1.1">
@@ -630,6 +635,9 @@
             <connector name="http" protocol="HTTP/1.1" scheme="http" socket-binding="http"/>
             <!-- No HTTPS configuration discovered -->
             <virtual-server name="default-host" enable-welcome-root="false"/>
+            <valve name="accessLog" module="org.jboss.openshift" class-name="org.jboss.openshift.valves.StdoutAccessLogValve">
+                <param param-name="pattern" param-value="%h %l %u %t &quot;%r&quot; %s %b" />
+            </valve>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:webservices:1.2">
             <modify-wsdl-address>true</modify-wsdl-address>
@@ -653,19 +661,17 @@
                 <sequencers>
                     <sequencer name="delimited-text-sequencer" classname="org.modeshape.sequencer.text.DelimitedTextSequencer" module="org.modeshape.sequencer.text" splitPattern="," path-expression="/files(//*.csv[*])/jcr:content[@jcr:data] => /derived/text/delimited/$1"/>
                     <sequencer name="fixed-width-text-sequencer" classname="org.modeshape.sequencer.text.FixedWidthTextSequencer" module="org.modeshape.sequencer.text" commentMarker="#" path-expression="/files(//*.txt[*])/jcr:content[@jcr:data] => /derived/text/fixedWidth/$1"/>
-                    <sequencer name="ddl-sequencer" classname="org.modeshape.sequencer.ddl.DdlSequencer" module="org.modeshape.sequencer.ddl" path-expression="/files(//*.ddl[*])/jcr:content[@jcr:data] => /derived/ddl/$1"/>
                     <sequencer name="cnd-sequencer" classname="cnd" module="org.modeshape" path-expression="/files(//*.cnd[*])/jcr:content[@jcr:data] => /derived/cnd/$1"/>
-                    <sequencer name="teiid-model-sequencer" classname="model" module="org.modeshape.sequencer.teiid" path-expression="/files(//*.xmi[*])/jcr:content[@jcr:data] => /derived/teiid/models/$1"/>
-                    <sequencer name="teiid-vdb-sequencer" classname="vdb" module="org.modeshape.sequencer.teiid" path-expression="/files(//*.vdb[*])/jcr:content[@jcr:data] => /derived/teiid/vdbs/$1"/>
                     <sequencer name="xsd-sequencer" classname="xsd" module="org.modeshape.sequencer.xsd" path-expression="/files(//*.xsd[*])/jcr:content[@jcr:data] => /derived/xsd/$1"/>
                     <sequencer name="wsdl-sequencer" classname="wsdl" module="org.modeshape.sequencer.wsdl" path-expression="/files(//*.wsdl[*])/jcr:content[@jcr:data] => /derived/wsdl/$1"/>
                     <sequencer name="xml-sequencer" classname="xml" module="org.modeshape.sequencer.xml" path-expression="/files(//*.xml[*])/jcr:content[@jcr:data] => /derived/xml/$1"/>
                     <sequencer name="zip-sequencer" classname="zip" module="org.modeshape.sequencer.zip" path-expression="/files(//*.zip[*])/jcr:content[@jcr:data] => /derived/zip/$1"/>
+                    <sequencer name="teiid-ddl-sequencer" classname="org.teiid.modeshape.sequencer.ddl.TeiidDdlSequencer" module="org.jboss.teiid.modeshape.sequencer.ddl" path-expression="/files(//*.ddl[*])/jcr:content[@jcr:data] => /derived/ddl/$1"/>
+                    <sequencer name="teiid-model-sequencer" classname="org.teiid.modeshape.sequencer.vdb.model.ModelSequencer" module="org.jboss.teiid.modeshape.sequencer.vdb" path-expression="/files(//*.xmi[*])/jcr:content[@jcr:data] => /derived/teiid/models/$1"/>
+                    <sequencer name="teiid-vdb-sequencer" classname="org.teiid.modeshape.sequencer.vdb.VdbSequencer" module="org.jboss.teiid.modeshape.sequencer.vdb" path-expression="/files(//*.vdb[*])/jcr:content[@jcr:data] => /derived/teiid/vdbs/$1"/>
                 </sequencers>
             </repository>
             <webapp name="modeshape-rest.war"/>
-            <webapp name="modeshape-webdav.war"/>
-            <webapp name="modeshape-cmis.war"/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:teiid:1.0">
             <async-thread-pool>teiid-async</async-thread-pool>
@@ -700,6 +706,7 @@
             <translator name="greenplum" module="org.jboss.teiid.translator.jdbc"/>
             <translator name="sqlserver" module="org.jboss.teiid.translator.jdbc"/>
             <translator name="sybase" module="org.jboss.teiid.translator.jdbc"/>
+            <translator name="sybaseiq" module="org.jboss.teiid.translator.jdbc"/>
             <translator name="teiid" module="org.jboss.teiid.translator.jdbc"/>
             <translator name="teradata" module="org.jboss.teiid.translator.jdbc"/>
             <translator name="modeshape" module="org.jboss.teiid.translator.jdbc"/>
@@ -713,9 +720,11 @@
             <translator name="olap" module="org.jboss.teiid.translator.olap"/>
             <translator name="ws" module="org.jboss.teiid.translator.ws"/>
             <translator name="salesforce" module="org.jboss.teiid.translator.salesforce"/>
+            <translator name="salesforce-34" module="org.jboss.teiid.translator.salesforce" slot="34"/>
             <translator name="hive" module="org.jboss.teiid.translator.hive"/>
             <translator name="google-spreadsheet" module="org.jboss.teiid.translator.google"/>
             <translator name="odata" module="org.jboss.teiid.translator.odata"/>
+            <translator name="sap-gateway" module="org.jboss.teiid.translator.odata"/>
             <translator name="sap-nw-gateway" module="org.jboss.teiid.translator.odata"/>
             <translator name="mongodb" module="org.jboss.teiid.translator.mongodb"/>
             <translator name="cassandra" module="org.jboss.teiid.translator.cassandra"/>
@@ -723,13 +732,22 @@
             <translator name="solr" module="org.jboss.teiid.translator.solr"/>
             <translator name="excel" module="org.jboss.teiid.translator.excel"/>
             <translator name="impala" module="org.jboss.teiid.translator.hive"/>
+            <translator name="prestodb" module="org.jboss.teiid.translator.prestodb"/>
             <translator name="hbase" module="org.jboss.teiid.translator.hbase"/>
             <translator name="hana" module="org.jboss.teiid.translator.jdbc"/>
-            
+            <translator name="vertica" module="org.jboss.teiid.translator.jdbc"/>
+            <translator name="actian-vector" module="org.jboss.teiid.translator.jdbc"/>
+            <translator name="osisoft-pi" module="org.jboss.teiid.translator.jdbc"/>
+            <translator name="odata4" module="org.jboss.teiid.translator.odata4"/>
+            <translator name="redshift" module="org.jboss.teiid.translator.jdbc"/>
+            <translator name="jpa2" module="org.jboss.teiid.translator.jpa"/>
+            <translator name="ucanaccess" module="org.jboss.teiid.translator.jdbc"/>
+            <translator name="simpledb" module="org.jboss.teiid.translator.simpledb"/>
+
             <translator name="infinispan-cache-dsl" module="org.jboss.teiid.translator.infinispan.dsl"/>
             <translator name="infinispan-cache" module="org.jboss.teiid.translator.infinispan.cache"/>
 
-            <!-- ##TEIID_TRANSLATORS## --> 
+            <!-- ##TEIID_TRANSLATORS## -->
         </subsystem>
     </profile>
     <interfaces>
@@ -746,7 +764,7 @@
         <interface name="unsecure">
             <!--
               ~  Used for IIOP sockets in the standard configuration.
-              ~                  To secure JacORB you need to setup SSL 
+              ~                  To secure JacORB you need to setup SSL
               -->
             <inet-address value="${jboss.bind.address.unsecure:127.0.0.1}"/>
         </interface>
@@ -774,7 +792,7 @@
         </outbound-socket-binding>
     </socket-binding-group>
 
-    <deployments>
+    <!--deployments>
         <deployment name="ModeShape.vdb" runtime-name="ModeShape.vdb">
             <fs-exploded path="dataVirtualization/vdb/ModeShape.vdb/" relative-to="jboss.home.dir"/>
         </deployment>
@@ -784,6 +802,6 @@
         <deployment name="teiid-olingo-odata4.war" runtime-name="teiid-olingo-odata4.war">
             <fs-exploded path="dataVirtualization/vdb/teiid-olingo-odata4.war/" relative-to="jboss.home.dir"/>
         </deployment>
-    </deployments>
+    </deployments-->
 
 </server>
