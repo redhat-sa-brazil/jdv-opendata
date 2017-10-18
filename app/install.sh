@@ -1,4 +1,5 @@
 #!/bin/bash
 
-cp ${source_dir}/databases $JBOSS_HOME/standalone/databases -R
+echo TESTE!!!
+cp -r ${source_dir}/databases $JBOSS_HOME/standalone/databases
 

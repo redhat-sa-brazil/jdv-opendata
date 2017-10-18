@@ -1,0 +1,1302 @@
+Codigo Secao	Descricao Secao	Codigo Subclasse	Descricao Subclasse
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111301	Cultivo de arroz
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111302	Cultivo de milho
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111303	Cultivo de trigo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111399	Cultivo de outros cereais nao especificados anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	112101	Cultivo de algodao herbaceo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	112102	Cultivo de juta
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	112199	Cultivo de outras fibras de lavoura temporaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	113000	Cultivo de cana-de-acucar
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	114800	Cultivo de fumo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	115600	Cultivo de soja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116401	Cultivo de amendoim
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116402	Cultivo de girassol
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116403	Cultivo de mamona
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116499	Cultivo de outras oleaginosas de lavoura temporaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119901	Cultivo de abacaxi
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119902	Cultivo de alho
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119903	Cultivo de batata-inglesa
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119904	Cultivo de cebola
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119905	Cultivo de feijao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119906	Cultivo de mandioca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119907	Cultivo de melao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119908	Cultivo de melancia
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119909	Cultivo de tomate rasteiro
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119999	Cultivo de outras plantas de lavoura temporaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	121101	Horticultura, exceto morango
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	121102	Cultivo de morango
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	122900	Cultivo de flores e plantas ornamentais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	131800	Cultivo de laranja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	132600	Cultivo de uva
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133401	Cultivo de acai
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133402	Cultivo de banana
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133403	Cultivo de caju
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133404	Cultivo de citricos, exceto laranja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133405	Cultivo de coco-da-baia
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133406	Cultivo de guarana
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133407	Cultivo de maca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133408	Cultivo de mamao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133409	Cultivo de maracuja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133410	Cultivo de manga
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133411	Cultivo de pessego
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133499	Cultivo de frutas de lavoura permanente nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	134200	Cultivo de cafe
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	135100	Cultivo de cacau
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139301	Cultivo de cha-da-india
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139302	Cultivo de erva-mate
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139303	Cultivo de pimenta-do-reino
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139304	Cultivo de plantas para condimento, exceto pimenta-do-reino
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139305	Cultivo de dende
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139306	Cultivo de seringueira
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139399	Cultivo de outras plantas de lavoura permanente nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	141501	Producao de sementes certificadas, exceto de forrageiras para pasto
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	141502	Producao de sementes certificadas de forrageiras para formacao de pasto
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	142300	Producao de mudas e outras formas de propagacao vegetal, certificadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	151201	Criacao de bovinos para corte
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	151202	Criacao de bovinos para leite
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	151203	Criacao de bovinos, exceto para corte e leite
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	152101	Criacao de bufalinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	152102	Criacao de equinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	152103	Criacao de asininos e muares
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	153901	Criacao de caprinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	153902	Criacao de ovinos, inclusive para producao de la
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	154700	Criacao de suinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155501	Criacao de frangos para corte
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155502	Producao de pintos de um dia
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155503	Criacao de outros galinaceos, exceto para corte
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155504	Criacao de aves, exceto galinaceos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155505	Producao de ovos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159801	Apicultura
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159802	Criacao de animais de estimacao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159803	Criacao de escargo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159804	Criacao de bicho-da-seda
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159899	Criacao de outros animais nao especificados anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161001	Servico de pulverizacao e controle de pragas agricolas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161002	Servico de poda de arvores para lavouras
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161003	Servico de preparacao de terreno, cultivo e colheita
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161099	Atividades de apoio a agricultura nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162801	Servico de inseminacao artificial em animais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162802	Servico de tosquiamento de ovinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162803	Servico de manejo de animais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162899	Atividades de apoio a pecuaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	163600	Atividades de pos-colheita
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	170900	Caca e servicos relacionados
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210101	Cultivo de eucalipto
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210102	Cultivo de acacia-negra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210103	Cultivo de pinus
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210104	Cultivo de teca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210105	Cultivo de especies madeireiras, exceto eucalipto, acacia-negra, pinus e teca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210106	Cultivo de mudas em viveiros florestais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210107	Extracao de madeira em florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210108	Producao de carvao vegetal - florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210109	Producao de casca de acacia-negra - florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210199	Producao de produtos nao-madeireiros nao especificados anteriormente em florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220901	Extracao de madeira em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220902	Producao de carvao vegetal - florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220903	Coleta de castanha-do-para em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220904	Coleta de latex em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220905	Coleta de palmito em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220906	Conservacao de florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220999	Coleta de produtos nao-madeireiros nao especificados anteriormente em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	230600	Atividades de apoio a producao florestal
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311601	Pesca de peixes em agua salgada
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311602	Pesca de crustaceos e moluscos em agua salgada
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311603	Coleta de outros produtos marinhos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311604	Atividades de apoio a pesca em agua salgada
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312401	Pesca de peixes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312402	Pesca de crustaceos e moluscos em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312403	Coleta de outros produtos aquaticos de agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312404	Atividades de apoio a pesca em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321301	Criacao de peixes em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321302	Criacao de camaroes em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321303	Criacao de ostras e mexilhoes em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321304	Criacao de peixes ornamentais em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321305	Atividades de apoio a aquicultura em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321399	Cultivos e semicultivos da aquicultura em agua salgada e salobra nao especificados anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322101	Criacao de peixes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322102	Criacao de camaroes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322103	Criacao de ostras e mexilhoes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322104	Criacao de peixes ornamentais em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322105	Ranicultura
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322106	Criacao de jacare
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322107	Atividades de apoio a aquicultura em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322199	Cultivos e semicultivos da aquicultura em agua doce nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	500301	Extracao de carvao mineral
+B	INDUSTRIAS EXTRATIVAS	500302	Beneficiamento de carvao mineral
+B	INDUSTRIAS EXTRATIVAS	600001	Extracao de petroleo e gas natural
+B	INDUSTRIAS EXTRATIVAS	600002	Extracao e beneficiamento de xisto
+B	INDUSTRIAS EXTRATIVAS	600003	Extracao e beneficiamento de areias betuminosas
+B	INDUSTRIAS EXTRATIVAS	710301	Extracao de minerio de ferro
+B	INDUSTRIAS EXTRATIVAS	710302	Pelotizacao, sinterizacao e outros beneficiamentos de minerio de ferro
+B	INDUSTRIAS EXTRATIVAS	721901	Extracao de minerio de aluminio
+B	INDUSTRIAS EXTRATIVAS	721902	Beneficiamento de minerio de aluminio
+B	INDUSTRIAS EXTRATIVAS	722701	Extracao de minerio de estanho
+B	INDUSTRIAS EXTRATIVAS	722702	Beneficiamento de minerio de estanho
+B	INDUSTRIAS EXTRATIVAS	723501	Extracao de minerio de manganes
+B	INDUSTRIAS EXTRATIVAS	723502	Beneficiamento de minerio de manganes
+B	INDUSTRIAS EXTRATIVAS	724301	Extracao de minerio de metais preciosos
+B	INDUSTRIAS EXTRATIVAS	724302	Beneficiamento de minerio de metais preciosos
+B	INDUSTRIAS EXTRATIVAS	725100	Extracao de minerais radioativos
+B	INDUSTRIAS EXTRATIVAS	729401	Extracao de minerios de niobio e titanio
+B	INDUSTRIAS EXTRATIVAS	729402	Extracao de minerio de tungstenio
+B	INDUSTRIAS EXTRATIVAS	729403	Extracao de minerio de niquel
+B	INDUSTRIAS EXTRATIVAS	729404	Extracao de minerios de cobre, chumbo, zinco e outros minerais metalicos nao-ferrosos nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	729405	Beneficiamento de minerios de cobre, chumbo, zinco e outros minerais metalicos nao-ferrosos nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	810001	Extracao de ardosia e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810002	Extracao de granito e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810003	Extracao de marmore e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810004	Extracao de calcario e dolomita e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810005	Extracao de gesso e caulim
+B	INDUSTRIAS EXTRATIVAS	810006	Extracao de areia, cascalho ou pedregulho e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810007	Extracao de argila e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810008	Extracao de saibro e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810009	Extracao de basalto e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810010	Beneficiamento de gesso e caulim associado a extracao
+B	INDUSTRIAS EXTRATIVAS	810099	Extracao e britamento de pedras e outros materiais para construcao e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	891600	Extracao de minerais para fabricacao de adubos, fertilizantes e outros produtos quimicos
+B	INDUSTRIAS EXTRATIVAS	892401	Extracao de sal marinho
+B	INDUSTRIAS EXTRATIVAS	892402	Extracao de sal-gema
+B	INDUSTRIAS EXTRATIVAS	892403	Refino e outros tratamentos do sal
+B	INDUSTRIAS EXTRATIVAS	893200	Extracao de gemas (pedras preciosas e semipreciosas)
+B	INDUSTRIAS EXTRATIVAS	899101	Extracao de grafita
+B	INDUSTRIAS EXTRATIVAS	899102	Extracao de quartzo
+B	INDUSTRIAS EXTRATIVAS	899103	Extracao de amianto
+B	INDUSTRIAS EXTRATIVAS	899199	Extracao de outros minerais nao-metalicos nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	910600	Atividades de apoio a extracao de petroleo e gas natural
+B	INDUSTRIAS EXTRATIVAS	990401	Atividades de apoio a extracao de minerio de ferro
+B	INDUSTRIAS EXTRATIVAS	990402	Atividades de apoio a extracao de minerais metalicos nao-ferrosos
+B	INDUSTRIAS EXTRATIVAS	990403	Atividades de apoio a extracao de minerais nao-metalicos
+C	INDUSTRIAS DE TRANSFORMACAO	1011201	Frigorifico - abate de bovinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011202	Frigorifico - abate de equinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011203	Frigorifico - abate de ovinos e caprinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011204	Frigorifico - abate de bufalinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011205	Matadouro - abate de reses sob contrato, exceto abate de suinos
+C	INDUSTRIAS DE TRANSFORMACAO	1012101	Abate de aves
+C	INDUSTRIAS DE TRANSFORMACAO	1012102	Abate de pequenos animais
+C	INDUSTRIAS DE TRANSFORMACAO	1012103	Frigorifico - abate de suinos
+C	INDUSTRIAS DE TRANSFORMACAO	1012104	Matadouro - abate de suinos sob contrato
+C	INDUSTRIAS DE TRANSFORMACAO	1013901	Fabricacao de produtos de carne
+C	INDUSTRIAS DE TRANSFORMACAO	1013902	Preparacao de subprodutos do abate
+C	INDUSTRIAS DE TRANSFORMACAO	1020101	Preservacao de peixes, crustaceos e moluscos
+C	INDUSTRIAS DE TRANSFORMACAO	1020102	Fabricacao de conservas de peixes, crustaceos e moluscos
+C	INDUSTRIAS DE TRANSFORMACAO	1031700	Fabricacao de conservas de frutas
+C	INDUSTRIAS DE TRANSFORMACAO	1032501	Fabricacao de conservas de palmito
+C	INDUSTRIAS DE TRANSFORMACAO	1032599	Fabricacao de conservas de legumes e outros vegetais, exceto palmito
+C	INDUSTRIAS DE TRANSFORMACAO	1033301	Fabricacao de sucos concentrados de frutas, hortalicas e legumes
+C	INDUSTRIAS DE TRANSFORMACAO	1033302	Fabricacao de sucos de frutas, hortalicas e legumes, exceto concentrados
+C	INDUSTRIAS DE TRANSFORMACAO	1041400	Fabricacao de oleos vegetais em bruto, exceto oleo de milho
+C	INDUSTRIAS DE TRANSFORMACAO	1042200	Fabricacao de oleos vegetais refinados, exceto oleo de milho
+C	INDUSTRIAS DE TRANSFORMACAO	1043100	Fabricacao de margarina e outras gorduras vegetais e de oleos nao-comestiveis de animais
+C	INDUSTRIAS DE TRANSFORMACAO	1051100	Preparacao do leite
+C	INDUSTRIAS DE TRANSFORMACAO	1052000	Fabricacao de laticinios
+C	INDUSTRIAS DE TRANSFORMACAO	1053800	Fabricacao de sorvetes e outros gelados comestiveis
+C	INDUSTRIAS DE TRANSFORMACAO	1061901	Beneficiamento de arroz
+C	INDUSTRIAS DE TRANSFORMACAO	1061902	Fabricacao de produtos do arroz
+C	INDUSTRIAS DE TRANSFORMACAO	1062700	Moagem de trigo e fabricacao de derivados
+C	INDUSTRIAS DE TRANSFORMACAO	1063500	Fabricacao de farinha de mandioca e derivados
+C	INDUSTRIAS DE TRANSFORMACAO	1064300	Fabricacao de farinha de milho e derivados, exceto oleos de milho
+C	INDUSTRIAS DE TRANSFORMACAO	1065101	Fabricacao de amidos e feculas de vegetais
+C	INDUSTRIAS DE TRANSFORMACAO	1065102	Fabricacao de oleo de milho em bruto
+C	INDUSTRIAS DE TRANSFORMACAO	1065103	Fabricacao de oleo de milho refinado
+C	INDUSTRIAS DE TRANSFORMACAO	1066000	Fabricacao de alimentos para animais
+C	INDUSTRIAS DE TRANSFORMACAO	1069400	Moagem e fabricacao de produtos de origem vegetal nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1071600	Fabricacao de acucar em bruto
+C	INDUSTRIAS DE TRANSFORMACAO	1072401	Fabricacao de acucar de cana refinado
+C	INDUSTRIAS DE TRANSFORMACAO	1072402	Fabricacao de acucar de cereais (dextrose) e de beterraba
+C	INDUSTRIAS DE TRANSFORMACAO	1081301	Beneficiamento de cafe
+C	INDUSTRIAS DE TRANSFORMACAO	1081302	Torrefacao e moagem de cafe
+C	INDUSTRIAS DE TRANSFORMACAO	1082100	Fabricacao de produtos a base de cafe
+C	INDUSTRIAS DE TRANSFORMACAO	1091100	Fabricacao de produtos de panificacao
+C	INDUSTRIAS DE TRANSFORMACAO	1092900	Fabricacao de biscoitos e bolachas
+C	INDUSTRIAS DE TRANSFORMACAO	1093701	Fabricacao de produtos derivados do cacau e de chocolates
+C	INDUSTRIAS DE TRANSFORMACAO	1093702	Fabricacao de frutas cristalizadas, balas e semelhantes
+C	INDUSTRIAS DE TRANSFORMACAO	1094500	Fabricacao de massas alimenticias
+C	INDUSTRIAS DE TRANSFORMACAO	1095300	Fabricacao de especiarias, molhos, temperos e condimentos
+C	INDUSTRIAS DE TRANSFORMACAO	1096100	Fabricacao de alimentos e pratos prontos
+C	INDUSTRIAS DE TRANSFORMACAO	1099601	Fabricacao de vinagres
+C	INDUSTRIAS DE TRANSFORMACAO	1099602	Fabricacao de pos alimenticios
+C	INDUSTRIAS DE TRANSFORMACAO	1099603	Fabricacao de fermentos e leveduras
+C	INDUSTRIAS DE TRANSFORMACAO	1099604	Fabricacao de gelo comum
+C	INDUSTRIAS DE TRANSFORMACAO	1099605	Fabricacao de produtos para infusao (cha, mate, etc.)
+C	INDUSTRIAS DE TRANSFORMACAO	1099606	Fabricacao de adocantes naturais e artificiais
+C	INDUSTRIAS DE TRANSFORMACAO	1099699	Fabricacao de outros produtos alimenticios nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1111901	Fabricacao de aguardente de cana-de-acucar
+C	INDUSTRIAS DE TRANSFORMACAO	1111902	Fabricacao de outras aguardentes e bebidas destiladas
+C	INDUSTRIAS DE TRANSFORMACAO	1112700	Fabricacao de vinho
+C	INDUSTRIAS DE TRANSFORMACAO	1113501	Fabricacao de malte, inclusive malte uisque
+C	INDUSTRIAS DE TRANSFORMACAO	1113502	Fabricacao de cervejas e chopes
+C	INDUSTRIAS DE TRANSFORMACAO	1121600	Fabricacao de aguas envasadas
+C	INDUSTRIAS DE TRANSFORMACAO	1122401	Fabricacao de refrigerantes
+C	INDUSTRIAS DE TRANSFORMACAO	1122402	Fabricacao de cha mate e outros chas prontos para consumo
+C	INDUSTRIAS DE TRANSFORMACAO	1122403	Fabricacao de refrescos, xaropes e pos para refrescos, exceto refrescos de frutas
+C	INDUSTRIAS DE TRANSFORMACAO	1122499	Fabricacao de outras bebidas nao-alcoolicas nao especificadas anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1210700	Processamento industrial do fumo
+C	INDUSTRIAS DE TRANSFORMACAO	1220401	Fabricacao de cigarros
+C	INDUSTRIAS DE TRANSFORMACAO	1220402	Fabricacao de cigarrilhas e charutos
+C	INDUSTRIAS DE TRANSFORMACAO	1220403	Fabricacao de filtros para cigarros
+C	INDUSTRIAS DE TRANSFORMACAO	1220499	Fabricacao de outros produtos do fumo, exceto cigarros, cigarrilhas e charutos
+C	INDUSTRIAS DE TRANSFORMACAO	1311100	Preparacao e fiacao de fibras de algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1312000	Preparacao e fiacao de fibras texteis naturais, exceto algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1313800	Fiacao de fibras artificiais e sinteticas
+C	INDUSTRIAS DE TRANSFORMACAO	1314600	Fabricacao de linhas para costurar e bordar
+C	INDUSTRIAS DE TRANSFORMACAO	1321900	Tecelagem de fios de algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1322700	Tecelagem de fios de fibras texteis naturais, exceto algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1323500	Tecelagem de fios de fibras artificiais e sinteticas
+C	INDUSTRIAS DE TRANSFORMACAO	1330800	Fabricacao de tecidos de malha
+C	INDUSTRIAS DE TRANSFORMACAO	1340501	Estamparia e texturizacao em fios, tecidos, artefatos texteis e pecas do vestuario
+C	INDUSTRIAS DE TRANSFORMACAO	1340502	Alvejamento, tingimento e torcao em fios, tecidos, artefatos texteis e pecas do vestuario
+C	INDUSTRIAS DE TRANSFORMACAO	1340599	Outros servicos de acabamento em fios, tecidos, artefatos texteis e pecas do vestuario
+C	INDUSTRIAS DE TRANSFORMACAO	1351100	Fabricacao de artefatos texteis para uso domestico
+C	INDUSTRIAS DE TRANSFORMACAO	1352900	Fabricacao de artefatos de tapecaria
+C	INDUSTRIAS DE TRANSFORMACAO	1353700	Fabricacao de artefatos de cordoaria
+C	INDUSTRIAS DE TRANSFORMACAO	1354500	Fabricacao de tecidos especiais, inclusive artefatos
+C	INDUSTRIAS DE TRANSFORMACAO	1359600	Fabricacao de outros produtos texteis nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1411801	Confeccao de roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1411802	Faccao de roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1412601	Confeccao de pecas do vestuario, exceto roupas intimas e as confeccionadas sob medida
+C	INDUSTRIAS DE TRANSFORMACAO	1412602	Confeccao, sob medida, de pecas do vestuario, exceto roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1412603	Faccao de pecas do vestuario, exceto roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1413401	Confeccao de roupas profissionais, exceto sob medida
+C	INDUSTRIAS DE TRANSFORMACAO	1413402	Confeccao, sob medida, de roupas profissionais
+C	INDUSTRIAS DE TRANSFORMACAO	1413403	Faccao de roupas profissionais
+C	INDUSTRIAS DE TRANSFORMACAO	1414200	Fabricacao de acessorios do vestuario, exceto para seguranca e protecao
+C	INDUSTRIAS DE TRANSFORMACAO	1421500	Fabricacao de meias
+C	INDUSTRIAS DE TRANSFORMACAO	1422300	Fabricacao de artigos do vestuario, produzidos em malharias e tricotagens, exceto meias
+C	INDUSTRIAS DE TRANSFORMACAO	1510600	Curtimento e outras preparacoes de couro
+C	INDUSTRIAS DE TRANSFORMACAO	1521100	Fabricacao de artigos para viagem, bolsas e semelhantes de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	1529700	Fabricacao de artefatos de couro nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1531901	Fabricacao de calcados de couro
+C	INDUSTRIAS DE TRANSFORMACAO	1531902	Acabamento de calcados de couro sob contrato
+C	INDUSTRIAS DE TRANSFORMACAO	1532700	Fabricacao de tenis de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	1533500	Fabricacao de calcados de material sintetico
+C	INDUSTRIAS DE TRANSFORMACAO	1539400	Fabricacao de calcados de materiais nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1540800	Fabricacao de partes para calcados, de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	1610201	Serrarias com desdobramento de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	1610202	Serrarias sem desdobramento de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	1621800	Fabricacao de madeira laminada e de chapas de madeira compensada, prensada e aglomerada
+C	INDUSTRIAS DE TRANSFORMACAO	1622601	Fabricacao de casas de madeira pre-fabricadas
+C	INDUSTRIAS DE TRANSFORMACAO	1622602	Fabricacao de esquadrias de madeira e de pecas de madeira para instalacoes industriais e comerciais
+C	INDUSTRIAS DE TRANSFORMACAO	1622699	Fabricacao de outros artigos de carpintaria para construcao
+C	INDUSTRIAS DE TRANSFORMACAO	1623400	Fabricacao de artefatos de tanoaria e de embalagens de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	1629301	Fabricacao de artefatos diversos de madeira, exceto moveis
+C	INDUSTRIAS DE TRANSFORMACAO	1629302	Fabricacao de artefatos diversos de cortica, bambu, palha, vime e outros materiais trancados, exceto moveis
+C	INDUSTRIAS DE TRANSFORMACAO	1710900	Fabricacao de celulose e outras pastas para a fabricacao de papel
+C	INDUSTRIAS DE TRANSFORMACAO	1721400	Fabricacao de papel
+C	INDUSTRIAS DE TRANSFORMACAO	1722200	Fabricacao de cartolina e papel-cartao
+C	INDUSTRIAS DE TRANSFORMACAO	1731100	Fabricacao de embalagens de papel
+C	INDUSTRIAS DE TRANSFORMACAO	1732000	Fabricacao de embalagens de cartolina e papel-cartao
+C	INDUSTRIAS DE TRANSFORMACAO	1733800	Fabricacao de chapas e de embalagens de papelao ondulado
+C	INDUSTRIAS DE TRANSFORMACAO	1741901	Fabricacao de formularios continuos
+C	INDUSTRIAS DE TRANSFORMACAO	1741902	Fabricacao de produtos de papel, cartolina, papel-cartao e papelao ondulado para uso comercial e de escritorio, exceto formulario continuo
+C	INDUSTRIAS DE TRANSFORMACAO	1742701	Fabricacao de fraldas descartaveis
+C	INDUSTRIAS DE TRANSFORMACAO	1742702	Fabricacao de absorventes higienicos
+C	INDUSTRIAS DE TRANSFORMACAO	1742799	Fabricacao de produtos de papel para uso domestico e higienico-sanitario nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1749400	Fabricacao de produtos de pastas celulosicas, papel, cartolina, papel-cartao e papelao ondulado nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1811301	Impressao de jornais
+C	INDUSTRIAS DE TRANSFORMACAO	1811302	Impressao de livros, revistas e outras publicacoes periodicas
+C	INDUSTRIAS DE TRANSFORMACAO	1812100	Impressao de material de seguranca
+C	INDUSTRIAS DE TRANSFORMACAO	1813001	Impressao de material para uso publicitario
+C	INDUSTRIAS DE TRANSFORMACAO	1813099	Impressao de material para outros usos
+C	INDUSTRIAS DE TRANSFORMACAO	1821100	Servicos de pre-impressao
+C	INDUSTRIAS DE TRANSFORMACAO	1822900	Servicos de acabamentos graficos
+C	INDUSTRIAS DE TRANSFORMACAO	1830001	Reproducao de som em qualquer suporte
+C	INDUSTRIAS DE TRANSFORMACAO	1830002	Reproducao de video em qualquer suporte
+C	INDUSTRIAS DE TRANSFORMACAO	1830003	Reproducao de software em qualquer suporte
+C	INDUSTRIAS DE TRANSFORMACAO	1910100	Coquerias
+C	INDUSTRIAS DE TRANSFORMACAO	1921700	Fabricacao de produtos do refino de petroleo
+C	INDUSTRIAS DE TRANSFORMACAO	1922501	Formulacao de combustiveis
+C	INDUSTRIAS DE TRANSFORMACAO	1922502	Rerrefino de oleos lubrificantes
+C	INDUSTRIAS DE TRANSFORMACAO	1922599	Fabricacao de outros produtos derivados do petroleo, exceto produtos do refino
+C	INDUSTRIAS DE TRANSFORMACAO	1931400	Fabricacao de alcool
+C	INDUSTRIAS DE TRANSFORMACAO	1932200	Fabricacao de biocombustiveis, exceto alcool
+C	INDUSTRIAS DE TRANSFORMACAO	2011800	Fabricacao de cloro e alcalis
+C	INDUSTRIAS DE TRANSFORMACAO	2012600	Fabricacao de intermediarios para fertilizantes
+C	INDUSTRIAS DE TRANSFORMACAO	2013400	Fabricacao de adubos e fertilizantes
+C	INDUSTRIAS DE TRANSFORMACAO	2014200	Fabricacao de gases industriais
+C	INDUSTRIAS DE TRANSFORMACAO	2019301	Elaboracao de combustiveis nucleares
+C	INDUSTRIAS DE TRANSFORMACAO	2019399	Fabricacao de outros produtos quimicos inorganicos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2021500	Fabricacao de produtos petroquimicos basicos
+C	INDUSTRIAS DE TRANSFORMACAO	2022300	Fabricacao de intermediarios para plastificantes, resinas e fibras
+C	INDUSTRIAS DE TRANSFORMACAO	2029100	Fabricacao de produtos quimicos organicos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2031200	Fabricacao de resinas termoplasticas
+C	INDUSTRIAS DE TRANSFORMACAO	2032100	Fabricacao de resinas termofixas
+C	INDUSTRIAS DE TRANSFORMACAO	2033900	Fabricacao de elastomeros
+C	INDUSTRIAS DE TRANSFORMACAO	2040100	Fabricacao de fibras artificiais e sinteticas
+C	INDUSTRIAS DE TRANSFORMACAO	2051700	Fabricacao de defensivos agricolas
+C	INDUSTRIAS DE TRANSFORMACAO	2052500	Fabricacao de desinfestantes domissanitarios
+C	INDUSTRIAS DE TRANSFORMACAO	2061400	Fabricacao de saboes e detergentes sinteticos
+C	INDUSTRIAS DE TRANSFORMACAO	2062200	Fabricacao de produtos de limpeza e polimento
+C	INDUSTRIAS DE TRANSFORMACAO	2063100	Fabricacao de cosmeticos, produtos de perfumaria e de higiene pessoal
+C	INDUSTRIAS DE TRANSFORMACAO	2071100	Fabricacao de tintas, vernizes, esmaltes e lacas
+C	INDUSTRIAS DE TRANSFORMACAO	2072000	Fabricacao de tintas de impressao
+C	INDUSTRIAS DE TRANSFORMACAO	2073800	Fabricacao de impermeabilizantes, solventes e produtos afins
+C	INDUSTRIAS DE TRANSFORMACAO	2091600	Fabricacao de adesivos e selantes
+C	INDUSTRIAS DE TRANSFORMACAO	2092401	Fabricacao de polvoras, explosivos e detonantes
+C	INDUSTRIAS DE TRANSFORMACAO	2092402	Fabricacao de artigos pirotecnicos
+C	INDUSTRIAS DE TRANSFORMACAO	2092403	Fabricacao de fosforos de seguranca
+C	INDUSTRIAS DE TRANSFORMACAO	2093200	Fabricacao de aditivos de uso industrial
+C	INDUSTRIAS DE TRANSFORMACAO	2094100	Fabricacao de catalisadores
+C	INDUSTRIAS DE TRANSFORMACAO	2099101	Fabricacao de chapas, filmes, papeis e outros materiais e produtos quimicos para fotografia
+C	INDUSTRIAS DE TRANSFORMACAO	2099199	Fabricacao de outros produtos quimicos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2110600	Fabricacao de produtos farmoquimicos
+C	INDUSTRIAS DE TRANSFORMACAO	2121101	Fabricacao de medicamentos alopaticos para uso humano
+C	INDUSTRIAS DE TRANSFORMACAO	2121102	Fabricacao de medicamentos homeopaticos para uso humano
+C	INDUSTRIAS DE TRANSFORMACAO	2121103	Fabricacao de medicamentos fitoterapicos para uso humano
+C	INDUSTRIAS DE TRANSFORMACAO	2122000	Fabricacao de medicamentos para uso veterinario
+C	INDUSTRIAS DE TRANSFORMACAO	2123800	Fabricacao de preparacoes farmaceuticas
+C	INDUSTRIAS DE TRANSFORMACAO	2211100	Fabricacao de pneumaticos e de camaras-de-ar
+C	INDUSTRIAS DE TRANSFORMACAO	2212900	Reforma de pneumaticos usados
+C	INDUSTRIAS DE TRANSFORMACAO	2219600	Fabricacao de artefatos de borracha nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2221800	Fabricacao de laminados planos e tubulares de material plastico
+C	INDUSTRIAS DE TRANSFORMACAO	2222600	Fabricacao de embalagens de material plastico
+C	INDUSTRIAS DE TRANSFORMACAO	2223400	Fabricacao de tubos e acessorios de material plastico para uso na construcao
+C	INDUSTRIAS DE TRANSFORMACAO	2229301	Fabricacao de artefatos de material plastico para uso pessoal e domestico
+C	INDUSTRIAS DE TRANSFORMACAO	2229302	Fabricacao de artefatos de material plastico para usos industriais
+C	INDUSTRIAS DE TRANSFORMACAO	2229303	Fabricacao de artefatos de material plastico para uso na construcao, exceto tubos e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2229399	Fabricacao de artefatos de material plastico para outros usos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2311700	Fabricacao de vidro plano e de seguranca
+C	INDUSTRIAS DE TRANSFORMACAO	2312500	Fabricacao de embalagens de vidro
+C	INDUSTRIAS DE TRANSFORMACAO	2319200	Fabricacao de artigos de vidro
+C	INDUSTRIAS DE TRANSFORMACAO	2320600	Fabricacao de cimento
+C	INDUSTRIAS DE TRANSFORMACAO	2330301	Fabricacao de estruturas pre-moldadas de concreto armado, em serie e sob encomenda
+C	INDUSTRIAS DE TRANSFORMACAO	2330302	Fabricacao de artefatos de cimento para uso na construcao
+C	INDUSTRIAS DE TRANSFORMACAO	2330303	Fabricacao de artefatos de fibrocimento para uso na construcao
+C	INDUSTRIAS DE TRANSFORMACAO	2330304	Fabricacao de casas pre-moldadas de concreto
+C	INDUSTRIAS DE TRANSFORMACAO	2330305	Preparacao de massa de concreto e argamassa para construcao
+C	INDUSTRIAS DE TRANSFORMACAO	2330399	Fabricacao de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes
+C	INDUSTRIAS DE TRANSFORMACAO	2341900	Fabricacao de produtos ceramicos refratarios
+C	INDUSTRIAS DE TRANSFORMACAO	2342701	Fabricacao de azulejos e pisos
+C	INDUSTRIAS DE TRANSFORMACAO	2342702	Fabricacao de artefatos de ceramica e barro cozido para uso na construcao, exceto azulejos e pisos
+C	INDUSTRIAS DE TRANSFORMACAO	2349401	Fabricacao de material sanitario de ceramica
+C	INDUSTRIAS DE TRANSFORMACAO	2349499	Fabricacao de produtos ceramicos nao-refratarios nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2391501	Britamento de pedras, exceto associado a extracao
+C	INDUSTRIAS DE TRANSFORMACAO	2391502	Aparelhamento de pedras para construcao, exceto associado a extracao
+C	INDUSTRIAS DE TRANSFORMACAO	2391503	Aparelhamento de placas e execucao de trabalhos em marmore, granito, ardosia e outras pedras
+C	INDUSTRIAS DE TRANSFORMACAO	2392300	Fabricacao de cal e gesso
+C	INDUSTRIAS DE TRANSFORMACAO	2399101	Decoracao, lapidacao, gravacao, vitrificacao e outros trabalhos em ceramica, louca, vidro e cristal
+C	INDUSTRIAS DE TRANSFORMACAO	2399199	Fabricacao de outros produtos de minerais nao-metalicos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2411300	Producao de ferro-gusa
+C	INDUSTRIAS DE TRANSFORMACAO	2412100	Producao de ferroligas
+C	INDUSTRIAS DE TRANSFORMACAO	2421100	Producao de semi-acabados de aco
+C	INDUSTRIAS DE TRANSFORMACAO	2422901	Producao de laminados planos de aco ao carbono, revestidos ou nao
+C	INDUSTRIAS DE TRANSFORMACAO	2422902	Producao de laminados planos de acos especiais
+C	INDUSTRIAS DE TRANSFORMACAO	2423701	Producao de tubos de aco sem costura
+C	INDUSTRIAS DE TRANSFORMACAO	2423702	Producao de laminados longos de aco, exceto tubos
+C	INDUSTRIAS DE TRANSFORMACAO	2424501	Producao de arames de aco
+C	INDUSTRIAS DE TRANSFORMACAO	2424502	Producao de relaminados, trefilados e perfilados de aco, exceto arames
+C	INDUSTRIAS DE TRANSFORMACAO	2431800	Producao de tubos de aco com costura
+C	INDUSTRIAS DE TRANSFORMACAO	2439300	Producao de outros tubos de ferro e aco
+C	INDUSTRIAS DE TRANSFORMACAO	2441501	Producao de aluminio e suas ligas em formas primarias
+C	INDUSTRIAS DE TRANSFORMACAO	2441502	Producao de laminados de aluminio
+C	INDUSTRIAS DE TRANSFORMACAO	2442300	Metalurgia dos metais preciosos
+C	INDUSTRIAS DE TRANSFORMACAO	2443100	Metalurgia do cobre
+C	INDUSTRIAS DE TRANSFORMACAO	2449101	Producao de zinco em formas primarias
+C	INDUSTRIAS DE TRANSFORMACAO	2449102	Producao de laminados de zinco
+C	INDUSTRIAS DE TRANSFORMACAO	2449103	Producao de soldas e anodos para galvanoplastia
+C	INDUSTRIAS DE TRANSFORMACAO	2449199	Metalurgia de outros metais nao-ferrosos e suas ligas nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2451200	Fundicao de ferro e aco
+C	INDUSTRIAS DE TRANSFORMACAO	2452100	Fundicao de metais nao-ferrosos e suas ligas
+C	INDUSTRIAS DE TRANSFORMACAO	2511000	Fabricacao de estruturas metalicas
+C	INDUSTRIAS DE TRANSFORMACAO	2512800	Fabricacao de esquadrias de metal
+C	INDUSTRIAS DE TRANSFORMACAO	2513600	Fabricacao de obras de caldeiraria pesada
+C	INDUSTRIAS DE TRANSFORMACAO	2521700	Fabricacao de tanques, reservatorios metalicos e caldeiras para aquecimento central
+C	INDUSTRIAS DE TRANSFORMACAO	2522500	Fabricacao de caldeiras geradoras de vapor, exceto para aquecimento central e para veiculos
+C	INDUSTRIAS DE TRANSFORMACAO	2531401	Producao de forjados de aco
+C	INDUSTRIAS DE TRANSFORMACAO	2531402	Producao de forjados de metais nao-ferrosos e suas ligas
+C	INDUSTRIAS DE TRANSFORMACAO	2532201	Producao de artefatos estampados de metal
+C	INDUSTRIAS DE TRANSFORMACAO	2532202	Metalurgia do po
+C	INDUSTRIAS DE TRANSFORMACAO	2539000	Servicos de usinagem, solda, tratamento e revestimento em metais
+C	INDUSTRIAS DE TRANSFORMACAO	2541100	Fabricacao de artigos de cutelaria
+C	INDUSTRIAS DE TRANSFORMACAO	2542000	Fabricacao de artigos de serralheria, exceto esquadrias
+C	INDUSTRIAS DE TRANSFORMACAO	2543800	Fabricacao de ferramentas
+C	INDUSTRIAS DE TRANSFORMACAO	2550101	Fabricacao de equipamento belico pesado, exceto veiculos militares de combate
+C	INDUSTRIAS DE TRANSFORMACAO	2550102	Fabricacao de armas de fogo e municoes
+C	INDUSTRIAS DE TRANSFORMACAO	2591800	Fabricacao de embalagens metalicas
+C	INDUSTRIAS DE TRANSFORMACAO	2592601	Fabricacao de produtos de trefilados de metal padronizados
+C	INDUSTRIAS DE TRANSFORMACAO	2592602	Fabricacao de produtos de trefilados de metal, exceto padronizados
+C	INDUSTRIAS DE TRANSFORMACAO	2593400	Fabricacao de artigos de metal para uso domestico e pessoal
+C	INDUSTRIAS DE TRANSFORMACAO	2599301	Servicos de confeccao de armacoes metalicas para a construcao
+C	INDUSTRIAS DE TRANSFORMACAO	2599399	Fabricacao de outros produtos de metal nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2610800	Fabricacao de componentes eletronicos
+C	INDUSTRIAS DE TRANSFORMACAO	2621300	Fabricacao de equipamentos de informatica
+C	INDUSTRIAS DE TRANSFORMACAO	2622100	Fabricacao de perifericos para equipamentos de informatica
+C	INDUSTRIAS DE TRANSFORMACAO	2631100	Fabricacao de equipamentos transmissores de comunicacao, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2632900	Fabricacao de aparelhos telefonicos e de outros equipamentos de comunicacao, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2640000	Fabricacao de aparelhos de recepcao, reproducao, gravacao e amplificacao de audio e video
+C	INDUSTRIAS DE TRANSFORMACAO	2651500	Fabricacao de aparelhos e equipamentos de medida, teste e controle
+C	INDUSTRIAS DE TRANSFORMACAO	2652300	Fabricacao de cronometros e relogios
+C	INDUSTRIAS DE TRANSFORMACAO	2660400	Fabricacao de aparelhos eletromedicos e eletroterapeuticos e equipamentos de irradiacao
+C	INDUSTRIAS DE TRANSFORMACAO	2670101	Fabricacao de equipamentos e instrumentos opticos, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2670102	Fabricacao de aparelhos fotograficos e cinematograficos, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2680900	Fabricacao de midias virgens, magneticas e opticas
+C	INDUSTRIAS DE TRANSFORMACAO	2710401	Fabricacao de geradores de corrente continua e alternada, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2710402	Fabricacao de transformadores, indutores, conversores, sincronizadores e semelhantes, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2710403	Fabricacao de motores eletricos, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2721000	Fabricacao de pilhas, baterias e acumuladores eletricos, exceto para veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2722801	Fabricacao de baterias e acumuladores para veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2722802	Recondicionamento de baterias e acumuladores para veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2731700	Fabricacao de aparelhos e equipamentos para distribuicao e controle de energia eletrica
+C	INDUSTRIAS DE TRANSFORMACAO	2732500	Fabricacao de material eletrico para instalacoes em circuito de consumo
+C	INDUSTRIAS DE TRANSFORMACAO	2733300	Fabricacao de fios, cabos e condutores eletricos isolados
+C	INDUSTRIAS DE TRANSFORMACAO	2740601	Fabricacao de lampadas
+C	INDUSTRIAS DE TRANSFORMACAO	2740602	Fabricacao de luminarias e outros equipamentos de iluminacao
+C	INDUSTRIAS DE TRANSFORMACAO	2751100	Fabricacao de fogoes, refrigeradores e maquinas de lavar e secar para uso domestico, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2759701	Fabricacao de aparelhos eletricos de uso pessoal, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2759799	Fabricacao de outros aparelhos eletrodomesticos nao especificados anteriormente, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2790201	Fabricacao de eletrodos, contatos e outros artigos de carvao e grafita para uso eletrico, eletroimas e isoladores
+C	INDUSTRIAS DE TRANSFORMACAO	2790202	Fabricacao de equipamentos para sinalizacao e alarme
+C	INDUSTRIAS DE TRANSFORMACAO	2790299	Fabricacao de outros equipamentos e aparelhos eletricos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2811900	Fabricacao de motores e turbinas, pecas e acessorios, exceto para avioes e veiculos rodoviarios
+C	INDUSTRIAS DE TRANSFORMACAO	2812700	Fabricacao de equipamentos hidraulicos e pneumaticos, pecas e acessorios, exceto valvulas
+C	INDUSTRIAS DE TRANSFORMACAO	2813500	Fabricacao de valvulas, registros e dispositivos semelhantes, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2814301	Fabricacao de compressores para uso industrial, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2814302	Fabricacao de compressores para uso nao-industrial, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2815101	Fabricacao de rolamentos para fins industriais
+C	INDUSTRIAS DE TRANSFORMACAO	2815102	Fabricacao de equipamentos de transmissao para fins industriais, exceto rolamentos
+C	INDUSTRIAS DE TRANSFORMACAO	2821601	Fabricacao de fornos industriais, aparelhos e equipamentos nao-eletricos para instalacoes termicas, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2821602	Fabricacao de estufas e fornos eletricos para fins industriais, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2822401	Fabricacao de maquinas, equipamentos e aparelhos para transporte e elevacao de pessoas, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2822402	Fabricacao de maquinas, equipamentos e aparelhos para transporte e elevacao de cargas, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2823200	Fabricacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2824101	Fabricacao de aparelhos e equipamentos de ar condicionado para uso industrial
+C	INDUSTRIAS DE TRANSFORMACAO	2824102	Fabricacao de aparelhos e equipamentos de ar condicionado para uso nao-industrial
+C	INDUSTRIAS DE TRANSFORMACAO	2825900	Fabricacao de maquinas e equipamentos para saneamento basico e ambiental, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2829101	Fabricacao de maquinas de escrever, calcular e outros equipamentos nao-eletronicos para escritorio, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2829199	Fabricacao de outras maquinas e equipamentos de uso geral nao especificados anteriormente, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2831300	Fabricacao de tratores agricolas, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2832100	Fabricacao de equipamentos para irrigacao agricola, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2833000	Fabricacao de maquinas e equipamentos para a agricultura e pecuaria, pecas e acessorios, exceto para irrigacao
+C	INDUSTRIAS DE TRANSFORMACAO	2840200	Fabricacao de maquinas-ferramenta, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2851800	Fabricacao de maquinas e equipamentos para a prospeccao e extracao de petroleo, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2852600	Fabricacao de outras maquinas e equipamentos para uso na extracao mineral, pecas e acessorios, exceto na extracao de petroleo
+C	INDUSTRIAS DE TRANSFORMACAO	2853400	Fabricacao de tratores, pecas e acessorios, exceto agricolas
+C	INDUSTRIAS DE TRANSFORMACAO	2854200	Fabricacao de maquinas e equipamentos para terraplenagem, pavimentacao e construcao, pecas e acessorios, exceto tratores
+C	INDUSTRIAS DE TRANSFORMACAO	2861500	Fabricacao de maquinas para a industria metalurgica, pecas e acessorios, exceto maquinas-ferramenta
+C	INDUSTRIAS DE TRANSFORMACAO	2862300	Fabricacao de maquinas e equipamentos para as industrias de alimentos, bebidas e fumo, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2863100	Fabricacao de maquinas e equipamentos para a industria textil, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2864000	Fabricacao de maquinas e equipamentos para as industrias do vestuario, do couro e de calcados, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2865800	Fabricacao de maquinas e equipamentos para as industrias de celulose, papel e papelao e artefatos, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2866600	Fabricacao de maquinas e equipamentos para a industria do plastico, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2869100	Fabricacao de maquinas e equipamentos para uso industrial especifico nao especificados anteriormente, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	2910701	Fabricacao de automoveis, camionetas e utilitarios
+C	INDUSTRIAS DE TRANSFORMACAO	2910702	Fabricacao de chassis com motor para automoveis, camionetas e utilitarios
+C	INDUSTRIAS DE TRANSFORMACAO	2910703	Fabricacao de motores para automoveis, camionetas e utilitarios
+C	INDUSTRIAS DE TRANSFORMACAO	2920401	Fabricacao de caminhoes e onibus
+C	INDUSTRIAS DE TRANSFORMACAO	2920402	Fabricacao de motores para caminhoes e onibus
+C	INDUSTRIAS DE TRANSFORMACAO	2930101	Fabricacao de cabines, carrocerias e reboques para caminhoes
+C	INDUSTRIAS DE TRANSFORMACAO	2930102	Fabricacao de carrocerias para onibus
+C	INDUSTRIAS DE TRANSFORMACAO	2930103	Fabricacao de cabines, carrocerias e reboques para outros veiculos automotores, exceto caminhoes e onibus
+C	INDUSTRIAS DE TRANSFORMACAO	2941700	Fabricacao de pecas e acessorios para o sistema motor de veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2942500	Fabricacao de pecas e acessorios para os sistemas de marcha e transmissao de veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2943300	Fabricacao de pecas e acessorios para o sistema de freios de veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2944100	Fabricacao de pecas e acessorios para o sistema de direcao e suspensao de veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2945000	Fabricacao de material eletrico e eletronico para veiculos automotores, exceto baterias
+C	INDUSTRIAS DE TRANSFORMACAO	2949201	Fabricacao de bancos e estofados para veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	2949299	Fabricacao de outras pecas e acessorios para veiculos automotores nao especificadas anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	2950600	Recondicionamento e recuperacao de motores para veiculos automotores
+C	INDUSTRIAS DE TRANSFORMACAO	3011301	Construcao de embarcacoes de grande porte
+C	INDUSTRIAS DE TRANSFORMACAO	3011302	Construcao de embarcacoes para uso comercial e para usos especiais, exceto de grande porte
+C	INDUSTRIAS DE TRANSFORMACAO	3012100	Construcao de embarcacoes para esporte e lazer
+C	INDUSTRIAS DE TRANSFORMACAO	3031800	Fabricacao de locomotivas, vagoes e outros materiais rodantes
+C	INDUSTRIAS DE TRANSFORMACAO	3032600	Fabricacao de pecas e acessorios para veiculos ferroviarios
+C	INDUSTRIAS DE TRANSFORMACAO	3041500	Fabricacao de aeronaves
+C	INDUSTRIAS DE TRANSFORMACAO	3042300	Fabricacao de turbinas, motores e outros componentes e pecas para aeronaves
+C	INDUSTRIAS DE TRANSFORMACAO	3050400	Fabricacao de veiculos militares de combate
+C	INDUSTRIAS DE TRANSFORMACAO	3091100	Fabricacao de motocicletas, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	3092000	Fabricacao de bicicletas e triciclos nao-motorizados, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	3099700	Fabricacao de equipamentos de transporte nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3101200	Fabricacao de moveis com predominancia de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	3102100	Fabricacao de moveis com predominancia de metal
+C	INDUSTRIAS DE TRANSFORMACAO	3103900	Fabricacao de moveis de outros materiais, exceto madeira e metal
+C	INDUSTRIAS DE TRANSFORMACAO	3104700	Fabricacao de colchoes
+C	INDUSTRIAS DE TRANSFORMACAO	3211601	Lapidacao de gemas
+C	INDUSTRIAS DE TRANSFORMACAO	3211602	Fabricacao de artefatos de joalheria e ourivesaria
+C	INDUSTRIAS DE TRANSFORMACAO	3211603	Cunhagem de moedas e medalhas
+C	INDUSTRIAS DE TRANSFORMACAO	3212400	Fabricacao de bijuterias e artefatos semelhantes
+C	INDUSTRIAS DE TRANSFORMACAO	3220500	Fabricacao de instrumentos musicais, pecas e acessorios
+C	INDUSTRIAS DE TRANSFORMACAO	3230200	Fabricacao de artefatos para pesca e esporte
+C	INDUSTRIAS DE TRANSFORMACAO	3240001	Fabricacao de jogos eletronicos
+C	INDUSTRIAS DE TRANSFORMACAO	3240002	Fabricacao de mesas de bilhar, de sinuca e acessorios nao associada a locacao
+C	INDUSTRIAS DE TRANSFORMACAO	3240003	Fabricacao de mesas de bilhar, de sinuca e acessorios associada a locacao
+C	INDUSTRIAS DE TRANSFORMACAO	3240099	Fabricacao de outros brinquedos e jogos recreativos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3250701	Fabricacao de instrumentos nao-eletronicos e utensilios para uso medico, cirurgico, odontologico e de laboratorio
+C	INDUSTRIAS DE TRANSFORMACAO	3250702	Fabricacao de mobiliario para uso medico, cirurgico, odontologico e de laboratorio
+C	INDUSTRIAS DE TRANSFORMACAO	3250703	Fabricacao de aparelhos e utensilios para correcao de defeitos fisicos e aparelhos ortopedicos em geral sob encomenda
+C	INDUSTRIAS DE TRANSFORMACAO	3250704	Fabricacao de aparelhos e utensilios para correcao de defeitos fisicos e aparelhos ortopedicos em geral, exceto sob encomenda
+C	INDUSTRIAS DE TRANSFORMACAO	3250705	Fabricacao de materiais para medicina e odontologia
+C	INDUSTRIAS DE TRANSFORMACAO	3250706	Servicos de protese dentaria
+C	INDUSTRIAS DE TRANSFORMACAO	3250707	Fabricacao de artigos opticos
+C	INDUSTRIAS DE TRANSFORMACAO	3250708	Fabricacao de artefatos de tecido nao tecido para uso odonto-medico-hospitalar
+C	INDUSTRIAS DE TRANSFORMACAO	3291400	Fabricacao de escovas, pinceis e vassouras
+C	INDUSTRIAS DE TRANSFORMACAO	3292201	Fabricacao de roupas de protecao e seguranca e resistentes a fogo
+C	INDUSTRIAS DE TRANSFORMACAO	3292202	Fabricacao de equipamentos e acessorios para seguranca pessoal e profissional
+C	INDUSTRIAS DE TRANSFORMACAO	3299001	Fabricacao de guarda-chuvas e similares
+C	INDUSTRIAS DE TRANSFORMACAO	3299002	Fabricacao de canetas, lapis e outros artigos para escritorio
+C	INDUSTRIAS DE TRANSFORMACAO	3299003	Fabricacao de letras, letreiros e placas de qualquer material, exceto luminosos
+C	INDUSTRIAS DE TRANSFORMACAO	3299004	Fabricacao de paineis e letreiros luminosos
+C	INDUSTRIAS DE TRANSFORMACAO	3299005	Fabricacao de aviamentos para costura
+C	INDUSTRIAS DE TRANSFORMACAO	3299099	Fabricacao de produtos diversos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3311200	Manutencao e reparacao de tanques, reservatorios metalicos e caldeiras, exceto para veiculos
+C	INDUSTRIAS DE TRANSFORMACAO	3312101	Manutencao e reparacao de equipamentos transmissores de comunicacao
+C	INDUSTRIAS DE TRANSFORMACAO	3312102	Manutencao e reparacao de aparelhos e instrumentos de medida, teste e controle
+C	INDUSTRIAS DE TRANSFORMACAO	3312103	Manutencao e reparacao de aparelhos eletromedicos e eletroterapeuticos e equipamentos de irradiacao
+C	INDUSTRIAS DE TRANSFORMACAO	3312104	Manutencao e reparacao de equipamentos e instrumentos opticos
+C	INDUSTRIAS DE TRANSFORMACAO	3313901	Manutencao e reparacao de geradores, transformadores e motores eletricos
+C	INDUSTRIAS DE TRANSFORMACAO	3313902	Manutencao e reparacao de baterias e acumuladores eletricos, exceto para veiculos
+C	INDUSTRIAS DE TRANSFORMACAO	3313999	Manutencao e reparacao de maquinas, aparelhos e materiais eletricos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3314701	Manutencao e reparacao de maquinas motrizes nao-eletricas
+C	INDUSTRIAS DE TRANSFORMACAO	3314702	Manutencao e reparacao de equipamentos hidraulicos e pneumaticos, exceto valvulas
+C	INDUSTRIAS DE TRANSFORMACAO	3314703	Manutencao e reparacao de valvulas industriais
+C	INDUSTRIAS DE TRANSFORMACAO	3314704	Manutencao e reparacao de compressores
+C	INDUSTRIAS DE TRANSFORMACAO	3314705	Manutencao e reparacao de equipamentos de transmissao para fins industriais
+C	INDUSTRIAS DE TRANSFORMACAO	3314706	Manutencao e reparacao de maquinas, aparelhos e equipamentos para instalacoes termicas
+C	INDUSTRIAS DE TRANSFORMACAO	3314707	Manutencao e reparacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial
+C	INDUSTRIAS DE TRANSFORMACAO	3314708	Manutencao e reparacao de maquinas, equipamentos e aparelhos para transporte e elevacao de cargas
+C	INDUSTRIAS DE TRANSFORMACAO	3314709	Manutencao e reparacao de maquinas de escrever, calcular e de outros equipamentos nao-eletronicos para escritorio
+C	INDUSTRIAS DE TRANSFORMACAO	3314710	Manutencao e reparacao de maquinas e equipamentos para uso geral nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3314711	Manutencao e reparacao de maquinas e equipamentos para agricultura e pecuaria
+C	INDUSTRIAS DE TRANSFORMACAO	3314712	Manutencao e reparacao de tratores agricolas
+C	INDUSTRIAS DE TRANSFORMACAO	3314713	Manutencao e reparacao de maquinas-ferramenta
+C	INDUSTRIAS DE TRANSFORMACAO	3314714	Manutencao e reparacao de maquinas e equipamentos para a prospeccao e extracao de petroleo
+C	INDUSTRIAS DE TRANSFORMACAO	3314715	Manutencao e reparacao de maquinas e equipamentos para uso na extracao mineral, exceto na extracao de petroleo
+C	INDUSTRIAS DE TRANSFORMACAO	3314716	Manutencao e reparacao de tratores, exceto agricolas
+C	INDUSTRIAS DE TRANSFORMACAO	3314717	Manutencao e reparacao de maquinas e equipamentos de terraplenagem, pavimentacao e construcao, exceto tratores
+C	INDUSTRIAS DE TRANSFORMACAO	3314718	Manutencao e reparacao de maquinas para a industria metalurgica, exceto maquinas-ferramenta
+C	INDUSTRIAS DE TRANSFORMACAO	3314719	Manutencao e reparacao de maquinas e equipamentos para as industrias de alimentos, bebidas e fumo
+C	INDUSTRIAS DE TRANSFORMACAO	3314720	Manutencao e reparacao de maquinas e equipamentos para a industria textil, do vestuario, do couro e calcados
+C	INDUSTRIAS DE TRANSFORMACAO	3314721	Manutencao e reparacao de maquinas e aparelhos para a industria de celulose, papel e papelao e artefatos
+C	INDUSTRIAS DE TRANSFORMACAO	3314722	Manutencao e reparacao de maquinas e aparelhos para a industria do plastico
+C	INDUSTRIAS DE TRANSFORMACAO	3314799	Manutencao e reparacao de outras maquinas e equipamentos para usos industriais nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3315500	Manutencao e reparacao de veiculos ferroviarios
+C	INDUSTRIAS DE TRANSFORMACAO	3316301	Manutencao e reparacao de aeronaves, exceto a manutencao na pista
+C	INDUSTRIAS DE TRANSFORMACAO	3316302	Manutencao de aeronaves na pista
+C	INDUSTRIAS DE TRANSFORMACAO	3317101	Manutencao e reparacao de embarcacoes e estruturas flutuantes
+C	INDUSTRIAS DE TRANSFORMACAO	3317102	Manutencao e reparacao de embarcacoes para esporte e lazer
+C	INDUSTRIAS DE TRANSFORMACAO	3319800	Manutencao e reparacao de equipamentos e produtos nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	3321000	Instalacao de maquinas e equipamentos industriais
+C	INDUSTRIAS DE TRANSFORMACAO	3329501	Servicos de montagem de moveis de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	3329599	Instalacao de outros equipamentos nao especificados anteriormente
+D	ELETRICIDADE E GAS	3511500	Geracao de energia eletrica
+D	ELETRICIDADE E GAS	3512300	Transmissao de energia eletrica
+D	ELETRICIDADE E GAS	3513100	Comercio atacadista de energia eletrica
+D	ELETRICIDADE E GAS	3514000	Distribuicao de energia eletrica
+D	ELETRICIDADE E GAS	3520401	Producao de gas
+D	ELETRICIDADE E GAS	3520402	Distribuicao de combustiveis gasosos por redes urbanas
+D	ELETRICIDADE E GAS	3530100	Producao e distribuicao de vapor, agua quente e ar condicionado
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3600601	Captacao, tratamento e distribuicao de agua
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3600602	Distribuicao de agua por caminhoes
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3701100	Gestao de redes de esgoto
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3702900	Atividades relacionadas a esgoto, exceto a gestao de redes
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3811400	Coleta de residuos nao-perigosos
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3812200	Coleta de residuos perigosos
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3821100	Tratamento e disposicao de residuos nao-perigosos
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3822000	Tratamento e disposicao de residuos perigosos
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3831901	Recuperacao de sucatas de aluminio
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3831999	Recuperacao de materiais metalicos, exceto aluminio
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3832700	Recuperacao de materiais plasticos
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3839401	Usinas de compostagem
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3839499	Recuperacao de materiais nao especificados anteriormente
+E	AGUA, ESGOTO, ATIVIDADES DE GESTAO DE RESIDUOS E DESCONTAMINACAO	3900500	Descontaminacao e outros servicos de gestao de residuos
+F	CONSTRUCAO	4110700	Incorporacao de empreendimentos imobiliarios
+F	CONSTRUCAO	4120400	Construcao de edificios
+F	CONSTRUCAO	4211101	Construcao de rodovias e ferrovias
+F	CONSTRUCAO	4211102	Pintura para sinalizacao em pistas rodoviarias e aeroportos
+F	CONSTRUCAO	4212000	Construcao de obras-de-arte especiais
+F	CONSTRUCAO	4213800	Obras de urbanizacao - ruas, pracas e calcadas
+F	CONSTRUCAO	4221901	Construcao de barragens e represas para geracao de energia eletrica
+F	CONSTRUCAO	4221902	Construcao de estacoes e redes de distribuicao de energia eletrica
+F	CONSTRUCAO	4221903	Manutencao de redes de distribuicao de energia eletrica
+F	CONSTRUCAO	4221904	Construcao de estacoes e redes de telecomunicacoes
+F	CONSTRUCAO	4221905	Manutencao de estacoes e redes de telecomunicacoes
+F	CONSTRUCAO	4222701	Construcao de redes de abastecimento de agua, coleta de esgoto e construcoes correlatas, exceto obras de irrigacao
+F	CONSTRUCAO	4222702	Obras de irrigacao
+F	CONSTRUCAO	4223500	Construcao de redes de transportes por dutos, exceto para agua e esgoto
+F	CONSTRUCAO	4291000	Obras portuarias, maritimas e fluviais
+F	CONSTRUCAO	4292801	Montagem de estruturas metalicas
+F	CONSTRUCAO	4292802	Obras de montagem industrial
+F	CONSTRUCAO	4299501	Construcao de instalacoes esportivas e recreativas
+F	CONSTRUCAO	4299599	Outras obras de engenharia civil nao especificadas anteriormente
+F	CONSTRUCAO	4311801	Demolicao de edificios e outras estruturas
+F	CONSTRUCAO	4311802	Preparacao de canteiro e limpeza de terreno
+F	CONSTRUCAO	4312600	Perfuracoes e sondagens
+F	CONSTRUCAO	4313400	Obras de terraplenagem
+F	CONSTRUCAO	4319300	Servicos de preparacao do terreno nao especificados anteriormente
+F	CONSTRUCAO	4321500	Instalacao e manutencao eletrica
+F	CONSTRUCAO	4322301	Instalacoes hidraulicas, sanitarias e de gas
+F	CONSTRUCAO	4322302	Instalacao e manutencao de sistemas centrais de ar condicionado, de ventilacao e refrigeracao
+F	CONSTRUCAO	4322303	Instalacoes de sistema de prevencao contra incendio
+F	CONSTRUCAO	4329101	Instalacao de paineis publicitarios
+F	CONSTRUCAO	4329102	Instalacao de equipamentos para orientacao a navegacao maritima, fluvial e lacustre
+F	CONSTRUCAO	4329103	Instalacao, manutencao e reparacao de elevadores, escadas e esteiras rolantes, exceto de fabricacao propria
+F	CONSTRUCAO	4329104	Montagem e instalacao de sistemas e equipamentos de iluminacao e sinalizacao em vias publicas, portos e aeroportos
+F	CONSTRUCAO	4329105	Tratamentos termicos, acusticos ou de vibracao
+F	CONSTRUCAO	4329199	Outras obras de instalacoes em construcoes nao especificadas anteriormente
+F	CONSTRUCAO	4330401	Impermeabilizacao em obras de engenharia civil
+F	CONSTRUCAO	4330402	Instalacao de portas, janelas, tetos, divisorias e armarios embutidos de qualquer material
+F	CONSTRUCAO	4330403	Obras de acabamento em gesso e estuque
+F	CONSTRUCAO	4330404	Servicos de pintura de edificios em geral
+F	CONSTRUCAO	4330405	Aplicacao de revestimentos e de resinas em interiores e exteriores
+F	CONSTRUCAO	4330499	Outras obras de acabamento da construcao
+F	CONSTRUCAO	4391600	Obras de fundacoes
+F	CONSTRUCAO	4399101	Administracao de obras
+F	CONSTRUCAO	4399102	Montagem e desmontagem de andaimes e outras estruturas temporarias
+F	CONSTRUCAO	4399103	Obras de alvenaria
+F	CONSTRUCAO	4399104	Servicos de operacao e fornecimento de equipamentos para transporte e elevacao de cargas e pessoas para uso em obras
+F	CONSTRUCAO	4399105	Perfuracao e construcao de pocos de agua
+F	CONSTRUCAO	4399199	Servicos especializados para construcao nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4511101	Comercio a varejo de automoveis, camionetas e utilitarios novos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4511102	Comercio a varejo de automoveis, camionetas e utilitarios usados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4511103	Comercio por atacado de automoveis, camionetas e utilitarios novos e usados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4511104	Comercio por atacado de caminhoes novos e usados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4511105	Comercio por atacado de reboques e semi-reboques novos e usados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4511106	Comercio por atacado de onibus e microonibus novos e usados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4512901	Representantes comerciais e agentes do comercio de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4512902	Comercio sob consignacao de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520001	Servicos de manutencao e reparacao mecanica de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520002	Servicos de lanternagem ou funilaria e pintura de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520003	Servicos de manutencao e reparacao eletrica de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520004	Servicos de alinhamento e balanceamento de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520005	Servicos de lavagem, lubrificacao e polimento de veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520006	Servicos de borracharia para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4520007	Servicos de instalacao, manutencao e reparacao de acessorios para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4530701	Comercio por atacado de pecas e acessorios novos para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4530702	Comercio por atacado de pneumaticos e camaras-de-ar
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4530703	Comercio a varejo de pecas e acessorios novos para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4530704	Comercio a varejo de pecas e acessorios usados para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4530705	Comercio a varejo de pneumaticos e camaras-de-ar
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4530706	Representantes comerciais e agentes do comercio de pecas e acessorios novos e usados para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4541201	Comercio por atacado de motocicletas e motonetas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4541202	Comercio por atacado de pecas e acessorios para motocicletas e motonetas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4541203	Comercio a varejo de motocicletas e motonetas novas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4541204	Comercio a varejo de motocicletas e motonetas usadas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4541205	Comercio a varejo de pecas e acessorios para motocicletas e motonetas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4542101	Representantes comerciais e agentes do comercio de motocicletas e motonetas, pecas e acessorios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4542102	Comercio sob consignacao de motocicletas e motonetas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4543900	Manutencao e reparacao de motocicletas e motonetas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4611700	Representantes comerciais e agentes do comercio de materias-primas agricolas e animais vivos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4612500	Representantes comerciais e agentes do comercio de combustiveis, minerais, produtos siderurgicos e quimicos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4613300	Representantes comerciais e agentes do comercio de madeira, material de construcao e ferragens
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4614100	Representantes comerciais e agentes do comercio de maquinas, equipamentos, embarcacoes e aeronaves
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4615000	Representantes comerciais e agentes do comercio de eletrodomesticos, moveis e artigos de uso domestico
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4616800	Representantes comerciais e agentes do comercio de texteis, vestuario, calcados e artigos de viagem
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4617600	Representantes comerciais e agentes do comercio de produtos alimenticios, bebidas e fumo
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4618401	Representantes comerciais e agentes do comercio de medicamentos, cosmeticos e produtos de perfumaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4618402	Representantes comerciais e agentes do comercio de instrumentos e materiais odonto-medico-hospitalares
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4618403	Representantes comerciais e agentes do comercio de jornais, revistas e outras publicacoes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4618499	Outros representantes comerciais e agentes do comercio especializado em produtos nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4619200	Representantes comerciais e agentes do comercio de mercadorias em geral nao especializado
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4621400	Comercio atacadista de cafe em grao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4622200	Comercio atacadista de soja
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623101	Comercio atacadista de animais vivos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623102	Comercio atacadista de couros, las, peles e outros subprodutos nao-comestiveis de origem animal
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623103	Comercio atacadista de algodao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623104	Comercio atacadista de fumo em folha nao beneficiado
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623105	Comercio atacadista de cacau
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623106	Comercio atacadista de sementes, flores, plantas e gramas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623107	Comercio atacadista de sisal
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623108	Comercio atacadista de materias-primas agricolas com atividade de fracionamento e acondicionamento associada
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623109	Comercio atacadista de alimentos para animais
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4623199	Comercio atacadista de materias-primas agricolas nao especificadas anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4631100	Comercio atacadista de leite e laticinios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4632001	Comercio atacadista de cereais e leguminosas beneficiados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4632002	Comercio atacadista de farinhas, amidos e feculas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4632003	Comercio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e feculas, com atividade de fracionamento e acondicionamento associada
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4633801	Comercio atacadista de frutas, verduras, raizes, tuberculos, hortalicas e legumes frescos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4633802	Comercio atacadista de aves vivas e ovos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4633803	Comercio atacadista de coelhos e outros pequenos animais vivos para alimentacao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4634601	Comercio atacadista de carnes bovinas e suinas e derivados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4634602	Comercio atacadista de aves abatidas e derivados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4634603	Comercio atacadista de pescados e frutos do mar
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4634699	Comercio atacadista de carnes e derivados de outros animais
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4635401	Comercio atacadista de agua mineral
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4635402	Comercio atacadista de cerveja, chope e refrigerante
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4635403	Comercio atacadista de bebidas com atividade de fracionamento e acondicionamento associada
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4635499	Comercio atacadista de bebidas nao especificadas anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4636201	Comercio atacadista de fumo beneficiado
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4636202	Comercio atacadista de cigarros, cigarrilhas e charutos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637101	Comercio atacadista de cafe torrado, moido e soluvel
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637102	Comercio atacadista de acucar
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637103	Comercio atacadista de oleos e gorduras
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637104	Comercio atacadista de paes, bolos, biscoitos e similares
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637105	Comercio atacadista de massas alimenticias
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637106	Comercio atacadista de sorvetes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637107	Comercio atacadista de chocolates, confeitos, balas, bombons e semelhantes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4637199	Comercio atacadista especializado em outros produtos alimenticios nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4639701	Comercio atacadista de produtos alimenticios em geral
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4639702	Comercio atacadista de produtos alimenticios em geral, com atividade de fracionamento e acondicionamento associada
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4641901	Comercio atacadista de tecidos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4641902	Comercio atacadista de artigos de cama, mesa e banho
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4641903	Comercio atacadista de artigos de armarinho
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4642701	Comercio atacadista de artigos do vestuario e acessorios, exceto profissionais e de seguranca
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4642702	Comercio atacadista de roupas e acessorios para uso profissional e de seguranca do trabalho
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4643501	Comercio atacadista de calcados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4643502	Comercio atacadista de bolsas, malas e artigos de viagem
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4644301	Comercio atacadista de medicamentos e drogas de uso humano
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4644302	Comercio atacadista de medicamentos e drogas de uso veterinario
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4645101	Comercio atacadista de instrumentos e materiais para uso medico, cirurgico, hospitalar e de laboratorios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4645102	Comercio atacadista de proteses e artigos de ortopedia
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4645103	Comercio atacadista de produtos odontologicos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4646001	Comercio atacadista de cosmeticos e produtos de perfumaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4646002	Comercio atacadista de produtos de higiene pessoal
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4647801	Comercio atacadista de artigos de escritorio e de papelaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4647802	Comercio atacadista de livros, jornais e outras publicacoes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649401	Comercio atacadista de equipamentos eletricos de uso pessoal e domestico
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649402	Comercio atacadista de aparelhos eletronicos de uso pessoal e domestico
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649403	Comercio atacadista de bicicletas, triciclos e outros veiculos recreativos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649404	Comercio atacadista de moveis e artigos de colchoaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649405	Comercio atacadista de artigos de tapecaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649406	Comercio atacadista de lustres, luminarias e abajures
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649407	Comercio atacadista de filmes, CDs, DVDs, fitas e discos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649408	Comercio atacadista de produtos de higiene, limpeza e conservacao domiciliar
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649409	Comercio atacadista de produtos de higiene, limpeza e conservacao domiciliar, com atividade de fracionamento e acondicionamento associada
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649410	Comercio atacadista de joias, relogios e bijuterias, inclusive pedras preciosas e semipreciosas lapidadas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4649499	Comercio atacadista de outros equipamentos e artigos de uso pessoal e domestico nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4651601	Comercio atacadista de equipamentos de informatica
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4651602	Comercio atacadista de suprimentos para informatica
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4652400	Comercio atacadista de componentes eletronicos e equipamentos de telefonia e comunicacao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4661300	Comercio atacadista de maquinas, aparelhos e equipamentos para uso agropecuario
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4662100	Comercio atacadista de maquinas, equipamentos para terraplenagem, mineracao e construcao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4663000	Comercio atacadista de maquinas e equipamentos para uso industrial
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4664800	Comercio atacadista de maquinas, aparelhos e equipamentos para uso odonto-medico-hospitalar
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4665600	Comercio atacadista de maquinas e equipamentos para uso comercial
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4669901	Comercio atacadista de bombas e compressores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4669999	Comercio atacadista de outras maquinas e equipamentos nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4671100	Comercio atacadista de madeira e produtos derivados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4672900	Comercio atacadista de ferragens e ferramentas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4673700	Comercio atacadista de material eletrico
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4674500	Comercio atacadista de cimento
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4679601	Comercio atacadista de tintas, vernizes e similares
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4679602	Comercio atacadista de marmores e granitos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4679603	Comercio atacadista de vidros, espelhos e vitrais
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4679604	Comercio atacadista especializado de materiais de construcao nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4679699	Comercio atacadista de materiais de construcao em geral
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4681801	Comercio atacadista de alcool carburante, biodiesel, gasolina e demais derivados de petroleo, exceto lubrificantes, nao realizado por transportador retalhista (TRR)
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4681802	Comercio atacadista de combustiveis realizado por transportador retalhista (TRR)
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4681803	Comercio atacadista de combustiveis de origem vegetal, exceto alcool carburante
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4681804	Comercio atacadista de combustiveis de origem mineral em bruto
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4681805	Comercio atacadista de lubrificantes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4682600	Comercio atacadista de gas liquefeito de petroleo (GLP)
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4683400	Comercio atacadista de defensivos agricolas, adubos, fertilizantes e corretivos do solo
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4684201	Comercio atacadista de resinas e elastomeros
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4684202	Comercio atacadista de solventes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4684299	Comercio atacadista de outros produtos quimicos e petroquimicos nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4685100	Comercio atacadista de produtos siderurgicos e metalurgicos, exceto para construcao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4686901	Comercio atacadista de papel e papelao em bruto
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4686902	Comercio atacadista de embalagens
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4687701	Comercio atacadista de residuos de papel e papelao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4687702	Comercio atacadista de residuos e sucatas nao-metalicos, exceto de papel e papelao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4687703	Comercio atacadista de residuos e sucatas metalicos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4689301	Comercio atacadista de produtos da extracao mineral, exceto combustiveis
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4689302	Comercio atacadista de fios e fibras texteis beneficiados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4689399	Comercio atacadista especializado em outros produtos intermediarios nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4691500	Comercio atacadista de mercadorias em geral, com predominancia de produtos alimenticios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4692300	Comercio atacadista de mercadorias em geral, com predominancia de insumos agropecuarios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4693100	Comercio atacadista de mercadorias em geral, sem predominancia de alimentos ou de insumos agropecuarios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4711301	Comercio varejista de mercadorias em geral, com predominancia de produtos alimenticios - hipermercados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4711302	Comercio varejista de mercadorias em geral, com predominancia de produtos alimenticios - supermercados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4712100	Comercio varejista de mercadorias em geral, com predominancia de produtos alimenticios - minimercados, mercearias e armazens
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4713001	Lojas de departamentos ou magazines
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4713002	Lojas de variedades, exceto lojas de departamentos ou magazines
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4713003	Lojas duty free de aeroportos internacionais
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4721101	Padaria e confeitaria com predominancia de producao propria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4721102	Padaria e confeitaria com predominancia de revenda
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4721103	Comercio varejista de laticinios e frios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4721104	Comercio varejista de doces, balas, bombons e semelhantes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4722901	Comercio varejista de carnes - acougues
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4722902	Peixaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4723700	Comercio varejista de bebidas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4724500	Comercio varejista de hortifrutigranjeiros
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4729601	Tabacaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4729699	Comercio varejista de produtos alimenticios em geral ou especializado em produtos alimenticios nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4731800	Comercio varejista de combustiveis para veiculos automotores
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4732600	Comercio varejista de lubrificantes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4741500	Comercio varejista de tintas e materiais para pintura
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4742300	Comercio varejista de material eletrico
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4743100	Comercio varejista de vidros
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4744001	Comercio varejista de ferragens e ferramentas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4744002	Comercio varejista de madeira e artefatos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4744003	Comercio varejista de materiais hidraulicos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4744004	Comercio varejista de cal, areia, pedra britada, tijolos e telhas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4744005	Comercio varejista de materiais de construcao nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4744099	Comercio varejista de materiais de construcao em geral
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4751200	Comercio varejista especializado de equipamentos e suprimentos de informatica
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4752100	Comercio varejista especializado de equipamentos de telefonia e comunicacao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4753900	Comercio varejista especializado de eletrodomesticos e equipamentos de audio e video
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4754701	Comercio varejista de moveis
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4754702	Comercio varejista de artigos de colchoaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4754703	Comercio varejista de artigos de iluminacao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4755501	Comercio varejista de tecidos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4755502	Comercio varejista de artigos de armarinho
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4755503	Comercio varejista de artigos de cama, mesa e banho
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4756300	Comercio varejista especializado de instrumentos musicais e acessorios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4757100	Comercio varejista especializado de pecas e acessorios para aparelhos eletroeletronicos para uso domestico, exceto informatica e comunicacao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4759801	Comercio varejista de artigos de tapecaria, cortinas e persianas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4759899	Comercio varejista de outros artigos de uso domestico nao especificados anteriormente
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4761001	Comercio varejista de livros
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4761002	Comercio varejista de jornais e revistas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4761003	Comercio varejista de artigos de papelaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4762800	Comercio varejista de discos, CDs, DVDs e fitas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4763601	Comercio varejista de brinquedos e artigos recreativos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4763602	Comercio varejista de artigos esportivos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4763603	Comercio varejista de bicicletas e triciclos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4763604	Comercio varejista de artigos de caca, pesca e camping
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4763605	Comercio varejista de embarcacoes e outros veiculos recreativos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4771701	Comercio varejista de produtos farmaceuticos, sem manipulacao de formulas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4771702	Comercio varejista de produtos farmaceuticos, com manipulacao de formulas
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4771703	Comercio varejista de produtos farmaceuticos homeopaticos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4771704	Comercio varejista de medicamentos veterinarios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4772500	Comercio varejista de cosmeticos, produtos de perfumaria e de higiene pessoal
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4773300	Comercio varejista de artigos medicos e ortopedicos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4774100	Comercio varejista de artigos de optica
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4781400	Comercio varejista de artigos do vestuario e acessorios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4782201	Comercio varejista de calcados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4782202	Comercio varejista de artigos de viagem
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4783101	Comercio varejista de artigos de joalheria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4783102	Comercio varejista de artigos de relojoaria
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4784900	Comercio varejista de gas liquefeito de petroleo (GLP)
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4785701	Comercio varejista de antiguidades
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4785799	Comercio varejista de outros artigos usados
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789001	Comercio varejista de suvenires, bijuterias e artesanatos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789002	Comercio varejista de plantas e flores naturais
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789003	Comercio varejista de objetos de arte
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789004	Comercio varejista de animais vivos e de artigos e alimentos para animais de estimacao
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789005	Comercio varejista de produtos saneantes domissanitarios
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789006	Comercio varejista de fogos de artificio e artigos pirotecnicos
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789007	Comercio varejista de equipamentos para escritorio
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789008	Comercio varejista de artigos fotograficos e para filmagem
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789009	Comercio varejista de armas e municoes
+G	COMERCIO; REPARACAO DE VEICULOS AUTOMOTORES E MOTOCICLETAS	4789099	Comercio varejista de outros produtos nao especificados anteriormente
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4911600	Transporte ferroviario de carga
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4912401	Transporte ferroviario de passageiros intermunicipal e interestadual
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4912402	Transporte ferroviario de passageiros municipal e em regiao metropolitana
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4912403	Transporte metroviario
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4921301	Transporte rodoviario coletivo de passageiros, com itinerario fixo, municipal
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4921302	Transporte rodoviario coletivo de passageiros, com itinerario fixo, intermunicipal em regiao metropolitana
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4922101	Transporte rodoviario coletivo de passageiros, com itinerario fixo, intermunicipal, exceto em regiao metropolitana
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4922102	Transporte rodoviario coletivo de passageiros, com itinerario fixo, interestadual
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4922103	Transporte rodoviario coletivo de passageiros, com itinerario fixo, internacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4923001	Servico de taxi
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4923002	Servico de transporte de passageiros - locacao de automoveis com motorista
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4924800	Transporte escolar
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4929901	Transporte rodoviario coletivo de passageiros, sob regime de fretamento, municipal
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4929902	Transporte rodoviario coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4929903	Organizacao de excursoes em veiculos rodoviarios proprios, municipal
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4929904	Organizacao de excursoes em veiculos rodoviarios proprios, intermunicipal, interestadual e internacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4929999	Outros transportes rodoviarios de passageiros nao especificados anteriormente
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4930201	Transporte rodoviario de carga, exceto produtos perigosos e mudancas, municipal
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4930202	Transporte rodoviario de carga, exceto produtos perigosos e mudancas, intermunicipal, interestadual e internacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4930203	Transporte rodoviario de produtos perigosos
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4930204	Transporte rodoviario de mudancas
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4940000	Transporte dutoviario
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	4950700	Trens turisticos, telefericos e similares
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5011401	Transporte maritimo de cabotagem - Carga
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5011402	Transporte maritimo de cabotagem - passageiros
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5012201	Transporte maritimo de longo curso - Carga
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5012202	Transporte maritimo de longo curso - Passageiros
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5021101	Transporte por navegacao interior de carga, municipal, exceto travessia
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5021102	Transporte por navegacao interior de carga, intermunicipal, interestadual e internacional, exceto travessia
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5022001	Transporte por navegacao interior de passageiros em linhas regulares, municipal, exceto travessia
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5022002	Transporte por navegacao interior de passageiros em linhas regulares, intermunicipal, interestadual e internacional, exceto travessia
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5030101	Navegacao de apoio maritimo
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5030102	Navegacao de apoio portuario
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5091201	Transporte por navegacao de travessia, municipal
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5091202	Transporte por navegacao de travessia, intermunicipal
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5099801	Transporte aquaviario para passeios turisticos
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5099899	Outros transportes aquaviarios nao especificados anteriormente
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5111100	Transporte aereo de passageiros regular
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5112901	Servico de taxi aereo e locacao de aeronaves com tripulacao
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5112999	Outros servicos de transporte aereo de passageiros nao-regular
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5120000	Transporte aereo de carga
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5130700	Transporte espacial
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5211701	Armazens gerais - emissao de warrant
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5211702	Guarda-moveis
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5211799	Depositos de mercadorias para terceiros, exceto armazens gerais e guarda-moveis
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5212500	Carga e descarga
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5221400	Concessionarias de rodovias, pontes, tuneis e servicos relacionados
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5222200	Terminais rodoviarios e ferroviarios
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5223100	Estacionamento de veiculos
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5229001	Servicos de apoio ao transporte por taxi, inclusive centrais de chamada
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5229002	Servicos de reboque de veiculos
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5229099	Outras atividades auxiliares dos transportes terrestres nao especificadas anteriormente
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5231101	Administracao da infra-estrutura portuaria
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5231102	Operacoes de terminais
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5232000	Atividades de agenciamento maritimo
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5239700	Atividades auxiliares dos transportes aquaviarios nao especificadas anteriormente
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5240101	Operacao dos aeroportos e campos de aterrissagem
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5240199	Atividades auxiliares dos transportes aereos, exceto operacao dos aeroportos e campos de aterrissagem
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5250801	Comissaria de despachos
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5250802	Atividades de despachantes aduaneiros
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5250803	Agenciamento de cargas, exceto para o transporte maritimo
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5250804	Organizacao logistica do transporte de carga
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5250805	Operador de transporte multimodal - OTM
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5310501	Atividades do Correio Nacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5310502	Atividades deÂ franqueadas e permissionarias do Correio Nacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5320201	Servicos de malote nao realizados pelo Correio Nacional
+H	TRANSPORTE, ARMAZENAGEM E CORREIO	5320202	Servicos de entrega rapida
+I	ALOJAMENTO E ALIMENTACAO	5510801	Hoteis
+I	ALOJAMENTO E ALIMENTACAO	5510802	Apart-hoteis
+I	ALOJAMENTO E ALIMENTACAO	5510803	Moteis
+I	ALOJAMENTO E ALIMENTACAO	5590601	Albergues, exceto assistenciais
+I	ALOJAMENTO E ALIMENTACAO	5590602	Campings
+I	ALOJAMENTO E ALIMENTACAO	5590603	Pensoes (alojamento)
+I	ALOJAMENTO E ALIMENTACAO	5590699	Outros alojamentos nao especificados anteriormente
+I	ALOJAMENTO E ALIMENTACAO	5611201	Restaurantes e similares
+I	ALOJAMENTO E ALIMENTACAO	5611202	Bares e outros estabelecimentos especializados em servir bebidas
+I	ALOJAMENTO E ALIMENTACAO	5611203	Lanchonetes, casas de cha, de sucos e similares
+I	ALOJAMENTO E ALIMENTACAO	5612100	Servicos ambulantes de alimentacao
+I	ALOJAMENTO E ALIMENTACAO	5620101	Fornecimento de alimentos preparados preponderantemente para empresas
+I	ALOJAMENTO E ALIMENTACAO	5620102	Servicos de alimentacao para eventos e recepcoes - bufe
+I	ALOJAMENTO E ALIMENTACAO	5620103	Cantinas - servicos de alimentacao privativos
+I	ALOJAMENTO E ALIMENTACAO	5620104	Fornecimento de alimentos preparados preponderantemente para consumo domiciliar
+J	INFORMACAO E COMUNICACAO	5811500	Edicao de livros
+J	INFORMACAO E COMUNICACAO	5812300	Edicao de jornais
+J	INFORMACAO E COMUNICACAO	5813100	Edicao de revistas
+J	INFORMACAO E COMUNICACAO	5819100	Edicao de cadastros, listas e outros produtos graficos
+J	INFORMACAO E COMUNICACAO	5821200	Edicao integrada a impressao de livros
+J	INFORMACAO E COMUNICACAO	5822100	Edicao integrada a impressao de jornais
+J	INFORMACAO E COMUNICACAO	5823900	Edicao integrada a impressao de revistas
+J	INFORMACAO E COMUNICACAO	5829800	Edicao integrada a impressao de cadastros, listas e outros produtos graficos
+J	INFORMACAO E COMUNICACAO	5911101	Estudios cinematograficos
+J	INFORMACAO E COMUNICACAO	5911102	Producao de filmes para publicidade
+J	INFORMACAO E COMUNICACAO	5911199	Atividades de producao cinematografica, de videos e de programas de televisao nao especificadas anteriormente
+J	INFORMACAO E COMUNICACAO	5912001	Servicos de dublagem
+J	INFORMACAO E COMUNICACAO	5912002	Servicos de mixagem sonora em producao audiovisual
+J	INFORMACAO E COMUNICACAO	5912099	Atividades de pos-producao cinematografica, de videos e de programas de televisao nao especificadas anteriormente
+J	INFORMACAO E COMUNICACAO	5913800	Distribuicao cinematografica, de video e de programas de televisao
+J	INFORMACAO E COMUNICACAO	5914600	Atividades de exibicao cinematografica
+J	INFORMACAO E COMUNICACAO	5920100	Atividades de gravacao de som e de edicao de musica
+J	INFORMACAO E COMUNICACAO	6010100	Atividades de radio
+J	INFORMACAO E COMUNICACAO	6021700	Atividades de televisao aberta
+J	INFORMACAO E COMUNICACAO	6022501	Programadoras
+J	INFORMACAO E COMUNICACAO	6022502	Atividades relacionadas a televisao por assinatura, exceto programadoras
+J	INFORMACAO E COMUNICACAO	6110801	Servicos de telefonia fixa comutada - STFC
+J	INFORMACAO E COMUNICACAO	6110802	Servicos de redes de transporte de telecomunicacoes - SRTT
+J	INFORMACAO E COMUNICACAO	6110803	Servicos de comunicacao multimidia - SCM
+J	INFORMACAO E COMUNICACAO	6110899	Servicos de telecomunicacoes por fio nao especificados anteriormente
+J	INFORMACAO E COMUNICACAO	6120501	Telefonia movel celular
+J	INFORMACAO E COMUNICACAO	6120502	Servico movel especializado - SME
+J	INFORMACAO E COMUNICACAO	6120599	Servicos de telecomunicacoes sem fio nao especificados anteriormente
+J	INFORMACAO E COMUNICACAO	6130200	Telecomunicacoes por satelite
+J	INFORMACAO E COMUNICACAO	6141800	Operadoras de televisao por assinatura por cabo
+J	INFORMACAO E COMUNICACAO	6142600	Operadoras de televisao por assinatura por microondas
+J	INFORMACAO E COMUNICACAO	6143400	Operadoras de televisao por assinatura por satelite
+J	INFORMACAO E COMUNICACAO	6190601	Provedores de acesso as redes de comunicacoes
+J	INFORMACAO E COMUNICACAO	6190602	Provedores de voz sobre protocolo internet - VOIP
+J	INFORMACAO E COMUNICACAO	6190699	Outras atividades de telecomunicacoes nao especificadas anteriormente
+J	INFORMACAO E COMUNICACAO	6201500	Desenvolvimento de programas de computador sob encomenda
+J	INFORMACAO E COMUNICACAO	6202300	Desenvolvimento e licenciamento de programas de computador customizaveis
+J	INFORMACAO E COMUNICACAO	6203100	Desenvolvimento e licenciamento de programas de computador nao-customizaveis
+J	INFORMACAO E COMUNICACAO	6204000	Consultoria em tecnologia da informacao
+J	INFORMACAO E COMUNICACAO	6209100	Suporte tecnico, manutencao e outros servicos em tecnologia da informacao
+J	INFORMACAO E COMUNICACAO	6311900	Tratamento de dados, provedores de servicos de aplicacao e servicos de hospedagem na internet
+J	INFORMACAO E COMUNICACAO	6319400	Portais, provedores de conteudo e outros servicos de informacao na internet
+J	INFORMACAO E COMUNICACAO	6391700	Agencias de noticias
+J	INFORMACAO E COMUNICACAO	6399200	Outras atividades de prestacao de servicos de informacao nao especificadas anteriormente
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6410700	Banco Central
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6421200	Bancos comerciais
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6422100	Bancos multiplos, com carteira comercial
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6423900	Caixas economicas
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6424701	Bancos cooperativos
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6424702	Cooperativas centrais de credito
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6424703	Cooperativas de credito mutuo
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6424704	Cooperativas de credito rural
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6431000	Bancos multiplos, sem carteira comercial
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6432800	Bancos de investimento
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6433600	Bancos de desenvolvimento
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6434400	Agencias de fomento
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6435201	Sociedades de credito imobiliario
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6435202	Associacoes de poupanca e emprestimo
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6435203	Companhias hipotecarias
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6436100	Sociedades de credito, financiamento e investimento - financeiras
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6437900	Sociedades de credito ao microempreendedor
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6440900	Arrendamento mercantil
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6450600	Sociedades de capitalizacao
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6461100	Holdings de instituicoes financeiras
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6462000	Holdings de instituicoes nao-financeiras
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6463800	Outras sociedades de participacao, exceto holdings
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6470101	Fundos de investimento, exceto previdenciarios e imobiliarios
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6470102	Fundos de investimento previdenciarios
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6470103	Fundos de investimento imobiliarios
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6491300	Sociedades de fomento mercantil - factoring
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6492100	Securitizacao de creditos
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6493000	Administracao de consorcios para aquisicao de bens e direitos
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6499901	Clubes de investimento
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6499902	Sociedades de investimento
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6499903	Fundo garantidor de credito
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6499904	Caixas de financiamento de corporacoes
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6499905	Concessao de credito pelas OSCIP
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6499999	Outras atividades de servicos financeiros nao especificadas anteriormente
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6511101	Seguros de vida
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6511102	Planos de auxilio-funeral
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6512000	Seguros nao-vida
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6520100	Seguros-saude
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6530800	Resseguros
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6541300	Previdencia complementar fechada
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6542100	Previdencia complementar aberta
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6550200	Planos de saude
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6611801	Bolsa de valores
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6611802	Bolsa de mercadorias
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6611803	Bolsa de mercadorias e futuros
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6611804	Administracao de mercados de balcao organizados
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6612601	Corretoras de titulos e valores mobiliarios
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6612602	Distribuidoras de titulos e valores mobiliarios
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6612603	Corretoras de cambio
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6612604	Corretoras de contratos de mercadorias
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6612605	Agentes de investimentos em aplicacoes financeiras
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6613400	Administracao de cartoes de credito
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6619301	Servicos de liquidacao e custodia
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6619302	Correspondentes de instituicoes financeiras
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6619303	Representacoes de bancos estrangeiros
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6619304	Caixas eletronicos
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6619305	Operadoras de cartoes de debito
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6619399	Outras atividades auxiliares dos servicos financeiros nao especificadas anteriormente
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6621501	Peritos e avaliadores de seguros
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6621502	Auditoria e consultoria atuarial
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6622300	Corretores e agentes de seguros, de planos de previdencia complementar e de saude
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6629100	Atividades auxiliares dos seguros, da previdencia complementar e dos planos de saude nao especificadas anteriormente
+K	ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVICOS RELACIONADOS	6630400	Atividades de administracao de fundos por contrato ou comissao
+L	ATIVIDADES IMOBILIARIAS	6810201	Compra e venda de imoveis proprios
+L	ATIVIDADES IMOBILIARIAS	6810202	Aluguel de imoveis proprios
+L	ATIVIDADES IMOBILIARIAS	6821801	Corretagem na compra e venda e avaliacao de imoveis
+L	ATIVIDADES IMOBILIARIAS	6821802	Corretagem no aluguel de imoveis
+L	ATIVIDADES IMOBILIARIAS	6822600	Gestao e administracao da propriedade imobiliaria
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	6911701	Servicos advocaticios
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	6911702	Atividades auxiliares da justica
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	6911703	Agente de propriedade industrial
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	6912500	Cartorios
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	6920601	Atividades de contabilidade
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	6920602	Atividades de consultoria e auditoria contabil e tributaria
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7020400	Atividades de consultoria em gestao empresarial, exceto consultoria tecnica especifica
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7111100	Servicos de arquitetura
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7112000	Servicos de engenharia
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7119701	Servicos de cartografia, topografia e geodesia
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7119702	Atividades de estudos geologicos
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7119703	Servicos de desenho tecnico relacionados a arquitetura e engenharia
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7119704	Servicos de pericia tecnica relacionados a seguranca do trabalho
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7119799	Atividades tecnicas relacionadas a engenharia e arquitetura nao especificadas anteriormente
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7120100	Testes e analises tecnicas
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7210000	Pesquisa e desenvolvimento experimental em ciencias fisicas e naturais
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7220700	Pesquisa e desenvolvimento experimental em ciencias sociais e humanas
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7311400	Agencias de publicidade
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7312200	Agenciamento de espacos para publicidade, exceto em veiculos de comunicacao
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7319001	Criacao de estandes para feiras e exposicoes
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7319002	Promocao de vendas
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7319003	Marketing direto
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7319004	Consultoria em publicidade
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7319099	Outras atividades de publicidade nao especificadas anteriormente
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7320300	Pesquisas de mercado e de opiniao publica
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7410201	Design
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7410202	Decoracao de interiores
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7420001	Atividades de producao de fotografias, exceto aerea e submarina
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7420002	Atividades de producao de fotografias aereas e submarinas
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7420003	Laboratorios fotograficos
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7420004	Filmagem de festas e eventos
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7420005	Servicos de microfilmagem
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7490101	Servicos de traducao, interpretacao e similares
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7490102	Escafandria e mergulho
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7490103	Servicos de agronomia e de consultoria as atividades agricolas e pecuarias
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7490104	Atividades de intermediacao e agenciamento de servicos e negocios em geral, exceto imobiliarios
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7490105	Agenciamento de profissionais para atividades esportivas, culturais e artisticas
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7490199	Outras atividades profissionais, cientificas e tecnicas nao especificadas anteriormente
+M	ATIVIDADES PROFISSIONAIS, CIENTIFICAS E TECNICAS	7500100	Atividades veterinarias
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7711000	Locacao de automoveis sem condutor
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7719501	Locacao de embarcacoes sem tripulacao, exceto para fins recreativos
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7719502	Locacao de aeronaves sem tripulacao
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7719599	Locacao de outros meios de transporte nao especificados anteriormente, sem condutor
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7721700	Aluguel de equipamentos recreativos e esportivos
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7722500	Aluguel de fitas de video, DVDs e similares
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7723300	Aluguel de objetos do vestuario, joias e acessorios
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7729201	Aluguel de aparelhos de jogos eletronicos
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7729202	Aluguel de moveis, utensilios e aparelhos de uso domestico e pessoal
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7729203	Aluguel de material medico
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7729299	Aluguel de outros objetos pessoais e domesticos nao especificados anteriormente
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7731400	Aluguel de maquinas e equipamentos agricolas sem operador
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7732201	Aluguel de maquinas e equipamentos para construcao sem operador, exceto andaimes
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7732202	Aluguel de andaimes
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7733100	Aluguel de maquinas e equipamentos para escritorio
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7739001	Aluguel de maquinas e equipamentos para extracao de minerios e petroleo, sem operador
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7739002	Aluguel de equipamentos cientificos, medicos e hospitalares, sem operador
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7739003	Aluguel de palcos, coberturas e outras estruturas de uso temporario, exceto andaimes
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7739099	Aluguel de outras maquinas e equipamentos comerciais e industriais nao especificados anteriormente, sem operador
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7740300	Gestao de ativos intangiveis nao-financeiros
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7810800	Selecao e agenciamento de mao-de-obra
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7820500	Locacao de mao-de-obra temporaria
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7830200	Fornecimento e gestao de recursos humanos para terceiros
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7911200	Agencias de viagens
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7912100	Operadores turisticos
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	7990200	Servicos de reservas e outros servicos de turismo nao especificados anteriormente
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8011101	Atividades de vigilancia e seguranca privada
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8011102	Servicos de adestramento de caes de guarda
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8012900	Atividades de transporte de valores
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8020000	Atividades de monitoramento de sistemas de seguranca
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8030700	Atividades de investigacao particular
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8111700	Servicos combinados para apoio a edificios, exceto condominios prediais
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8112500	Condominios prediais
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8121400	Limpeza em predios e em domicilios
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8122200	Imunizacao e controle de pragas urbanas
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8129000	Atividades de limpeza nao especificadas anteriormente
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8130300	Atividades paisagisticas
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8211300	Servicos combinados de escritorio e apoio administrativo
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8219901	Fotocopias
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8219999	Preparacao de documentos e servicos especializados de apoio administrativo nao especificados anteriormente
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8220200	Atividades de teleatendimento
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8230001	Servicos de organizacao de feiras, congressos, exposicoes e festas
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8230002	Casas de festas e eventos
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8291100	Atividades de cobranca e informacoes cadastrais
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8292000	Envasamento e empacotamento sob contrato
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299701	Medicao de consumo de energia eletrica, gas e agua
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299702	Emissao de vales-alimentacao, vales-transporte e similares
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299703	Servicos de gravacao de carimbos, exceto confeccao
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299704	Leiloeiros independentes
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299705	Servicos de levantamento de fundos sob contrato
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299706	Casas lotericas
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299707	Salas de acesso a internet
+N	ATIVIDADES ADMINISTRATIVAS E SERVICOS COMPLEMENTARES	8299799	Outras atividades de servicos prestados principalmente as empresas nao especificadas anteriormente
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8411600	Administracao publica em geral
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8412400	Regulacao das atividades de saude, educacao, servicos culturais e outros servicos sociais
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8413200	Regulacao das atividades economicas
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8421300	Relacoes exteriores
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8422100	Defesa
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8423000	Justica
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8424800	Seguranca e ordem publica
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8425600	Defesa Civil
+O	ADMINISTRACAO PUBLICA, DEFESA E SEGURIDADE SOCIAL	8430200	Seguridade social obrigatoria
+P	EDUCACAO	8511200	Educacao infantil - creche
+P	EDUCACAO	8512100	Educacao infantil - pre-escola
+P	EDUCACAO	8513900	Ensino fundamental
+P	EDUCACAO	8520100	Ensino medio
+P	EDUCACAO	8531700	Educacao superior - graduacao
+P	EDUCACAO	8532500	Educacao superior - graduacao e pos-graduacao
+P	EDUCACAO	8533300	Educacao superior - pos-graduacao e extensao
+P	EDUCACAO	8541400	Educacao profissional de nivel tecnico
+P	EDUCACAO	8542200	Educacao profissional de nivel tecnologico
+P	EDUCACAO	8550301	Administracao de caixas escolares
+P	EDUCACAO	8550302	Atividades de apoio a educacao, exceto caixas escolares
+P	EDUCACAO	8591100	Ensino de esportes
+P	EDUCACAO	8592901	Ensino de danca
+P	EDUCACAO	8592902	Ensino de artes cenicas, exceto danca
+P	EDUCACAO	8592903	Ensino de musica
+P	EDUCACAO	8592999	Ensino de arte e cultura nao especificado anteriormente
+P	EDUCACAO	8593700	Ensino de idiomas
+P	EDUCACAO	8599601	Formacao de condutores
+P	EDUCACAO	8599602	Cursos de pilotagem
+P	EDUCACAO	8599603	Treinamento em informatica
+P	EDUCACAO	8599604	Treinamento em desenvolvimento profissional e gerencial
+P	EDUCACAO	8599605	Cursos preparatorios para concursos
+P	EDUCACAO	8599699	Outras atividades de ensino nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8610101	Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgencias
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8610102	Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgencias
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8621601	UTI movel
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8621602	Servicos moveis de atendimento a urgencias, exceto por UTI movel
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8622400	Servicos de remocao de pacientes, exceto os servicos moveis de atendimento a urgencias
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630501	Atividade medica ambulatorial com recursos para realizacao de procedimentos cirurgicos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630502	Atividade medica ambulatorial com recursos para realizacao de exames complementares
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630503	Atividade medica ambulatorial restrita a consultas
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630504	Atividade odontologica com recursos para realizacao de procedimentos cirurgicos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630505	Atividade odontologica sem recursos para realizacao de procedimentos cirurgicos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630506	Servicos de vacinacao e imunizacao humana
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630507	Atividades de reproducao humana assistida
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8630599	Atividades de atencao ambulatorial nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640201	Laboratorios de anatomia patologica e citologica
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640202	Laboratorios clinicos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640203	Servicos de dialise e nefrologia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640204	Servicos de tomografia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640205	Servicos de diagnostico por imagem com uso de radiacao ionizante, exceto tomografia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640206	Servicos de ressonancia magnetica
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640207	Servicos de diagnostico por imagem sem uso de radiacao ionizante, exceto ressonancia magnetica
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640208	Servicos de diagnostico por registro grafico - ECG, EEG e outros exames analogos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640209	Servicos de diagnostico por metodos opticos - endoscopia e outros exames analogos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640210	Servicos de quimioterapia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640211	Servicos de radioterapia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640212	Servicos de hemoterapia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640213	Servicos de litotripsia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640214	Servicos de bancos de celulas e tecidos humanos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8640299	Atividades de servicos de complementacao diagnostica e terapeutica nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650001	Atividades de enfermagem
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650002	Atividades de profissionais da nutricao
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650003	Atividades de psicologia e psicanalise
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650004	Atividades de fisioterapia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650005	Atividades de terapia ocupacional
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650006	Atividades de fonoaudiologia
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650007	Atividades de terapia de nutricao enteral e parenteral
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8650099	Atividades de profissionais da area de saude nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8660700	Atividades de apoio a gestao de saude
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8690901	Atividades de praticas integrativas e complementares em saude humana
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8690902	Atividades de bancos de leite humano
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8690999	Outras atividades de atencao a saude humana nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8711501	Clinicas e residencias geriatricas
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8711502	Instituicoes de longa permanencia para idosos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8711503	Atividades de assistencia a deficientes fisicos, imunodeprimidos e convalescentes
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8711504	Centros de apoio a pacientes com cancer e com AIDS
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8711505	Condominios residenciais para idosos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8712300	Atividades de fornecimento de infra-estrutura de apoio e assistencia a paciente no domicilio
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8720401	Atividades de centros de assistencia psicossocial
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8720499	Atividades de assistencia psicossocial e a saude a portadores de disturbios psiquicos, deficiencia mental e dependencia quimica nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8730101	Orfanatos
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8730102	Albergues assistenciais
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8730199	Atividades de assistencia social prestadas em residencias coletivas e particulares nao especificadas anteriormente
+Q	SAUDE HUMANA E SERVICOS SOCIAIS	8800600	Servicos de assistencia social sem alojamento
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001901	Producao teatral
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001902	Producao musical
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001903	Producao de espetaculos de danca
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001904	Producao de espetaculos circenses, de marionetes e similares
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001905	Producao de espetaculos de rodeios, vaquejadas e similares
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001906	Atividades de sonorizacao e de iluminacao
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9001999	Artes cenicas, espetaculos e atividades complementares nao especificados anteriormente
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9002701	Atividades de artistas plasticos, jornalistas independentes e escritores
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9002702	Restauracao de obras de arte
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9003500	Gestao de espacos para artes cenicas, espetaculos e outras atividades artisticas
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9101500	Atividades de bibliotecas e arquivos
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9102301	Atividades de museus e de exploracao de lugares e predios historicos e atracoes similares
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9102302	Restauracao e conservacao de lugares e predios historicos
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9103100	Atividades de jardins botanicos, zoologicos, parques nacionais, reservas ecologicas e areas de protecao ambiental
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9200301	Casas de bingo
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9200302	Exploracao de apostas em corridas de cavalos
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9200399	Exploracao de jogos de azar e apostas nao especificados anteriormente
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9311500	Gestao de instalacoes de esportes
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9312300	Clubes sociais, esportivos e similares
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9313100	Atividades de condicionamento fisico
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9319101	Producao e promocao de eventos esportivos
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9319199	Outras atividades esportivas nao especificadas anteriormente
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9321200	Parques de diversao e parques tematicos
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9329801	Discotecas, danceterias, saloes de danca e similares
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9329802	Exploracao de boliches
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9329803	Exploracao de jogos de sinuca, bilhar e similares
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9329804	Exploracao de jogos eletronicos recreativos
+R	ARTES, CULTURA, ESPORTE E RECREACAO	9329899	Outras atividades de recreacao e lazer nao especificadas anteriormente
+S	OUTRAS ATIVIDADES DE SERVICOS	9411100	Atividades de organizacoes associativas patronais e empresariais
+S	OUTRAS ATIVIDADES DE SERVICOS	9412000	Atividades de organizacoes associativas profissionais
+S	OUTRAS ATIVIDADES DE SERVICOS	9420100	Atividades de organizacoes sindicais
+S	OUTRAS ATIVIDADES DE SERVICOS	9430800	Atividades de associacoes de defesa de direitos sociais
+S	OUTRAS ATIVIDADES DE SERVICOS	9491000	Atividades de organizacoes religiosas
+S	OUTRAS ATIVIDADES DE SERVICOS	9492800	Atividades de organizacoes politicas
+S	OUTRAS ATIVIDADES DE SERVICOS	9493600	Atividades de organizacoes associativas ligadas a cultura e a arte
+S	OUTRAS ATIVIDADES DE SERVICOS	9499500	Atividades associativas nao especificadas anteriormente
+S	OUTRAS ATIVIDADES DE SERVICOS	9511800	Reparacao e manutencao de computadores e de equipamentos perifericos
+S	OUTRAS ATIVIDADES DE SERVICOS	9512600	Reparacao e manutencao de equipamentos de comunicacao
+S	OUTRAS ATIVIDADES DE SERVICOS	9521500	Reparacao e manutencao de equipamentos eletroeletronicos de uso pessoal e domestico
+S	OUTRAS ATIVIDADES DE SERVICOS	9529101	Reparacao de calcados, bolsas e artigos de viagem
+S	OUTRAS ATIVIDADES DE SERVICOS	9529102	Chaveiros
+S	OUTRAS ATIVIDADES DE SERVICOS	9529103	Reparacao de relogios
+S	OUTRAS ATIVIDADES DE SERVICOS	9529104	Reparacao de bicicletas, triciclos e outros veiculos nao-motorizados
+S	OUTRAS ATIVIDADES DE SERVICOS	9529105	Reparacao de artigos do mobiliario
+S	OUTRAS ATIVIDADES DE SERVICOS	9529106	Reparacao de joias
+S	OUTRAS ATIVIDADES DE SERVICOS	9529199	Reparacao e manutencao de outros objetos e equipamentos pessoais e domesticos nao especificados anteriormente
+S	OUTRAS ATIVIDADES DE SERVICOS	9601701	Lavanderias
+S	OUTRAS ATIVIDADES DE SERVICOS	9601702	Tinturarias
+S	OUTRAS ATIVIDADES DE SERVICOS	9601703	Toalheiros
+S	OUTRAS ATIVIDADES DE SERVICOS	9602501	Cabeleireiros
+S	OUTRAS ATIVIDADES DE SERVICOS	9602502	Outras atividades de tratamento de beleza
+S	OUTRAS ATIVIDADES DE SERVICOS	9603301	Gestao e manutencao de cemiterios
+S	OUTRAS ATIVIDADES DE SERVICOS	9603302	Servicos de cremacao
+S	OUTRAS ATIVIDADES DE SERVICOS	9603303	Servicos de sepultamento
+S	OUTRAS ATIVIDADES DE SERVICOS	9603304	Servicos de funerarias
+S	OUTRAS ATIVIDADES DE SERVICOS	9603305	Servicos de somatoconservacao
+S	OUTRAS ATIVIDADES DE SERVICOS	9603399	Atividades funerarias e servicos relacionados nao especificados anteriormente
+S	OUTRAS ATIVIDADES DE SERVICOS	9609201	Clinicas de estetica e similares
+S	OUTRAS ATIVIDADES DE SERVICOS	9609202	Agencias matrimoniais
+S	OUTRAS ATIVIDADES DE SERVICOS	9609203	Alojamento, higiene e embelezamento de animais
+S	OUTRAS ATIVIDADES DE SERVICOS	9609204	Exploracao de maquinas de servicos pessoais acionadas por moeda
+S	OUTRAS ATIVIDADES DE SERVICOS	9609299	Outras atividades de servicos pessoais nao especificadas anteriormente
+T	SERVICOS DOMESTICOS	9700500	Servicos domesticos
+U	ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUICOES EXTRATERRITORIAIS	9900800	Organismos internacionais e outras instituicoes extraterritoriais
