@@ -31,10 +31,10 @@ There are two types of installations:
 * [Standalone Deployment (EAP)](#standalone-deployment-eap)
 
 
-# xPaaS Deployment (Openshift 3.5)
+# xPaaS Deployment (Openshift 3.5+)
 
 ## Requirements
-* Openshift Container Platform 3.5
+* Openshift Container Platform 3.5+
 * OC command line interface
 * JDBC client 
 * Git clone of this project
@@ -55,7 +55,7 @@ After, you need to setup the security constraints:
 oc project jdv-opendata
 oc create serviceaccount datavirt-service-account
 oc policy add-role-to-user view system:serviceaccount:jdv-opendata:datavirt-service-account
-oc secrets new datavirt-app-config ./database/datasources.env
+oc secrets new datavirt-app-config ./datasources.env
 oc secrets link datavirt-service-account datavirt-app-config
 ```
 
@@ -102,7 +102,7 @@ oc port-forward <POSTGRESQL-POD-NAME> 15432:5432
 * Image setup. Set the following fields:
 	* Application Name: datavirt-app
 	* Git Repository URL: https://github.com/kerdlix/jdv-opendata
-	* Context Directory: /
+	* Context Directory: app
 	* Teiid Username: teiidUser
 	* Teiid User Password: redhat@123
 	* ModeShape Username: modeShape
@@ -139,26 +139,9 @@ You can test your VDB using the following SQL statements:
 * select * from FavorecidosGastosDiretosCache;
 * select * from CountryName where sCountryISOCode = 'BR';
 
-## Internal DNS setup
-If you are using Openshift via a Virtual Machine, you need to create an entry in your /etc/hosts (assuming your Openshift IP is 192.168.56.100):
-```
-192.168.56.100 datavirt-app-jdv-opendata.cloudapps.example.com
-```
-
 ## OData test
 
 You can test your VDB via OData using the following URLs (login with teiidUser/redhat@123):
-
-* Host datavirt-app-jdv-opendata.cloudapps.example.com
-	* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica?$format=JSON) 
-	* [URL Sample #02](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridica(1023)?$format=JSON)
-	* [URL Sample #03](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE?$format=JSON)
-	* [URL Sample #04](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNAEModel.CNAE(codigoSecao='A',codigoSubclasse=111301)?$format=JSON)
-	* [URL Sample #05](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ?$format=JSON)
-	* [URL Sample #06](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/CNPJModel.CNPJ('100160000102')?$format=JSON)
-	* [URL Sample #07](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos?$format=JSON)
-	* [URL Sample #08](http://datavirt-app-jdv-opendata.cloudapps.example.com/odata/OpenData.1/ModeloCanonico.FavorecidosGastosDiretos('119123000146')?$format=JSON)
-
 
 * Host datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br
 	* [URL Sample #01](http://datavirt-app-jdv-opendata.cloudapps.demosas.solutionarchitectsredhat.com.br/odata/OpenData.1/NaturezaJuridicaModel.NaturezaJuridicaCache?$format=JSON) 
@@ -172,26 +155,19 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 
 
 ## Folder/files overview
-* [configuration/standalone-openshift.xml](./configuration/standalone-openshift.xml)
-	* Final EAP configuration file. Defines:
+* [database.env](./database.env)
+	* Used for security constraints and to define environment variables.
+	* Defines:
 		* Datasource: java:/NaturezaJuridica
 		* Resource Adapter: CNPJSource
 		* Resource Adapter: CNAESource
 		* Resource Adapter: CountrySource
-	* There are alternative ways to configure the datasources and resource adapters:
-		* CLI script
-			* Not tested
-		* Environment variables defined in: [database/datasources.env](./database/datasources.env) 
-			* Did not work in my tests
-* [files/FavorecidosGastosDiretos/CNAE.csv](./files/FavorecidosGastosDiretos/CNAE.csv)
-* [files/FavorecidosGastosDiretos/CNPJ.csv](./files/FavorecidosGastosDiretos/CNPJ.csv)
-* [database/datasources.env](./database/datasources.env)
-	* Used for security constraints and to define environment variables.
-	* As is, it is not useful, but does not work without it. Maybe if the security constraint was dropped. Test needed to validate.
+* [app/data/CNAE.csv](./app/data/CNAE.csv)
+* [app/data/CNPJ.csv](./app/data/CNPJ.csv)
 * [database/postgresql/schema.sql](./database/postgresql/schema.sql)
-* [deployments/OpenData.vdb](./deployments/OpenData.vdb)
+* [app/deployments/OpenData.vdb](./app/deployments/OpenData.vdb)
 	* Will be copied to EAP deployment folder. If you change the source and generate a new VDB, copy the new file to this folder.
-* [deployments/OpenData.vdb.dodeploy](./deployments/OpenData.vdb.dodeploy)
+* [app/deployments/OpenData.vdb.dodeploy](./app/deployments/OpenData.vdb.dodeploy)
 	* Will be copied to EAP deployment folder and will trigger the deployment of the VDB file.
 
 
@@ -208,9 +184,9 @@ You can test your VDB via OData using the following URLs (login with teiidUser/r
 
 
 ## Possible improvements
-* Use environment variables to create datasources and resources adapters (instead of using standalon-openshift.xml file)
 * Externalize the internal cache to JBoss Data Grid
 * Use 3Scale to control the Open Data API
+* Use ansible to automatize the installation process
 
 
 
