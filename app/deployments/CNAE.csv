@@ -1,0 +1,300 @@
+Codigo Secao	Descricao Secao	Codigo Subclasse	Descricao Subclasse
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111301	Cultivo de arroz
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111302	Cultivo de milho
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111303	Cultivo de trigo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	111399	Cultivo de outros cereais nao especificados anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	112101	Cultivo de algodao herbaceo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	112102	Cultivo de juta
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	112199	Cultivo de outras fibras de lavoura temporaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	113000	Cultivo de cana-de-acucar
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	114800	Cultivo de fumo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	115600	Cultivo de soja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116401	Cultivo de amendoim
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116402	Cultivo de girassol
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116403	Cultivo de mamona
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	116499	Cultivo de outras oleaginosas de lavoura temporaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119901	Cultivo de abacaxi
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119902	Cultivo de alho
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119903	Cultivo de batata-inglesa
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119904	Cultivo de cebola
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119905	Cultivo de feijao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119906	Cultivo de mandioca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119907	Cultivo de melao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119908	Cultivo de melancia
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119909	Cultivo de tomate rasteiro
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	119999	Cultivo de outras plantas de lavoura temporaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	121101	Horticultura, exceto morango
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	121102	Cultivo de morango
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	122900	Cultivo de flores e plantas ornamentais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	131800	Cultivo de laranja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	132600	Cultivo de uva
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133401	Cultivo de acai
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133402	Cultivo de banana
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133403	Cultivo de caju
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133404	Cultivo de citricos, exceto laranja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133405	Cultivo de coco-da-baia
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133406	Cultivo de guarana
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133407	Cultivo de maca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133408	Cultivo de mamao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133409	Cultivo de maracuja
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133410	Cultivo de manga
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133411	Cultivo de pessego
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	133499	Cultivo de frutas de lavoura permanente nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	134200	Cultivo de cafe
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	135100	Cultivo de cacau
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139301	Cultivo de cha-da-india
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139302	Cultivo de erva-mate
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139303	Cultivo de pimenta-do-reino
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139304	Cultivo de plantas para condimento, exceto pimenta-do-reino
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139305	Cultivo de dende
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139306	Cultivo de seringueira
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	139399	Cultivo de outras plantas de lavoura permanente nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	141501	Producao de sementes certificadas, exceto de forrageiras para pasto
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	141502	Producao de sementes certificadas de forrageiras para formacao de pasto
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	142300	Producao de mudas e outras formas de propagacao vegetal, certificadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	151201	Criacao de bovinos para corte
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	151202	Criacao de bovinos para leite
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	151203	Criacao de bovinos, exceto para corte e leite
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	152101	Criacao de bufalinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	152102	Criacao de equinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	152103	Criacao de asininos e muares
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	153901	Criacao de caprinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	153902	Criacao de ovinos, inclusive para producao de la
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	154700	Criacao de suinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155501	Criacao de frangos para corte
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155502	Producao de pintos de um dia
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155503	Criacao de outros galinaceos, exceto para corte
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155504	Criacao de aves, exceto galinaceos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	155505	Producao de ovos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159801	Apicultura
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159802	Criacao de animais de estimacao
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159803	Criacao de escargo
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159804	Criacao de bicho-da-seda
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	159899	Criacao de outros animais nao especificados anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161001	Servico de pulverizacao e controle de pragas agricolas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161002	Servico de poda de arvores para lavouras
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161003	Servico de preparacao de terreno, cultivo e colheita
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	161099	Atividades de apoio a agricultura nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162801	Servico de inseminacao artificial em animais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162802	Servico de tosquiamento de ovinos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162803	Servico de manejo de animais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	162899	Atividades de apoio a pecuaria nao especificadas anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	163600	Atividades de pos-colheita
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	170900	Caca e servicos relacionados
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210101	Cultivo de eucalipto
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210102	Cultivo de acacia-negra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210103	Cultivo de pinus
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210104	Cultivo de teca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210105	Cultivo de especies madeireiras, exceto eucalipto, acacia-negra, pinus e teca
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210106	Cultivo de mudas em viveiros florestais
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210107	Extracao de madeira em florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210108	Producao de carvao vegetal - florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210109	Producao de casca de acacia-negra - florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	210199	Producao de produtos nao-madeireiros nao especificados anteriormente em florestas plantadas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220901	Extracao de madeira em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220902	Producao de carvao vegetal - florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220903	Coleta de castanha-do-para em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220904	Coleta de latex em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220905	Coleta de palmito em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220906	Conservacao de florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	220999	Coleta de produtos nao-madeireiros nao especificados anteriormente em florestas nativas
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	230600	Atividades de apoio a producao florestal
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311601	Pesca de peixes em agua salgada
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311602	Pesca de crustaceos e moluscos em agua salgada
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311603	Coleta de outros produtos marinhos
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	311604	Atividades de apoio a pesca em agua salgada
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312401	Pesca de peixes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312402	Pesca de crustaceos e moluscos em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312403	Coleta de outros produtos aquaticos de agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	312404	Atividades de apoio a pesca em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321301	Criacao de peixes em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321302	Criacao de camaroes em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321303	Criacao de ostras e mexilhoes em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321304	Criacao de peixes ornamentais em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321305	Atividades de apoio a aquicultura em agua salgada e salobra
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	321399	Cultivos e semicultivos da aquicultura em agua salgada e salobra nao especificados anteriormente
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322101	Criacao de peixes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322102	Criacao de camaroes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322103	Criacao de ostras e mexilhoes em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322104	Criacao de peixes ornamentais em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322105	Ranicultura
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322106	Criacao de jacare
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322107	Atividades de apoio a aquicultura em agua doce
+A	AGRICULTURA, PECUARIA, PRODUCAO FLORESTAL, PESCA E AQUICULTURA	322199	Cultivos e semicultivos da aquicultura em agua doce nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	500301	Extracao de carvao mineral
+B	INDUSTRIAS EXTRATIVAS	500302	Beneficiamento de carvao mineral
+B	INDUSTRIAS EXTRATIVAS	600001	Extracao de petroleo e gas natural
+B	INDUSTRIAS EXTRATIVAS	600002	Extracao e beneficiamento de xisto
+B	INDUSTRIAS EXTRATIVAS	600003	Extracao e beneficiamento de areias betuminosas
+B	INDUSTRIAS EXTRATIVAS	710301	Extracao de minerio de ferro
+B	INDUSTRIAS EXTRATIVAS	710302	Pelotizacao, sinterizacao e outros beneficiamentos de minerio de ferro
+B	INDUSTRIAS EXTRATIVAS	721901	Extracao de minerio de aluminio
+B	INDUSTRIAS EXTRATIVAS	721902	Beneficiamento de minerio de aluminio
+B	INDUSTRIAS EXTRATIVAS	722701	Extracao de minerio de estanho
+B	INDUSTRIAS EXTRATIVAS	722702	Beneficiamento de minerio de estanho
+B	INDUSTRIAS EXTRATIVAS	723501	Extracao de minerio de manganes
+B	INDUSTRIAS EXTRATIVAS	723502	Beneficiamento de minerio de manganes
+B	INDUSTRIAS EXTRATIVAS	724301	Extracao de minerio de metais preciosos
+B	INDUSTRIAS EXTRATIVAS	724302	Beneficiamento de minerio de metais preciosos
+B	INDUSTRIAS EXTRATIVAS	725100	Extracao de minerais radioativos
+B	INDUSTRIAS EXTRATIVAS	729401	Extracao de minerios de niobio e titanio
+B	INDUSTRIAS EXTRATIVAS	729402	Extracao de minerio de tungstenio
+B	INDUSTRIAS EXTRATIVAS	729403	Extracao de minerio de niquel
+B	INDUSTRIAS EXTRATIVAS	729404	Extracao de minerios de cobre, chumbo, zinco e outros minerais metalicos nao-ferrosos nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	729405	Beneficiamento de minerios de cobre, chumbo, zinco e outros minerais metalicos nao-ferrosos nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	810001	Extracao de ardosia e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810002	Extracao de granito e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810003	Extracao de marmore e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810004	Extracao de calcario e dolomita e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810005	Extracao de gesso e caulim
+B	INDUSTRIAS EXTRATIVAS	810006	Extracao de areia, cascalho ou pedregulho e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810007	Extracao de argila e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810008	Extracao de saibro e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810009	Extracao de basalto e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	810010	Beneficiamento de gesso e caulim associado a extracao
+B	INDUSTRIAS EXTRATIVAS	810099	Extracao e britamento de pedras e outros materiais para construcao e beneficiamento associado
+B	INDUSTRIAS EXTRATIVAS	891600	Extracao de minerais para fabricacao de adubos, fertilizantes e outros produtos quimicos
+B	INDUSTRIAS EXTRATIVAS	892401	Extracao de sal marinho
+B	INDUSTRIAS EXTRATIVAS	892402	Extracao de sal-gema
+B	INDUSTRIAS EXTRATIVAS	892403	Refino e outros tratamentos do sal
+B	INDUSTRIAS EXTRATIVAS	893200	Extracao de gemas (pedras preciosas e semipreciosas)
+B	INDUSTRIAS EXTRATIVAS	899101	Extracao de grafita
+B	INDUSTRIAS EXTRATIVAS	899102	Extracao de quartzo
+B	INDUSTRIAS EXTRATIVAS	899103	Extracao de amianto
+B	INDUSTRIAS EXTRATIVAS	899199	Extracao de outros minerais nao-metalicos nao especificados anteriormente
+B	INDUSTRIAS EXTRATIVAS	910600	Atividades de apoio a extracao de petroleo e gas natural
+B	INDUSTRIAS EXTRATIVAS	990401	Atividades de apoio a extracao de minerio de ferro
+B	INDUSTRIAS EXTRATIVAS	990402	Atividades de apoio a extracao de minerais metalicos nao-ferrosos
+B	INDUSTRIAS EXTRATIVAS	990403	Atividades de apoio a extracao de minerais nao-metalicos
+C	INDUSTRIAS DE TRANSFORMACAO	1011201	Frigorifico - abate de bovinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011202	Frigorifico - abate de equinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011203	Frigorifico - abate de ovinos e caprinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011204	Frigorifico - abate de bufalinos
+C	INDUSTRIAS DE TRANSFORMACAO	1011205	Matadouro - abate de reses sob contrato, exceto abate de suinos
+C	INDUSTRIAS DE TRANSFORMACAO	1012101	Abate de aves
+C	INDUSTRIAS DE TRANSFORMACAO	1012102	Abate de pequenos animais
+C	INDUSTRIAS DE TRANSFORMACAO	1012103	Frigorifico - abate de suinos
+C	INDUSTRIAS DE TRANSFORMACAO	1012104	Matadouro - abate de suinos sob contrato
+C	INDUSTRIAS DE TRANSFORMACAO	1013901	Fabricacao de produtos de carne
+C	INDUSTRIAS DE TRANSFORMACAO	1013902	Preparacao de subprodutos do abate
+C	INDUSTRIAS DE TRANSFORMACAO	1020101	Preservacao de peixes, crustaceos e moluscos
+C	INDUSTRIAS DE TRANSFORMACAO	1020102	Fabricacao de conservas de peixes, crustaceos e moluscos
+C	INDUSTRIAS DE TRANSFORMACAO	1031700	Fabricacao de conservas de frutas
+C	INDUSTRIAS DE TRANSFORMACAO	1032501	Fabricacao de conservas de palmito
+C	INDUSTRIAS DE TRANSFORMACAO	1032599	Fabricacao de conservas de legumes e outros vegetais, exceto palmito
+C	INDUSTRIAS DE TRANSFORMACAO	1033301	Fabricacao de sucos concentrados de frutas, hortalicas e legumes
+C	INDUSTRIAS DE TRANSFORMACAO	1033302	Fabricacao de sucos de frutas, hortalicas e legumes, exceto concentrados
+C	INDUSTRIAS DE TRANSFORMACAO	1041400	Fabricacao de oleos vegetais em bruto, exceto oleo de milho
+C	INDUSTRIAS DE TRANSFORMACAO	1042200	Fabricacao de oleos vegetais refinados, exceto oleo de milho
+C	INDUSTRIAS DE TRANSFORMACAO	1043100	Fabricacao de margarina e outras gorduras vegetais e de oleos nao-comestiveis de animais
+C	INDUSTRIAS DE TRANSFORMACAO	1051100	Preparacao do leite
+C	INDUSTRIAS DE TRANSFORMACAO	1052000	Fabricacao de laticinios
+C	INDUSTRIAS DE TRANSFORMACAO	1053800	Fabricacao de sorvetes e outros gelados comestiveis
+C	INDUSTRIAS DE TRANSFORMACAO	1061901	Beneficiamento de arroz
+C	INDUSTRIAS DE TRANSFORMACAO	1061902	Fabricacao de produtos do arroz
+C	INDUSTRIAS DE TRANSFORMACAO	1062700	Moagem de trigo e fabricacao de derivados
+C	INDUSTRIAS DE TRANSFORMACAO	1063500	Fabricacao de farinha de mandioca e derivados
+C	INDUSTRIAS DE TRANSFORMACAO	1064300	Fabricacao de farinha de milho e derivados, exceto oleos de milho
+C	INDUSTRIAS DE TRANSFORMACAO	1065101	Fabricacao de amidos e feculas de vegetais
+C	INDUSTRIAS DE TRANSFORMACAO	1065102	Fabricacao de oleo de milho em bruto
+C	INDUSTRIAS DE TRANSFORMACAO	1065103	Fabricacao de oleo de milho refinado
+C	INDUSTRIAS DE TRANSFORMACAO	1066000	Fabricacao de alimentos para animais
+C	INDUSTRIAS DE TRANSFORMACAO	1069400	Moagem e fabricacao de produtos de origem vegetal nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1071600	Fabricacao de acucar em bruto
+C	INDUSTRIAS DE TRANSFORMACAO	1072401	Fabricacao de acucar de cana refinado
+C	INDUSTRIAS DE TRANSFORMACAO	1072402	Fabricacao de acucar de cereais (dextrose) e de beterraba
+C	INDUSTRIAS DE TRANSFORMACAO	1081301	Beneficiamento de cafe
+C	INDUSTRIAS DE TRANSFORMACAO	1081302	Torrefacao e moagem de cafe
+C	INDUSTRIAS DE TRANSFORMACAO	1082100	Fabricacao de produtos a base de cafe
+C	INDUSTRIAS DE TRANSFORMACAO	1091100	Fabricacao de produtos de panificacao
+C	INDUSTRIAS DE TRANSFORMACAO	1092900	Fabricacao de biscoitos e bolachas
+C	INDUSTRIAS DE TRANSFORMACAO	1093701	Fabricacao de produtos derivados do cacau e de chocolates
+C	INDUSTRIAS DE TRANSFORMACAO	1093702	Fabricacao de frutas cristalizadas, balas e semelhantes
+C	INDUSTRIAS DE TRANSFORMACAO	1094500	Fabricacao de massas alimenticias
+C	INDUSTRIAS DE TRANSFORMACAO	1095300	Fabricacao de especiarias, molhos, temperos e condimentos
+C	INDUSTRIAS DE TRANSFORMACAO	1096100	Fabricacao de alimentos e pratos prontos
+C	INDUSTRIAS DE TRANSFORMACAO	1099601	Fabricacao de vinagres
+C	INDUSTRIAS DE TRANSFORMACAO	1099602	Fabricacao de pos alimenticios
+C	INDUSTRIAS DE TRANSFORMACAO	1099603	Fabricacao de fermentos e leveduras
+C	INDUSTRIAS DE TRANSFORMACAO	1099604	Fabricacao de gelo comum
+C	INDUSTRIAS DE TRANSFORMACAO	1099605	Fabricacao de produtos para infusao (cha, mate, etc.)
+C	INDUSTRIAS DE TRANSFORMACAO	1099606	Fabricacao de adocantes naturais e artificiais
+C	INDUSTRIAS DE TRANSFORMACAO	1099699	Fabricacao de outros produtos alimenticios nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1111901	Fabricacao de aguardente de cana-de-acucar
+C	INDUSTRIAS DE TRANSFORMACAO	1111902	Fabricacao de outras aguardentes e bebidas destiladas
+C	INDUSTRIAS DE TRANSFORMACAO	1112700	Fabricacao de vinho
+C	INDUSTRIAS DE TRANSFORMACAO	1113501	Fabricacao de malte, inclusive malte uisque
+C	INDUSTRIAS DE TRANSFORMACAO	1113502	Fabricacao de cervejas e chopes
+C	INDUSTRIAS DE TRANSFORMACAO	1121600	Fabricacao de aguas envasadas
+C	INDUSTRIAS DE TRANSFORMACAO	1122401	Fabricacao de refrigerantes
+C	INDUSTRIAS DE TRANSFORMACAO	1122402	Fabricacao de cha mate e outros chas prontos para consumo
+C	INDUSTRIAS DE TRANSFORMACAO	1122403	Fabricacao de refrescos, xaropes e pos para refrescos, exceto refrescos de frutas
+C	INDUSTRIAS DE TRANSFORMACAO	1122499	Fabricacao de outras bebidas nao-alcoolicas nao especificadas anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1210700	Processamento industrial do fumo
+C	INDUSTRIAS DE TRANSFORMACAO	1220401	Fabricacao de cigarros
+C	INDUSTRIAS DE TRANSFORMACAO	1220402	Fabricacao de cigarrilhas e charutos
+C	INDUSTRIAS DE TRANSFORMACAO	1220403	Fabricacao de filtros para cigarros
+C	INDUSTRIAS DE TRANSFORMACAO	1220499	Fabricacao de outros produtos do fumo, exceto cigarros, cigarrilhas e charutos
+C	INDUSTRIAS DE TRANSFORMACAO	1311100	Preparacao e fiacao de fibras de algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1312000	Preparacao e fiacao de fibras texteis naturais, exceto algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1313800	Fiacao de fibras artificiais e sinteticas
+C	INDUSTRIAS DE TRANSFORMACAO	1314600	Fabricacao de linhas para costurar e bordar
+C	INDUSTRIAS DE TRANSFORMACAO	1321900	Tecelagem de fios de algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1322700	Tecelagem de fios de fibras texteis naturais, exceto algodao
+C	INDUSTRIAS DE TRANSFORMACAO	1323500	Tecelagem de fios de fibras artificiais e sinteticas
+C	INDUSTRIAS DE TRANSFORMACAO	1330800	Fabricacao de tecidos de malha
+C	INDUSTRIAS DE TRANSFORMACAO	1340501	Estamparia e texturizacao em fios, tecidos, artefatos texteis e pecas do vestuario
+C	INDUSTRIAS DE TRANSFORMACAO	1340502	Alvejamento, tingimento e torcao em fios, tecidos, artefatos texteis e pecas do vestuario
+C	INDUSTRIAS DE TRANSFORMACAO	1340599	Outros servicos de acabamento em fios, tecidos, artefatos texteis e pecas do vestuario
+C	INDUSTRIAS DE TRANSFORMACAO	1351100	Fabricacao de artefatos texteis para uso domestico
+C	INDUSTRIAS DE TRANSFORMACAO	1352900	Fabricacao de artefatos de tapecaria
+C	INDUSTRIAS DE TRANSFORMACAO	1353700	Fabricacao de artefatos de cordoaria
+C	INDUSTRIAS DE TRANSFORMACAO	1354500	Fabricacao de tecidos especiais, inclusive artefatos
+C	INDUSTRIAS DE TRANSFORMACAO	1359600	Fabricacao de outros produtos texteis nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1411801	Confeccao de roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1411802	Faccao de roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1412601	Confeccao de pecas do vestuario, exceto roupas intimas e as confeccionadas sob medida
+C	INDUSTRIAS DE TRANSFORMACAO	1412602	Confeccao, sob medida, de pecas do vestuario, exceto roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1412603	Faccao de pecas do vestuario, exceto roupas intimas
+C	INDUSTRIAS DE TRANSFORMACAO	1413401	Confeccao de roupas profissionais, exceto sob medida
+C	INDUSTRIAS DE TRANSFORMACAO	1413402	Confeccao, sob medida, de roupas profissionais
+C	INDUSTRIAS DE TRANSFORMACAO	1413403	Faccao de roupas profissionais
+C	INDUSTRIAS DE TRANSFORMACAO	1414200	Fabricacao de acessorios do vestuario, exceto para seguranca e protecao
+C	INDUSTRIAS DE TRANSFORMACAO	1421500	Fabricacao de meias
+C	INDUSTRIAS DE TRANSFORMACAO	1422300	Fabricacao de artigos do vestuario, produzidos em malharias e tricotagens, exceto meias
+C	INDUSTRIAS DE TRANSFORMACAO	1510600	Curtimento e outras preparacoes de couro
+C	INDUSTRIAS DE TRANSFORMACAO	1521100	Fabricacao de artigos para viagem, bolsas e semelhantes de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	1529700	Fabricacao de artefatos de couro nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1531901	Fabricacao de calcados de couro
+C	INDUSTRIAS DE TRANSFORMACAO	1531902	Acabamento de calcados de couro sob contrato
+C	INDUSTRIAS DE TRANSFORMACAO	1532700	Fabricacao de tenis de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	1533500	Fabricacao de calcados de material sintetico
+C	INDUSTRIAS DE TRANSFORMACAO	1539400	Fabricacao de calcados de materiais nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1540800	Fabricacao de partes para calcados, de qualquer material
+C	INDUSTRIAS DE TRANSFORMACAO	1610201	Serrarias com desdobramento de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	1610202	Serrarias sem desdobramento de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	1621800	Fabricacao de madeira laminada e de chapas de madeira compensada, prensada e aglomerada
+C	INDUSTRIAS DE TRANSFORMACAO	1622601	Fabricacao de casas de madeira pre-fabricadas
+C	INDUSTRIAS DE TRANSFORMACAO	1622602	Fabricacao de esquadrias de madeira e de pecas de madeira para instalacoes industriais e comerciais
+C	INDUSTRIAS DE TRANSFORMACAO	1622699	Fabricacao de outros artigos de carpintaria para construcao
+C	INDUSTRIAS DE TRANSFORMACAO	1623400	Fabricacao de artefatos de tanoaria e de embalagens de madeira
+C	INDUSTRIAS DE TRANSFORMACAO	1629301	Fabricacao de artefatos diversos de madeira, exceto moveis
+C	INDUSTRIAS DE TRANSFORMACAO	1629302	Fabricacao de artefatos diversos de cortica, bambu, palha, vime e outros materiais trancados, exceto moveis
+C	INDUSTRIAS DE TRANSFORMACAO	1710900	Fabricacao de celulose e outras pastas para a fabricacao de papel
+C	INDUSTRIAS DE TRANSFORMACAO	1721400	Fabricacao de papel
+C	INDUSTRIAS DE TRANSFORMACAO	1722200	Fabricacao de cartolina e papel-cartao
+C	INDUSTRIAS DE TRANSFORMACAO	1731100	Fabricacao de embalagens de papel
+C	INDUSTRIAS DE TRANSFORMACAO	1732000	Fabricacao de embalagens de cartolina e papel-cartao
+C	INDUSTRIAS DE TRANSFORMACAO	1733800	Fabricacao de chapas e de embalagens de papelao ondulado
+C	INDUSTRIAS DE TRANSFORMACAO	1741901	Fabricacao de formularios continuos
+C	INDUSTRIAS DE TRANSFORMACAO	1741902	Fabricacao de produtos de papel, cartolina, papel-cartao e papelao ondulado para uso comercial e de escritorio, exceto formulario continuo
+C	INDUSTRIAS DE TRANSFORMACAO	1742701	Fabricacao de fraldas descartaveis
+C	INDUSTRIAS DE TRANSFORMACAO	1742702	Fabricacao de absorventes higienicos
+C	INDUSTRIAS DE TRANSFORMACAO	1742799	Fabricacao de produtos de papel para uso domestico e higienico-sanitario nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1749400	Fabricacao de produtos de pastas celulosicas, papel, cartolina, papel-cartao e papelao ondulado nao especificados anteriormente
+C	INDUSTRIAS DE TRANSFORMACAO	1811301	Impressao de jornais
+C	INDUSTRIAS DE TRANSFORMACAO	1811302	Impressao de livros, revistas e outras publicacoes periodicas
+C	INDUSTRIAS DE TRANSFORMACAO	1812100	Impressao de material de seguranca
+C	INDUSTRIAS DE TRANSFORMACAO	1813001	Impressao de material para uso publicitario
+C	INDUSTRIAS DE TRANSFORMACAO	1813099	Impressao de material para outros usos
+C	INDUSTRIAS DE TRANSFORMACAO	1821100	Servicos de pre-impressao
