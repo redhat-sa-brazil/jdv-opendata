@@ -532,7 +532,7 @@
                     <connection-definitions>
                         <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNPJSource" enabled="true" pool-name="CNPJSource">
                             <config-property name="ParentDirectory">
-                                /opt/eap/standalone/data/FavorecidosGastosDiretos
+                                /opt/eap/standalone/data/teiidfiles/data
                             </config-property>
                         </connection-definition>
                     </connection-definitions>
@@ -543,7 +543,7 @@
                     <connection-definitions>
                         <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/CNAESource" enabled="true" pool-name="CNAESource">
                             <config-property name="ParentDirectory">
-                                /opt/eap/standalone/data/FavorecidosGastosDiretos
+                                /opt/eap/standalone/data/teiidfiles/data
                             </config-property>
                         </connection-definition>
                     </connection-definitions>
