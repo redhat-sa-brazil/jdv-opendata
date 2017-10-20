@@ -59,7 +59,18 @@ oc secrets new datavirt-app-config ./datasources.env
 oc secrets link datavirt-service-account datavirt-app-config
 ```
 
-## Postgresql 9.5 Image setup
+## Postgresql 9.5 Image setup (CLI)
+```
+oc new-app postgresql-persistent \
+   --name='postgresql' -lapp=postgresql \
+   --param POSTGRESQL_USER=redhat \
+   --param POSTGRESQL_PASSWORD=redhat@123 \
+   --param POSTGRESQL_DATABASE=redhat \
+   --param VOLUME_CAPACITY=1Gi
+```
+
+
+## Postgresql 9.5 Image setup (Console)
 * Add to Project
 	<p align="center"><img src="/files/png/02.png?raw=true"></p>
 * Browse Catalog
@@ -86,13 +97,29 @@ To create and populate the database table, just run the script [schema.sql](./da
 
 You can use a port-forward in order to access your service:
 ```
-oc get pods
-oc port-forward <POSTGRESQL-POD-NAME> 15432:5432
+oc port-forward $(oc get pod | grep "^postgresql" | awk '{print $1}') 15432:5432
 ```
 <p align="center"><img src="/files/png/07.png?raw=true"></p>
 
+## JBoss Data Virtualization 6.3 Image setup (CLI)
+```
+oc new-app datavirt63-basic-s2i \
+   --name='datavirt-app' -lapp=datavirt-app \
+   --param APPLICATION_NAME=datavirt-app \
+   --param CONFIGURATION_NAME=datavirt-app-config \
+   --param SOURCE_REPOSITORY_URL=https://github.com/kerdlix/jdv-opendata \
+   --param SOURCE_REPOSITORY_REF=master \
+   --param CONTEXT_DIR=app \
+   --param SERVICE_ACCOUNT_NAME=datavirt-service-account \
+   --param TEIID_USERNAME=teiidUser \
+   --param TEIID_PASSWORD=redhat@123 \
+   --param MODESHAPE_USERNAME=modeShape \
+   --param MODESHAPE_PASSWORD=redhat@123 \
+   --param IMAGE_STREAM_NAMESPACE=openshift \
+   --param AUTO_DEPLOY_EXPLODED=false
+```
 
-## JBoss Data Virtualization 6.3 Image setup
+## JBoss Data Virtualization 6.3 Image setup (Console)
 * Add to Project
 	<p align="center"><img src="/files/png/08.png?raw=true"></p>
 * Browse Catalog
@@ -118,8 +145,7 @@ oc port-forward <POSTGRESQL-POD-NAME> 15432:5432
 ## Database connection
 You can use a port-forward in order to access your service:
 ```
-oc get pods
-oc port-forward <JDV-OPENDATA-POD-NAME> 41000:31000
+oc port-forward $(oc get pod | grep "^postgresql" | awk '{print $1}') 41000:31000
 ```
 Use teiidUser/redhat@123 to connect do JBoss Data Virtualization.
 <p align="center"><img src="/files/png/15.png?raw=true"></p>
