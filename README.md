@@ -110,7 +110,6 @@ oc new-app datavirt63-basic-s2i \
    --param SOURCE_REPOSITORY_URL=https://github.com/kerdlix/jdv-opendata \
    --param SOURCE_REPOSITORY_REF=master \
    --param CONTEXT_DIR=app \
-   --param SERVICE_ACCOUNT_NAME=datavirt-service-account \
    --param TEIID_USERNAME=teiidUser \
    --param TEIID_PASSWORD=redhat@123 \
    --param MODESHAPE_USERNAME=modeShape \
@@ -141,6 +140,12 @@ oc new-app datavirt63-basic-s2i \
 	<p align="center"><img src="/files/png/13.png?raw=true"></p>
 * Continue to overview
 	<p align="center"><img src="/files/png/14.png?raw=true"></p>
+
+
+## Database route
+Create a new route to expose the JDBC port:
+	<p align="center"><img src="/files/png/jdbc-route.jpeg?raw=true"></p>
+
 
 ## Database connection
 You can use a port-forward in order to access your service:
