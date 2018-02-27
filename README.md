@@ -145,7 +145,7 @@ oc new-app datavirt63-basic-s2i \
 ## Database connection
 You can use a port-forward in order to access your service:
 ```
-oc port-forward $(oc get pod | grep "^postgresql" | awk '{print $1}') 41000:31000
+oc port-forward $(oc get pod --show-all=false | grep "^datavirt-app*" | awk '{print $1}') 41000:31000
 ```
 Use teiidUser/redhat@123 to connect do JBoss Data Virtualization.
 <p align="center"><img src="/files/png/15.png?raw=true"></p>
